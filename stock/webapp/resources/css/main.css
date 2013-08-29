@@ -7,17 +7,38 @@ a{color:#003C78;text-decoration:none;}
 .link a{color:#0006A9;}
 a:hover,.link a:hover{color:#FF0000;text-decoration:none;}
 
-.top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
-.side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;background-color: #48b701; 	}
-.main { position:absolute; left:220px; top:70px; bottom:70px; right:220px; overflow:auto;border-color: red;}
-.adside { position:absolute;right:10px; top:70px; bottom:70px; width:200px; overflow:auto;background:#666;}
-.bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
-
-
 .logo,.logoRight{float:left;display:inline;overflow:hidden;}
 .logo{font-size: 3em;text-align: center; width: 900px;}
 .mainside{background-color: red; text-align: center;font-size: 3em;}
-.childside{text-align: center;font-size: 2em;}
+.item{text-align: left;font-size: 2em;}
+.item li a{font-size: 1em;}
 ul {list-style: none;}
-.childside ul li{margin-top: 10px}
 .bottom{color:#9EA8AE;line-height:100%;text-align:center;}
+
+.childside{width:183px;min-height:100px;float:left;display:inline;overflow:hidden;padding-left:10px;}
+#menu{margin:0px;padding:0px;text-align:left;list-style:none;}
+#menu .item{width:163px;padding-left:20px;list-style:none;line-height:30px; background:url(skin/skin.gif) no-repeat 0 -506px;margin-top:2px;}
+#menu .item ul {margin-left:10px;padding:0;list-style:none;text-align:left;}
+#menu .item ul li{height:28px;line-height:30px;text-align:left;overflow:hidden;white-space: nowrap;background:url(skin/skin.gif) no-repeat 0 -416px;margin:4px 0 4px 0;}
+#menu .item ul li:hover{background-position:0 -446px;}
+#menu .item ul li a{color:#023979;}
+#menu .item ul li a:hover,#menu .item ul li.light a{color:#000;}
+#menu a{display:block;}
+#menu .item ul li.light{background-position:0 -476px;}
+#menu .item ul li.light a{color:#FFF;}
+
+.loginForm{float:left;display:inline;overflow:hidden;min-height:100px;margin:20px 0 20px 20px;border-right:1px solid #E9EDF0;}
+table.tableLoginForm{width:520px;display:inline;float:left;border-collapse:collapse;}
+table.tableLoginForm td{padding:5px; vertical-align:top;}
+table.tableLoginForm td.t1{width:100px;text-align:right;color:#666;font-size:14px; white-space:nowrap;line-height:35px;}
+table.tableLoginForm td.t1 b{color:#FF0000;font-size:16px;margin-right:5px;}
+table.tableLoginForm td.t2{width:260px;color:#999;}
+table.tableLoginForm td.t2 p{padding-bottom:5px;}
+table.tableLoginForm td a{margin:0 8px 0 8px;}
+table.tableLoginForm input.textInput,table.tableLoginForm .pwInput{width:240px;height:25px;padding-top:10px;font-size:16px;font-weight:bolder;}
+table.tableLoginForm input.yzmInput{width:90px;height:35px;font-size:16px;font-weight:bolder;}
+table.tableLoginForm .selectInput{width:240px;height:35px;}
+table.tableLoginForm .selectInput2{width:115px;height:35px;}
+table.tableLoginForm .textareaInput{width:240px;height:100px;line-height:150%;}
+table.tableLoginForm td.t2 img{height:40px;vertical-align:middle;}
+

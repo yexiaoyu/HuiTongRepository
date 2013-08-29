@@ -7,6 +7,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn"/>
 <link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
+.side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
+.main { position:absolute; left:220px; top:70px; bottom:70px; right:220px; overflow:auto;}
+.adside { position:absolute;right:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
+.bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
+</style>
 <title>div仿框架布局 - 加上滚动条，一个div仿3框架的基础概型已经完成</title>
 </head>
 <body>

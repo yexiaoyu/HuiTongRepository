@@ -19,7 +19,7 @@
 	<!-- ObjectFactory接口 -->
 	<!-- 指定当使用SpringObjectFactory时的自动装配逻辑.合法值包括: name, type, auto, 和 constructor (缺省为 name ) -->
 	<constant name="struts.objectFactory.spring.autoWire" value="name" />
-	<include file="struts/struts-user.xml"></include>
+	<include file="struts/struts-fore.xml"></include> 
 	<include file="struts/struts-background.xml"></include>
 	
 	

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
-  name="huitong"
+  name="stock"
   id="myeclipse.1376223763150"
   context-root="/huitong"
   j2ee-spec="5.0"
-  archive="huitong.war">
+  archive="stock.war">
   <attributes>
     <attribute name="webrootdir" value="webapp" />
   </attributes>

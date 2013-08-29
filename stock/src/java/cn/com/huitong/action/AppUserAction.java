@@ -76,13 +76,10 @@ public class AppUserAction extends Struts2Action{
 		return SUCCESS;
 	}
 	//background  start
-	/**
-	 * 登录入口
-	 */
-	public String backGroundIndex(){
+	public String addUser(){
+		logger.debug("addUser.........");
 		return SUCCESS;
 	}
-	
 	
 	
 	//background  end

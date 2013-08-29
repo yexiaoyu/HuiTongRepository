@@ -7,5 +7,8 @@
 		<action name="backIndex" class="IndexAction" method="backGroundIndex">
 			<result name="success">/pages/background/index.jsp</result>
 		</action>
+		<action name="addUser" class="AppUserAction" method="addUser">
+			<result name="success">/pages/background/addUser.jsp</result>
+		</action>
 	</package>
 </struts>
