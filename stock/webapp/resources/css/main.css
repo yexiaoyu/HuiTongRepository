@@ -1,0 +1,23 @@
+html,body { height:100%; overflow:hidden; background:#efefef;;font-size: 13px;}
+*{margin:0;padding:0;}
+select,input{font-size:9pt;}
+img{border:0;}
+i{font-style:normal;color:#999;}
+a{color:#003C78;text-decoration:none;}
+.link a{color:#0006A9;}
+a:hover,.link a:hover{color:#FF0000;text-decoration:none;}
+
+.top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
+.side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;background-color: #48b701; 	}
+.main { position:absolute; left:220px; top:70px; bottom:70px; right:220px; overflow:auto;border-color: red;}
+.adside { position:absolute;right:10px; top:70px; bottom:70px; width:200px; overflow:auto;background:#666;}
+.bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
+
+
+.logo,.logoRight{float:left;display:inline;overflow:hidden;}
+.logo{font-size: 3em;text-align: center; width: 900px;}
+.mainside{background-color: red; text-align: center;font-size: 3em;}
+.childside{text-align: center;font-size: 2em;}
+ul {list-style: none;}
+.childside ul li{margin-top: 10px}
+.bottom{color:#9EA8AE;line-height:100%;text-align:center;}

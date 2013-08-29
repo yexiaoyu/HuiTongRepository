@@ -1,0 +1,23 @@
+2013-08-23 19:06:34,214 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-23 19:10:43,300 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-23 19:10:43,381 WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - <SQL Error: 1064, SQLState: 42000>
+2013-08-23 19:10:43,381 ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper] - <You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4' at line 1>
+2013-08-23 19:12:28,182 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:12:28,360 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList>
+2013-08-23 19:12:28,993 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:13:23,347 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:13:23,349 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:13:23,349 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:14:04,703 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:14:04,705 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:15:38,858 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:15:38,860 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:15:56,404 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:15:56,407 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:16:29,642 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:16:29,645 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:18:15,246 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:18:15,248 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:21:41,346 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>
+2013-08-23 19:21:41,349 DEBUG [cn.com.huitong.model.AppUser] - <class java.util.ArrayList=[3]>
+2013-08-23 19:21:41,350 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------[1, 2, 3]>

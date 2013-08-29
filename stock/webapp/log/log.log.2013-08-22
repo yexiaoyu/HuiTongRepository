@@ -1,0 +1,307 @@
+2013-08-22 12:04:23,994 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2013-08-22 12:04:24,278 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 22 12:04:24 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:04:24,461 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]>
+2013-08-22 12:04:24,990 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-action.xml]>
+2013-08-22 12:04:25,010 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-service.xml]>
+2013-08-22 12:04:25,412 INFO [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] - <Loading properties file from class path resource [jdbc.properties]>
+2013-08-22 12:04:25,597 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1602 ms>
+2013-08-22 12:04:26,197 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2013-08-22 12:04:26,406 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2013-08-22 12:04:26,430 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2013-08-22 12:04:26,437 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2013-08-22 12:04:26,438 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2013-08-22 12:04:26,441 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2013-08-22 12:04:26,441 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2013-08-22 12:04:26,442 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2013-08-22 12:04:26,442 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.i18n.reload - old value: false new value: true>
+2013-08-22 12:04:26,442 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.configuration.xml.reload - old value: false new value: true>
+2013-08-22 12:04:26,488 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2013-08-22 12:04:26,488 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2013-08-22 12:04:26,488 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2013-08-22 12:05:08,255 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.2.Final}>
+2013-08-22 12:05:08,279 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.2.3.Final}>
+2013-08-22 12:05:08,285 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2013-08-22 12:05:08,290 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2013-08-22 12:05:09,452 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-08-22 12:05:09,490 INFO [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - <HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-08-22 12:05:10,001 INFO [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - <HHH000399: Using default transaction strategy (direct JDBC transactions)>
+2013-08-22 12:05:10,026 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2013-08-22 12:05:10,509 INFO [org.hibernate.cache.spi.UpdateTimestampsCache] - <HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache>
+2013-08-22 12:05:10,518 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:05:10,735 INFO [org.hibernate.cache.internal.StandardQueryCache] - <HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache>
+2013-08-22 12:05:10,737 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:05:13,767 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-22 12:08:09,616 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 22 12:04:24 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:08:09,617 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@91cf0b: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allServiceMethod,coreServiceMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,appUserAction,appUserService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy>
+2013-08-22 12:08:51,641 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:08:51,880 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:08:53,558 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-22 12:20:06,718 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:20:06,952 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:21:05,673 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2013-08-22 12:21:05,962 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 22 12:21:05 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:21:06,150 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]>
+2013-08-22 12:21:06,674 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-action.xml]>
+2013-08-22 12:21:06,694 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-service.xml]>
+2013-08-22 12:21:07,092 INFO [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] - <Loading properties file from class path resource [jdbc.properties]>
+2013-08-22 12:21:07,278 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1604 ms>
+2013-08-22 12:21:07,900 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2013-08-22 12:21:08,107 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2013-08-22 12:21:08,132 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2013-08-22 12:21:08,138 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2013-08-22 12:21:08,139 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2013-08-22 12:21:08,140 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2013-08-22 12:21:08,140 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2013-08-22 12:21:08,143 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2013-08-22 12:21:08,144 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2013-08-22 12:21:08,144 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.i18n.reload - old value: false new value: true>
+2013-08-22 12:21:08,144 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.configuration.xml.reload - old value: false new value: true>
+2013-08-22 12:21:08,193 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2013-08-22 12:21:08,193 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2013-08-22 12:21:08,193 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2013-08-22 12:21:14,093 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.2.Final}>
+2013-08-22 12:21:14,116 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.2.3.Final}>
+2013-08-22 12:21:14,123 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2013-08-22 12:21:14,128 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2013-08-22 12:21:15,204 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-08-22 12:21:15,244 INFO [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - <HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-08-22 12:21:15,740 INFO [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - <HHH000399: Using default transaction strategy (direct JDBC transactions)>
+2013-08-22 12:21:15,767 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2013-08-22 12:21:16,239 INFO [org.hibernate.cache.spi.UpdateTimestampsCache] - <HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache>
+2013-08-22 12:21:16,248 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:21:16,493 INFO [org.hibernate.cache.internal.StandardQueryCache] - <HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache>
+2013-08-22 12:21:16,498 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:22:56,128 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 22 12:21:05 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:22:56,128 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@98f352: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allServiceMethod,coreServiceMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,appUserAction,appUserService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy>
+2013-08-22 12:22:59,546 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2013-08-22 12:22:59,835 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 22 12:22:59 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:23:00,025 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]>
+2013-08-22 12:23:00,556 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-action.xml]>
+2013-08-22 12:23:00,577 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-service.xml]>
+2013-08-22 12:23:00,960 INFO [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] - <Loading properties file from class path resource [jdbc.properties]>
+2013-08-22 12:23:01,149 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1603 ms>
+2013-08-22 12:23:01,753 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2013-08-22 12:23:01,956 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2013-08-22 12:23:01,983 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2013-08-22 12:23:01,989 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2013-08-22 12:23:01,989 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2013-08-22 12:23:01,990 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2013-08-22 12:23:01,991 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2013-08-22 12:23:01,994 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2013-08-22 12:23:01,994 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2013-08-22 12:23:01,995 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2013-08-22 12:23:01,995 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.i18n.reload - old value: false new value: true>
+2013-08-22 12:23:01,995 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.configuration.xml.reload - old value: false new value: true>
+2013-08-22 12:23:02,047 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2013-08-22 12:23:02,047 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2013-08-22 12:23:02,047 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2013-08-22 12:23:07,930 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.2.Final}>
+2013-08-22 12:23:07,954 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.2.3.Final}>
+2013-08-22 12:23:07,961 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2013-08-22 12:23:07,966 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2013-08-22 12:23:09,104 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-08-22 12:23:09,144 INFO [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - <HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-08-22 12:23:09,643 INFO [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - <HHH000399: Using default transaction strategy (direct JDBC transactions)>
+2013-08-22 12:23:09,668 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2013-08-22 12:23:10,147 INFO [org.hibernate.cache.spi.UpdateTimestampsCache] - <HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache>
+2013-08-22 12:23:10,157 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:23:10,382 INFO [org.hibernate.cache.internal.StandardQueryCache] - <HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache>
+2013-08-22 12:23:10,385 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:24:15,924 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 22 12:22:59 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:24:15,925 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b00ec2: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allServiceMethod,coreServiceMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,appUserAction,appUserService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy>
+2013-08-22 12:24:19,378 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2013-08-22 12:24:19,663 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 22 12:24:19 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:24:19,854 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]>
+2013-08-22 12:24:20,383 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-action.xml]>
+2013-08-22 12:24:20,405 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-service.xml]>
+2013-08-22 12:24:20,782 INFO [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] - <Loading properties file from class path resource [jdbc.properties]>
+2013-08-22 12:24:20,970 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1592 ms>
+2013-08-22 12:24:21,576 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2013-08-22 12:24:21,778 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2013-08-22 12:24:21,806 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2013-08-22 12:24:21,814 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2013-08-22 12:24:21,815 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2013-08-22 12:24:21,816 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2013-08-22 12:24:21,819 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2013-08-22 12:24:21,819 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2013-08-22 12:24:21,819 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2013-08-22 12:24:21,819 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2013-08-22 12:24:21,819 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2013-08-22 12:24:21,820 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2013-08-22 12:24:21,820 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2013-08-22 12:24:21,820 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2013-08-22 12:24:21,820 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2013-08-22 12:24:21,820 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2013-08-22 12:24:21,820 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.i18n.reload - old value: false new value: true>
+2013-08-22 12:24:21,820 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.configuration.xml.reload - old value: false new value: true>
+2013-08-22 12:24:21,871 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2013-08-22 12:24:21,871 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2013-08-22 12:24:21,871 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2013-08-22 12:24:30,509 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.2.Final}>
+2013-08-22 12:24:30,533 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.2.3.Final}>
+2013-08-22 12:24:30,540 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2013-08-22 12:24:30,544 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2013-08-22 12:24:31,596 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-08-22 12:24:31,636 INFO [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - <HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-08-22 12:24:32,141 INFO [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - <HHH000399: Using default transaction strategy (direct JDBC transactions)>
+2013-08-22 12:24:32,167 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2013-08-22 12:24:32,642 INFO [org.hibernate.cache.spi.UpdateTimestampsCache] - <HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache>
+2013-08-22 12:24:32,652 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:24:32,871 INFO [org.hibernate.cache.internal.StandardQueryCache] - <HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache>
+2013-08-22 12:24:32,873 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:29:37,769 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 22 12:24:19 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:29:37,771 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1bb8694: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allServiceMethod,coreServiceMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,appUserAction,appUserService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy>
+2013-08-22 12:29:41,197 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization started>
+2013-08-22 12:29:41,483 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Refreshing Root WebApplicationContext: startup date [Thu Aug 22 12:29:41 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:29:41,676 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/applicationContext.xml]>
+2013-08-22 12:29:42,223 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-action.xml]>
+2013-08-22 12:29:42,244 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - <Loading XML bean definitions from ServletContext resource [/WEB-INF/classes/spring/app-service.xml]>
+2013-08-22 12:29:42,627 INFO [org.springframework.context.support.PropertySourcesPlaceholderConfigurer] - <Loading properties file from class path resource [jdbc.properties]>
+2013-08-22 12:29:42,812 INFO [org.springframework.web.context.ContextLoader] - <Root WebApplicationContext: initialization completed in 1614 ms>
+2013-08-22 12:29:43,417 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-default.xml]>
+2013-08-22 12:29:43,618 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts-plugin.xml]>
+2013-08-22 12:29:43,643 INFO [com.opensymphony.xwork2.config.providers.XmlConfigurationProvider] - <Parsing configuration file [struts.xml]>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)>
+2013-08-22 12:29:43,649 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)>
+2013-08-22 12:29:43,650 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)>
+2013-08-22 12:29:43,654 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)>
+2013-08-22 12:29:43,654 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)>
+2013-08-22 12:29:43,654 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)>
+2013-08-22 12:29:43,655 INFO [org.apache.struts2.config.BeanSelectionProvider] - <Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)>
+2013-08-22 12:29:43,655 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.i18n.reload - old value: false new value: true>
+2013-08-22 12:29:43,655 INFO [com.opensymphony.xwork2.config.impl.DefaultConfiguration] - <Overriding property struts.configuration.xml.reload - old value: false new value: true>
+2013-08-22 12:29:43,699 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <Initializing Struts-Spring integration...>
+2013-08-22 12:29:43,700 INFO [com.opensymphony.xwork2.spring.SpringObjectFactory] - <Setting autowire strategy to name>
+2013-08-22 12:29:43,700 INFO [org.apache.struts2.spring.StrutsSpringObjectFactory] - <... initialized Struts-Spring integration successfully>
+2013-08-22 12:29:54,729 INFO [org.hibernate.annotations.common.Version] - <HCANN000001: Hibernate Commons Annotations {4.0.2.Final}>
+2013-08-22 12:29:54,769 INFO [org.hibernate.Version] - <HHH000412: Hibernate Core {4.2.3.Final}>
+2013-08-22 12:29:54,778 INFO [org.hibernate.cfg.Environment] - <HHH000206: hibernate.properties not found>
+2013-08-22 12:29:54,783 INFO [org.hibernate.cfg.Environment] - <HHH000021: Bytecode provider name : javassist>
+2013-08-22 12:29:55,888 INFO [org.hibernate.dialect.Dialect] - <HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect>
+2013-08-22 12:29:55,928 INFO [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - <HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4>
+2013-08-22 12:29:56,438 INFO [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - <HHH000399: Using default transaction strategy (direct JDBC transactions)>
+2013-08-22 12:29:56,465 INFO [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - <HHH000397: Using ASTQueryTranslatorFactory>
+2013-08-22 12:29:56,957 INFO [org.hibernate.cache.spi.UpdateTimestampsCache] - <HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache>
+2013-08-22 12:29:56,967 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:29:57,193 INFO [org.hibernate.cache.internal.StandardQueryCache] - <HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache>
+2013-08-22 12:29:57,195 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:30:00,923 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-22 12:30:53,556 INFO [org.springframework.web.context.support.XmlWebApplicationContext] - <Closing Root WebApplicationContext: startup date [Thu Aug 22 12:29:41 GMT+08:00 2013]; root of context hierarchy>
+2013-08-22 12:30:53,557 INFO [org.springframework.beans.factory.support.DefaultListableBeanFactory] - <Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10e8647: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,transactionManager,txAdvice,org.springframework.aop.config.internalAutoProxyCreator,allServiceMethod,coreServiceMethod,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#1,appUserAction,appUserService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor]; root of factory hierarchy>
+2013-08-22 12:31:07,548 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.>
+2013-08-22 12:31:07,794 WARN [org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory] - <HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.>
+2013-08-22 12:31:13,847 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-22 12:36:39,682 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
+2013-08-22 12:38:14,738 DEBUG [cn.com.huitong.model.AppUser] - <obj-------------4>
