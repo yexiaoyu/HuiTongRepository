@@ -6,7 +6,7 @@
 	<li class="item"><a href="#">用户管理</a>
 		<ul class="optiton" id="opt_1">
 			<li class="light"><a href="#" onclick="addUserEntry();">添加用户</a></li>
-			<li><a href="#">查询用户</a></li>
+			<li><a href="#" onclick="queryUserEntry();">查询用户</a></li>
 		</ul>
 	</li>
 	<li class="item"><a href="#">股票管理</a>
@@ -21,6 +21,12 @@
 <script type="text/javascript">
 function addUserEntry(){
 	$.post(rootPath + "/background/addUserEntry.do",{},
+			function(data){
+				$("#maincontent").html(data);
+			});
+}
+function queryUserEntry(){
+	$.post(rootPath + "/background/queryUserEntry.do",{},
 			function(data){
 				$("#maincontent").html(data);
 			});

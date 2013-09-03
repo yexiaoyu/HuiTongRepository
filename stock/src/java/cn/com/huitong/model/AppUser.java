@@ -28,7 +28,7 @@ public class AppUser implements Serializable {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	/**ID*/
 	private Long userId;
-	@ManyToOne(fetch = FetchType.LAZY)
+	@ManyToOne(fetch = FetchType.LAZY, targetEntity=Grade.class)
 	@JoinColumn(name = "gradeId", nullable = false)
 	/**用户等级*/
 	private Grade grade;
@@ -54,6 +54,9 @@ public class AppUser implements Serializable {
 	@Column(name="photo")
 	/**用户头像URL*/
 	private String photo;
+	@Column(name="isValid")
+	/**是否有效*/
+	private String isValid;
 	public Long getUserId() {
 		return userId;
 	}
@@ -107,6 +110,12 @@ public class AppUser implements Serializable {
 	}
 	public void setPhoto(String photo) {
 		this.photo = photo;
+	}
+	public String getIsValid() {
+		return isValid;
+	}
+	public void setIsValid(String isValid) {
+		this.isValid = isValid;
 	}
 	
 }

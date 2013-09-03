@@ -21,7 +21,7 @@ public class GradeServiceImpl  extends GenericDaoImpl<Grade, Long> implements Gr
 	public Grade findGradeByGradeId(Long gradeId) {
 		String hql = "FROM Grade WHERE gradeId=:gradeId";
 		Map<String, Object> parm = new HashMap<String, Object>();
-		parm.put(":gradeId", gradeId);
+		parm.put("gradeId", gradeId);
 		List<Grade> grades = super.findByHQL(hql, parm);
 		if(grades != null && !"".equals(grades) && grades.size()>0){
 			return grades.get(0);

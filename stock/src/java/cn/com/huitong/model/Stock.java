@@ -28,6 +28,9 @@ public class Stock implements Serializable {
 	@Column(name="stockName")
 	/**股票名称*/
 	private String stockName;
+	@Column(name="isValid")
+	/**是否有效*/
+	private String isValid;
 	public Long getStockId() {
 		return stockId;
 	}
@@ -45,6 +48,12 @@ public class Stock implements Serializable {
 	}
 	public void setStockName(String stockName) {
 		this.stockName = stockName;
+	}
+	public String getIsValid() {
+		return isValid;
+	}
+	public void setIsValid(String isValid) {
+		this.isValid = isValid;
 	}
 
 }

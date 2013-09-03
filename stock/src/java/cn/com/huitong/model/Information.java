@@ -45,6 +45,9 @@ public class Information implements Serializable {
 	@Column(name="inputTime")
 	/**录入时间**/
 	private Date inputTime;
+	@Column(name="isValid")
+	/**是否有效*/
+	private String isValid;
 	public Long getInformId() {
 		return informId;
 	}
@@ -80,6 +83,12 @@ public class Information implements Serializable {
 	}
 	public void setInputTime(Date inputTime) {
 		this.inputTime = inputTime;
+	}
+	public String getIsValid() {
+		return isValid;
+	}
+	public void setIsValid(String isValid) {
+		this.isValid = isValid;
 	}
 
 }

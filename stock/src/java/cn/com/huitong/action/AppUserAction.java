@@ -1,9 +1,11 @@
 package cn.com.huitong.action;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.annotation.Resource;
 
+import cn.com.huitong.core.common.PagingBean;
 import cn.com.huitong.core.common.Struts2Action;
 import cn.com.huitong.model.AppUser;
 import cn.com.huitong.model.Grade;
@@ -21,6 +23,7 @@ public class AppUserAction extends Struts2Action{
 	@Resource(name="gradeService")
 	private GradeService gradeService;
 	private List<Grade> gradeList;
+	private List<AppUser> userList;
 	//foreground  end
 	
 	
@@ -78,10 +81,6 @@ public class AppUserAction extends Struts2Action{
 	public String loginIndex(){
 		return SUCCESS;
 	}
-	public String queryUser(){
-		user = appUserService.get(8L);
-		return SUCCESS;
-	}
 	//background  start
 	public String addUserEntry(){
 		logger.debug("addUserEntry.........");
@@ -95,6 +94,20 @@ public class AppUserAction extends Struts2Action{
 		}
 		//-------------------------
 		gradeList = gradeService.findGradeAll();
+		return SUCCESS;
+	}
+	public String queryUserEntry(){
+		//user = appUserService.get(8L);
+		logger.debug("queryUserEntry----");
+		gradeList = gradeService.findGradeAll();
+		PagingBean pb = this.getInitPagingBean();
+		userList = appUserService.findAllValidUser(pb);
+		return SUCCESS;
+	}
+	public String queryUser(){
+		logger.debug("queryUser----");
+		PagingBean pb = this.getInitPagingBean();
+		userList = appUserService.findAllValidUser(user,pb);
 		return SUCCESS;
 	}
 	
@@ -128,6 +141,14 @@ public class AppUserAction extends Struts2Action{
 
 	public void setGradeList(List<Grade> gradeList) {
 		this.gradeList = gradeList;
+	}
+
+	public List<AppUser> getUserList() {
+		return userList;
+	}
+
+	public void setUserList(List<AppUser> userList) {
+		this.userList = userList;
 	}
 	
 }

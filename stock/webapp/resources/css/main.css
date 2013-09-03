@@ -1,4 +1,4 @@
-html,body { height:100%; overflow:hidden; background:url(skin/3_c6.png) repeat;font-size: 13px;}
+html,body { height:100%; overflow:hidden;font-size: 13px;}
 *{margin:0;padding:0;}
 select,input{font-size:9pt;}
 img{border:0;}
@@ -28,8 +28,8 @@ ul {list-style: none;}
 #menu .item ul li.light a{color:#FFF;}
 .topbar{background: #99CCFF;font-size: 2em;}
 
-.loginForm{float:left;display:inline;overflow:hidden;min-height:100px;margin:20px 0 20px 20px;border-right:1px solid #E9EDF0;}
-table.tableLoginForm{width:520px;display:inline;float:left;border-collapse:collapse;}
+.loginForm{min-height:100px;margin:20px 0 20px 20px;right:10px;overflow:auto;}
+table.tableLoginForm{left:220px;right:10px;overflow:auto;border-collapse:collapse;}
 table.tableLoginForm td{padding:5px; vertical-align:top;}
 table.tableLoginForm td.t1{width:100px;text-align:right;color:#666;font-size:14px; white-space:nowrap;line-height:35px;background-color: #CCCCCC;}
 table.tableLoginForm td.t1 b{color:#FF0000;font-size:16px;margin-right:5px;}
@@ -48,3 +48,22 @@ table.tableLoginForm tr{margin: 1px;}
 .button01{display:inline;float:left;margin-right:10px;font-size:14px;font-weight:bolder;}
 .button01{background-position:-197px -342px;color:#FFF;text-shadow:0px 1px 1px #A14101; }
 .button01:hover{background-position:-317px -342px;color:#FFF;}
+
+table.listTable{width:100%;border-collapse:collapse;border-top:1px solid #D4D4D4;border-left:1px solid #D4D4D4;margin-bottom:10px;}
+table.listTable th,table.listTable td{padding:5px;border-right:1px solid #D4D4D4;border-bottom:1px solid #D4D4D4;text-align:left;}
+table.listTable th{height:22px;line-height:22px;background:url(skin/bg-x.gif) repeat-x 0 -63px;}
+table.listTable td{height:25px;}
+table.listTable td a{margin-right:8px;}
+
+/*CSS page style*/
+.Pagebg{width:100%;height:40px;float:left;display:inline;overflow:hidden; margin-top:10px;background:#EFF7FA;}
+.Pagebg select{width:50px;}
+div.page{float:right; padding:3px; margin:5px 3px 3px 3px; font-family: Arial; font-size: 7pt; text-align:center;}
+div.page a{border:#8db5d7 1px solid; color:#000; text-decoration:none; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page a:hover {border: red 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page a:active {border: red 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px;}
+div.page span.current {border: #E89954 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px; color:#000; font-weight:bolder; background-color:#FFCA7D}
+div.page span.disabled {border: #CCC 1px solid; margin:0px 2px 0px 2px; padding:2px 5px 2px 5px; color:#CCC;}
+div.page span.pageinfo {color: #999; font-size:9pt; margin-right:10px; vertical-align:bottom;}
+div.page span.pageinfo b {color: #666; margin:0px 2px 0px 2px;}
+/*CSS page style*/
