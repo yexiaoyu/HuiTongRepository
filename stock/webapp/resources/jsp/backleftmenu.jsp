@@ -5,7 +5,7 @@
 <ul id="menu">
 	<li class="item"><a href="#">用户管理</a>
 		<ul class="optiton" id="opt_1">
-			<li class="light"><a href="#" onclick="addUser();">添加用户</a></li>
+			<li class="light"><a href="#" onclick="addUserEntry();">添加用户</a></li>
 			<li><a href="#">查询用户</a></li>
 		</ul>
 	</li>
@@ -19,11 +19,9 @@
 </div>
 </div>
 <script type="text/javascript">
-function addUser(){
-	//fm.action=contextRootPath+"/compensate/addCompensate.do";
-	$.post(rootPath + "/background/addUser.do",{},
+function addUserEntry(){
+	$.post(rootPath + "/background/addUserEntry.do",{},
 			function(data){
-				alert(data);
 				$("#maincontent").html(data);
 			});
 }

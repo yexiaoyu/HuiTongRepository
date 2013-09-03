@@ -5,14 +5,6 @@
 <script type="text/javascript" charset="utf-8" src="${ctx }/ueditor/ueditor.all.js"></script>  
 <link rel="stylesheet" type="text/css" href="${ctx }/ueditor/themes/default/css/ueditor.css"/>  
 <script type="text/javascript">
-/*$(document).ready(function() {
-	//这样设置宽度和高度
-	var editor = new UE.ui.Editor( {initialFrameWidth:910}  );
-	editor.render("myEditor");
-	editor.ready(function(){
-	    editor.setContent("欢迎使用UEditor！");
-	});
-});*/
 $("#formSubmit").click(function() {
 	//验证通过提交数据
 	//if($.formValidator.pageIsValid('1')){
@@ -29,36 +21,39 @@ $("#formSubmit").click(function() {
 });
 </script>
 <div class="loginForm">
-<div class="topbar">添加用户</div>
-	<form action="addUser.do" method="post" id="addUserForm" namespace="/background">
+<div class="topbar">用户查询</div>
+	<form action="queryUser.do" method="post" id="queryUserForm" namespace="/background">
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tableLoginForm">
 	    	<tr>
 		    	<td class="t1">用户名</td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.userName" /></td>
 	    	</tr>
-	    	<tr>
-		    	<td class="t1">密码</td>
-		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.passWord" /></td>
-	    	</tr>
-	    	<tr>
-		    	<td class="t1">确认密码</td>
-		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="passWord2" /></td>
-	    	</tr>
-	    	<tr>
-				<td class="t1">用户级别</td>
-				<td class="t2">
-					<s:select theme="simple" cssClass="selectInput" name="user.grade.gradeId" 
-						listValue="gradeName" listKey="gradeId"
-					 	list="gradeList" headerKey="" headerValue="请选择"></s:select>
-				</td>
-			</tr>
-	    	<!-- <tr>
-		    	<td class="t1">内容</td>
-		    	<td colspan="2"><textarea id="myEditor" class="content" name="user.content"></textarea></td>
-	    	</tr> -->
+			<td class="t1">用户级别</td>
+			<td class="t2">
+				<s:select theme="simple" cssClass="selectInput" name="user.grade.gradeId" 
+					listValue="gradeName" listKey="gradeId"
+				 	list="gradeList" headerKey="" headerValue="请选择"></s:select>
+			</td>
 	    	<tr>
 	    	<td>&nbsp;</td>
-	    	<td><input class="button01" id="formSubmit" type="button" value="提交"/></td></tr>
+	    	<td><input class="button01" id="formSubmit" type="button" value="查询"/></td></tr>
     	</table>
 	</form>
+	<div class="displyUser">
+	<table>
+	<tr>
+		<th>用户名</th>
+		<th>用户等级</th>
+		<th>真实姓名</th>
+		<th>邮箱</th>
+		<th>手机</th>
+		<th>注册时间</th>
+	</tr>
+	<tr>
+		<s:iterator value="">
+		
+		</s:iterator>
+	</tr>
+	</table>
+	</div>
 </div>

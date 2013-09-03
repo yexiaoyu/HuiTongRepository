@@ -1,4 +1,4 @@
-html,body { height:100%; overflow:hidden; background:#efefef;;font-size: 13px;}
+html,body { height:100%; overflow:hidden; background:url(skin/3_c6.png) repeat;font-size: 13px;}
 *{margin:0;padding:0;}
 select,input{font-size:9pt;}
 img{border:0;}
@@ -26,11 +26,12 @@ ul {list-style: none;}
 #menu a{display:block;}
 #menu .item ul li.light{background-position:0 -476px;}
 #menu .item ul li.light a{color:#FFF;}
+.topbar{background: #99CCFF;font-size: 2em;}
 
 .loginForm{float:left;display:inline;overflow:hidden;min-height:100px;margin:20px 0 20px 20px;border-right:1px solid #E9EDF0;}
 table.tableLoginForm{width:520px;display:inline;float:left;border-collapse:collapse;}
 table.tableLoginForm td{padding:5px; vertical-align:top;}
-table.tableLoginForm td.t1{width:100px;text-align:right;color:#666;font-size:14px; white-space:nowrap;line-height:35px;}
+table.tableLoginForm td.t1{width:100px;text-align:right;color:#666;font-size:14px; white-space:nowrap;line-height:35px;background-color: #CCCCCC;}
 table.tableLoginForm td.t1 b{color:#FF0000;font-size:16px;margin-right:5px;}
 table.tableLoginForm td.t2{width:260px;color:#999;}
 table.tableLoginForm td.t2 p{padding-bottom:5px;}
@@ -41,4 +42,9 @@ table.tableLoginForm .selectInput{width:240px;height:35px;}
 table.tableLoginForm .selectInput2{width:115px;height:35px;}
 table.tableLoginForm .textareaInput{width:240px;height:100px;line-height:150%;}
 table.tableLoginForm td.t2 img{height:40px;vertical-align:middle;}
+table.tableLoginForm tr{margin: 1px;}
 
+.button01{width:120px;height:43px;border:none;cursor:pointer;background:url(skin/skin.gif) no-repeat;text-align:center;line-height:43px;display:block;}
+.button01{display:inline;float:left;margin-right:10px;font-size:14px;font-weight:bolder;}
+.button01{background-position:-197px -342px;color:#FFF;text-shadow:0px 1px 1px #A14101; }
+.button01:hover{background-position:-317px -342px;color:#FFF;}

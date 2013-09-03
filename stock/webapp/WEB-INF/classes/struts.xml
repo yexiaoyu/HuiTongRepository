@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+    
+    <!-- 默认的国际化地区信息 -->
+	<constant name="struts.locale" value="zh_CN" />
+	<!-- 国际化信息内码 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- action使用spring管理  -->
+	<constant name="struts.objectFactory" value="spring"/>
+	<!-- action的后缀 -->
+	<constant name="struts.action.extension" value="do" />
+	<!-- ObjectFactory接口 -->
+	<!-- 指定当使用SpringObjectFactory时的自动装配逻辑.合法值包括: name, type, auto, 和 constructor (缺省为 name ) -->
+	<constant name="struts.objectFactory.spring.autoWire" value="name" />
+	<include file="struts/struts-fore.xml"></include> 
+	<include file="struts/struts-background.xml"></include>
+	
+	
+	<!-- 
+	<package name="login" extends="struts-default">
+		<action name="loginAction" class="loginAction" method="login">
+			<result name="success">/success.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+		<action name="index" class="loginAction" method="index">
+			<result name="success">/login.jsp</result>
+			<result name="input">/login.jsp</result>
+		</action>
+	</package>
+	 -->
+</struts>

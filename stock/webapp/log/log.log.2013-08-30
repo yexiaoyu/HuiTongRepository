@@ -1,0 +1,60 @@
+2013-08-30 00:02:05,453 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:02:19,519 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:03:10,662 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:04:16,609 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:05:44,950 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:06:29,271 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:06:37,312 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:09:12,080 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:09:40,902 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:10:05,616 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:14:32,755 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/fore/loginIndex.do>
+There is no Action mapped for action name loginIndex. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-08-30 00:15:06,369 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/fore/loginIndex.do>
+There is no Action mapped for action name loginIndex. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-08-30 00:38:18,529 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:38:26,845 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:39:38,680 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:41:53,756 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:48:03,754 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>
+2013-08-30 00:49:24,628 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUser.........>

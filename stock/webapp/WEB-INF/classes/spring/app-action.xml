@@ -13,6 +13,6 @@
        http://www.springframework.org/schema/context  
        http://www.springframework.org/schema/context/spring-context-3.2.xsd"
        default-lazy-init="true">
-	<bean id="appUserService" class="cn.com.huitong.service.impl.AppUserServiceImpl" scope="prototype"></bean>
-	<bean id="gradeService" class="cn.com.huitong.service.impl.GradeServiceImpl" scope="prototype"></bean>
+	<bean id="AppUserAction" class="cn.com.huitong.action.AppUserAction" scope="prototype"></bean>
+	<bean id="IndexAction" class="cn.com.huitong.action.IndexAction" scope="prototype"></bean>
 </beans>

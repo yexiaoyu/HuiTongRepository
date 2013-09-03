@@ -1,10 +1,14 @@
 package cn.com.huitong.action;
 
+import java.util.List;
+
 import javax.annotation.Resource;
 
 import cn.com.huitong.core.common.Struts2Action;
 import cn.com.huitong.model.AppUser;
+import cn.com.huitong.model.Grade;
 import cn.com.huitong.service.AppUserService;
+import cn.com.huitong.service.GradeService;
 
 @SuppressWarnings("serial")
 public class AppUserAction extends Struts2Action{
@@ -14,6 +18,9 @@ public class AppUserAction extends Struts2Action{
 	@Resource(name="appUserService")
 	private AppUserService appUserService;
 	private String passWord2;
+	@Resource(name="gradeService")
+	private GradeService gradeService;
+	private List<Grade> gradeList;
 	//foreground  end
 	
 	
@@ -76,8 +83,18 @@ public class AppUserAction extends Struts2Action{
 		return SUCCESS;
 	}
 	//background  start
+	public String addUserEntry(){
+		logger.debug("addUserEntry.........");
+		gradeList = gradeService.findGradeAll();
+		return SUCCESS;
+	}
 	public String addUser(){
 		logger.debug("addUser.........");
+		if(passWord2 != null && passWord2.equals(user.getPassWord())){
+			appUserService.save(user);
+		}
+		//-------------------------
+		gradeList = gradeService.findGradeAll();
 		return SUCCESS;
 	}
 	
@@ -104,4 +121,13 @@ public class AppUserAction extends Struts2Action{
 	public String index(){
 		return SUCCESS;
 	}
+
+	public List<Grade> getGradeList() {
+		return gradeList;
+	}
+
+	public void setGradeList(List<Grade> gradeList) {
+		this.gradeList = gradeList;
+	}
+	
 }
