@@ -1,24 +1,15 @@
 package cn.com.huitong.core.dao.impl;
 
 
-import java.io.OutputStream;
 import java.io.Serializable;
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.util.Calendar;
 import java.util.Collection;
-import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
 import javax.annotation.Resource;
 
-import org.apache.log4j.Appender;
-import org.apache.log4j.ConsoleAppender;
-import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -172,9 +163,8 @@ public class GenericDaoImpl<T extends Serializable, E extends Serializable>  imp
 		 return query.list();
 	 }
 	 public Long getTotalItems(String hql, Map<String, Object> map){
-		 String sql = "SELECT COUNT(*) sum " + hql;
-		 Object obj = this.findBySQL(sql, map);
-		 List result = (List)obj;
+		 String sql = "SELECT COUNT(*) " + hql;
+		 List result = this.findByHQL(sql, map);
 		 log.debug("TotalItems=" +Long.valueOf(result.get(0).toString()));
 		 return Long.valueOf(result.get(0).toString());
 	}

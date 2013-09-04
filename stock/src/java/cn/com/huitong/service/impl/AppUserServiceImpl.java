@@ -16,26 +16,27 @@ public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements
 //		this.save(appUser);
 //	}
 	public List<AppUser> findAllValidUser(PagingBean pb){
-		String hql = "FROM AppUser WHERE isValid = 1";
+		String hql = "FROM AppUser u WHERE u.isValid = 1 ";
 		return this.findByHqlAndPage(hql, null, pb);
 	}
 	public List<AppUser> findAllValidUser(AppUser user,PagingBean pb){
-		StringBuffer hql = new StringBuffer("FROM AppUser WHERE isValid = 1 ");
+		StringBuffer hql = new StringBuffer("FROM AppUser user WHERE user.isValid = 1 ");
 		Map<String, Object> param = new HashMap<String, Object>();
 		if(user != null && !"".equals(user)){
 			if(user.getUserName() != null && !"".equals(user.getUserName())){
-				hql.append(" AND userName=:userName ");
+				hql.append(" AND user.userName=:userName ");
 				param.put("userName", user.getUserName());
 			}
 			if(user.getGrade() != null && !"".equals(user.getGrade()) && user.getGrade().getGradeId() != null && !"".equals(user.getGrade().getGradeId())){
-				hql.append(" AND grade.gradeId=:gradeId ");
+				hql.append(" AND user.grade.gradeId=:gradeId ");
 				param.put("gradeId", user.getGrade().getGradeId());
 			}
 			if(user.getRealName() != null && !"".equals(user.getRealName())){
-				hql.append(" AND realName=:realName ");
+				hql.append(" AND user.realName=:realName ");
 				param.put("realName", user.getRealName());
 			}
 		}
+		log.debug("SQL====" + hql);
 		return this.findByHqlAndPage(hql.toString(),param,pb);
 	}
 }
