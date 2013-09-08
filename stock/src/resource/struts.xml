@@ -23,7 +23,7 @@
 	<include file="struts/struts-background.xml"></include>
 	
 	
-	<package name="util" extends="struts-default" namespace="/">
+	<package name="util" extends="struts-default" namespace="/util">
 		<action name="checkCodeValid" class="DwrAction" method="checkCodeValid">
 		</action>
 	</package>

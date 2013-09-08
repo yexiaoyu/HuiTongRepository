@@ -177,17 +177,22 @@ public class AppUserAction extends Struts2Action{
 	}
 	public String updateUser(){
 		logger.debug("updateUser.........");
-		if(user != null && !"".equals(user)){
-			AppUser oldUser = appUserService.get(user.getUserId());
-			try {
-				BeanUtil.copyNotNullProperties(oldUser, user);
-				oldUser.setGrade(gradeService.get(oldUser.getGrade().getGradeId()));
-				appUserService.save(oldUser);
-			} catch (IllegalAccessException e) {
-				e.printStackTrace();
-			} catch (InvocationTargetException e) {
-				e.printStackTrace();
+		Captcha captcha = (Captcha) getSession().getAttribute(Captcha.NAME);
+		if (captcha != null && captcha.isCorrect(checkCode)) {
+			if(user != null && !"".equals(user)){
+				AppUser oldUser = appUserService.get(user.getUserId());
+				try {
+					BeanUtil.copyNotNullProperties(oldUser, user);
+					oldUser.setGrade(gradeService.get(oldUser.getGrade().getGradeId()));
+					appUserService.save(oldUser);
+				} catch (IllegalAccessException e) {
+					e.printStackTrace();
+				} catch (InvocationTargetException e) {
+					e.printStackTrace();
+				}
 			}
+		}else{
+			logger.debug("验证码不正确！");
 		}
 		//user = new AppUser();
 		this.queryUser();

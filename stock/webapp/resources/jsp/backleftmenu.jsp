@@ -49,4 +49,10 @@ function queryStockEntry(){
 			$("#maincontent").html(data);
 		});
 }
+//验证码刷新
+function refeshCode() {
+	$("#checkCode").val("");//刷新验证码的时候，把原来的清空
+	var str = '<img align="absmiddle" border="0" height="22" width="66" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
+	document.getElementById("codeImage").innerHTML = str;
+}
 </script>

@@ -28,6 +28,8 @@
 			<result name="queryStockEntry">/pages/background/stock/queryStock.jsp</result>
 			<result name="queryStock">/pages/background/stock/queryStockResult.jsp</result>
 			<result name="deleteStock">/pages/background/stock/queryStockResult.jsp</result>
+			<result name="updateStockEntry">/pages/background/stock/addStock.jsp</result>
+			<result name="updateStock">/pages/background/stock/queryStock.jsp</result>
 		</action>
 	</package>
 </struts>

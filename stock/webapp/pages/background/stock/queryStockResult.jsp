@@ -18,6 +18,12 @@ function deleteStock(stockId,stockName,stockCode){
 		   	});
    	}
 }
+function updateStock(stockId){
+	$.post(rootPath + "/background/operateStock.do", { stockId : stockId ,nodeName : "updateStockEntry"},
+		function(data){
+	    	$("#maincontent").html(data);
+	   	});
+}
 </script>
 	<table class="listTable">
 	<tr>
@@ -31,7 +37,7 @@ function deleteStock(stockId,stockName,stockCode){
 			<td><s:property value="stockCode"/></td>
 			<td><s:property value="stockName"/></td>
 			<td><s:property value="isValid"/></td>
-			<td><a href="#" onclick="deleteStock('${stockId}','${stockName }','${stockCode}');">删除</a><a href="#">修改</a></td>
+			<td><a href="#" onclick="deleteStock('${stockId}','${stockName }','${stockCode}');">删除</a><a href="#" onclick="updateStock(${stockId})">修改</a></td>
 		</tr>
 	</s:iterator>
 	</table>

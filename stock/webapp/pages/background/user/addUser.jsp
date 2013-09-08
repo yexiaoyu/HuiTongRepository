@@ -52,7 +52,7 @@ $(document).ready(function (){
 	$("#checkCode").formValidator({ onshow: "请输入验证码！", onfocus: "请输入验证码！", oncorrect: "输入正确" })
 		.inputValidator({min:1,onerror: "请输入验证码！"}).ajaxValidator({
 		    type : "get",
-			url : rootPath + "/advice/checkCodeValid.do",
+			url : rootPath + "/util/checkCodeValid.do",
 			addidvalue : true,
 			//data : "checkCode="+$("#checkCodeId").val(),
 			datatype : "json",
@@ -84,11 +84,6 @@ $("#formSubmit").click(function() {
 	$('#queryUser').addClass("light");
 	return false;
 });
-//验证码刷新
-function refeshCode() {
-	var str = '<img align="absmiddle" border="0" height="22" width="66" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
-	document.getElementById("codeImage").innerHTML = str;
-}
 </script>
 <div class="loginForm">
 <div class="topbar">添加用户</div>
