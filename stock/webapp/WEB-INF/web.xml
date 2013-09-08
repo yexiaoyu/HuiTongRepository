@@ -6,6 +6,12 @@
 	<welcome-file-list>
 		<welcome-file>/index.do</welcome-file>
 	</welcome-file-list>
+	<!-- 验证码的生成 -->
+	<servlet>
+        <servlet-name>SimpleCaptcha</servlet-name>
+        <servlet-class>cn.com.huitong.core.servlet.SimpleCaptchaServlet</servlet-class>
+    </servlet>
+	
 	<!-- 配置事务启动方式  这里需要配置在struts的前面，才能支持懒加载-->
 	<filter>
 		<filter-name>openSessionInViewFilter</filter-name>
@@ -30,6 +36,10 @@
 			org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
 	</filter>
 
+	<servlet-mapping>
+        <servlet-name>SimpleCaptcha</servlet-name>
+        <url-pattern>/CaptchaImg</url-pattern>
+    </servlet-mapping>
 	<filter-mapping>
 		<filter-name>struts2</filter-name>
 		<url-pattern>*.do</url-pattern>

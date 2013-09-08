@@ -7,17 +7,27 @@
 		<action name="backIndex" class="IndexAction" method="backGroundIndex">
 			<result name="success">/pages/background/index.jsp</result>
 		</action>
-		<action name="addUserEntry" class="AppUserAction" method="addUserEntry">
-			<result name="success">/pages/background/addUser.jsp</result>
+		<action name="operateUser" class="AppUserAction" method="operateUser">
+			<result name="addUserEntry">/pages/background/user/addUser.jsp</result>
+			<result name="addUser">/pages/background/user/queryUser.jsp</result>
+			<result name="queryUserEntry">/pages/background/user/queryUser.jsp</result>
+			<result name="queryUser">/pages/background/user/queryUserResult.jsp</result>
+			<result name="updateUserEntry">/pages/background/user/addUser.jsp</result>
+			<result name="updateUser">/pages/background/user/queryUser.jsp</result>
+			<result name="deleteUser">/pages/background/user/queryUserResult.jsp</result>
 		</action>
-		<action name="addUser" class="AppUserAction" method="addUser">
-			<result name="success">/pages/background/addUser.jsp</result>
+		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
 		</action>
-		<action name="queryUserEntry" class="AppUserAction" method="queryUserEntry">
-			<result name="success">/pages/background/queryUser.jsp</result>
+		<action name="operateInformation" class="InformationAction" method="operateInformation">
+			<result name="addInformationEntry">/pages/background/information/addInformation.jsp</result>
+			<result name="addInformation">/pages/background/information/addInformation.jsp</result>
 		</action>
-		<action name="queryUser" class="AppUserAction" method="queryUser">
-			<result name="success">/pages/background/queryUserResult.jsp</result>
+		<action name="operateStock" class="StockAction" method="operateStock">
+			<result name="addStockEntry">/pages/background/stock/addStock.jsp</result>
+			<result name="addStock">/pages/background/stock/queryStock.jsp</result>
+			<result name="queryStockEntry">/pages/background/stock/queryStock.jsp</result>
+			<result name="queryStock">/pages/background/stock/queryStockResult.jsp</result>
+			<result name="deleteStock">/pages/background/stock/queryStockResult.jsp</result>
 		</action>
 	</package>
 </struts>

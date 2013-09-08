@@ -23,16 +23,8 @@
 	<include file="struts/struts-background.xml"></include>
 	
 	
-	<!-- 
-	<package name="login" extends="struts-default">
-		<action name="loginAction" class="loginAction" method="login">
-			<result name="success">/success.jsp</result>
-			<result name="input">/login.jsp</result>
-		</action>
-		<action name="index" class="loginAction" method="index">
-			<result name="success">/login.jsp</result>
-			<result name="input">/login.jsp</result>
+	<package name="util" extends="struts-default" namespace="/">
+		<action name="checkCodeValid" class="DwrAction" method="checkCodeValid">
 		</action>
 	</package>
-	 -->
 </struts>

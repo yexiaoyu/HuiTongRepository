@@ -5,10 +5,24 @@
 function queryPageList(){
 	var curpage = $("#curpage").val();
 	var pagesize = $("#pagesize").val();
-	$.post(rootPath + "/background/queryUser.do", { curpage: curpage, pagesize:pagesize},
-	function(data){
-    	$("#displyUser").html(data);
-   	});
+	$.post(rootPath + "/background/operateUser.do", { curpage: curpage, pagesize:pagesize ,nodeName : "queryUser"},
+		function(data){
+	    	$("#displyResult").html(data);
+	   	});
+}
+function deleteUser(userId,userName){
+   	if(confirm("确认删除用户-" + userName + "?")){
+   		$.post(rootPath + "/background/operateUser.do", { userId : userId ,nodeName : "deleteUser"},
+			function(data){
+		    	$("#displyResult").html(data);
+		   	});
+   	}
+}
+function updateUser(userId){
+	$.post(rootPath + "/background/operateUser.do", { userId : userId ,nodeName : "updateUserEntry"},
+			function(data){
+		    	$("#maincontent").html(data);
+		   	});
 }
 </script>
 	<table class="listTable">
@@ -29,7 +43,7 @@ function queryPageList(){
 			<td><s:property value="email"/></td>
 			<td><s:property value="phone"/></td>
 			<td><fmt:formatDate value="${registTime}" type="both" pattern="yyyy.MM.dd"/></td>
-			<td><a href="#">删除</a><a href="#">修改</a></td>
+			<td><a href="#" onclick="deleteUser('${userId}','${userName}');">删除</a><a href="#" onclick="updateUser('${userId }');">修改</a></td>
 		</tr>
 	</s:iterator>
 	</table>

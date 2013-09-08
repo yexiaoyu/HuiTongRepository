@@ -1,5 +1,6 @@
 package cn.com.huitong.service.impl;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -38,5 +39,18 @@ public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements
 		}
 		log.debug("SQL====" + hql);
 		return this.findByHqlAndPage(hql.toString(),param,pb);
+	}
+	public List<String> findAllUserName(){
+		String hql = "SELECT userName FROM AppUser WHERE isValid = 1";
+		List list = this.findByHQL(hql);
+		List<String> userNames = new ArrayList<String>();
+		if(list != null && !"".equals(list) && list.size()>0){
+			for(Object obj : list){
+				String name = (String)obj;
+				userNames.add(name);
+			}
+		}
+		log.debug(userNames);
+		return userNames;
 	}
 }

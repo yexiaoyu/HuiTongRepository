@@ -15,4 +15,6 @@
        default-lazy-init="true">
 	<bean id="appUserService" class="cn.com.huitong.service.impl.AppUserServiceImpl" scope="prototype"></bean>
 	<bean id="gradeService" class="cn.com.huitong.service.impl.GradeServiceImpl" scope="prototype"></bean>
+	<bean id="stockService" class="cn.com.huitong.service.impl.StockServiceImpl" scope="prototype"></bean>
+	<bean id="informationService" class="cn.com.huitong.service.impl.InformationServiceImpl" scope="prototype"></bean>
 </beans>

@@ -7,7 +7,7 @@ $("#formSubmit").click(function() {
 		var url = $("#queryUserForm").attr("action");
 		var data = $("#queryUserForm").serialize();
 		$.post(url, data, function(data) {
-			$("#displyUser").html(data);
+			$("#displyResult").html(data);
 		});
 	//}
 	//菜单显示切换
@@ -18,7 +18,8 @@ $("#formSubmit").click(function() {
 </script>
 <div>
 	<div class="topbar">用户查询</div>
-	<form action="queryUser.do" method="post" id="queryUserForm" namespace="/background">
+	<form action="operateUser.do" method="post" id="queryUserForm" namespace="/background">
+		<s:hidden name="nodeName" value="queryUser"/>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tableLoginForm">
 	    	<tr>
 		    	<td class="t1">用户名</td>

@@ -19,12 +19,12 @@ ul {list-style: none;}
 #menu{margin:0px;padding:0px;text-align:left;list-style:none;}
 #menu .item{width:163px;padding-left:20px;list-style:none;line-height:30px; background:url(skin/skin.gif) no-repeat 0 -506px;margin-top:2px;}
 #menu .item ul {margin-left:10px;padding:0;list-style:none;text-align:left;}
-#menu .item ul li{height:28px;line-height:30px;text-align:left;overflow:hidden;white-space: nowrap;background:url(skin/skin.gif) no-repeat 0 -416px;margin:4px 0 4px 0;}
+#menu .item ul li{height:28px;line-height:30px;text-align:left;overflow:hidden;white-space: nowrap;background-color:#BEDDF2;margin:4px 0 4px 0;}
 #menu .item ul li:hover{background-position:0 -446px;}
 #menu .item ul li a{color:#023979;}
 #menu .item ul li a:hover,#menu .item ul li.light a{color:#000;}
 #menu a{display:block;}
-#menu .item ul li.light{background-position:0 -476px;}
+#menu .item ul li.light{background-color: #5C94DC;}
 #menu .item ul li.light a{color:#FFF;}
 .topbar{background: #99CCFF;font-size: 2em;}
 

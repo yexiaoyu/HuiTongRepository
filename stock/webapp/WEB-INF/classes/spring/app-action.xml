@@ -15,4 +15,7 @@
        default-lazy-init="true">
 	<bean id="AppUserAction" class="cn.com.huitong.action.AppUserAction" scope="prototype"></bean>
 	<bean id="IndexAction" class="cn.com.huitong.action.IndexAction" scope="prototype"></bean>
+	<bean id="StockAction" class="cn.com.huitong.action.StockAction" scope="prototype"></bean>
+	<bean id="InformationAction" class="cn.com.huitong.action.InformationAction" scope="prototype"></bean>
+	<bean id="DwrAction" class="cn.com.huitong.util.DwrAction" scope="prototype"></bean>
 </beans>

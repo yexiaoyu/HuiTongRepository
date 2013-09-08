@@ -1,0 +1,26 @@
+2013-09-05 00:06:12,412 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:07:31,187 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:07:42,629 DEBUG [cn.com.huitong.core.common.Struts2Action] - <addUserEntry.........>
+2013-09-05 00:07:43,459 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:08:56,369 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:09:51,006 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:10:02,357 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=1>
+2013-09-05 00:10:48,019 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:10:55,862 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=1>
+2013-09-05 00:11:06,680 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-05 00:11:06,681 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-05 00:11:06,689 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=92>
+2013-09-05 00:11:09,966 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUserEntry---->
+2013-09-05 00:11:09,977 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=92>
+2013-09-05 00:11:15,276 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-05 00:11:15,281 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-05 00:11:15,306 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=1>
+2013-09-05 00:11:20,243 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-05 00:11:20,244 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-05 00:11:20,246 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=91>
+2013-09-05 00:11:26,323 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-05 00:11:26,324 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-05 00:11:26,325 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=0>
+2013-09-05 00:11:32,003 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-05 00:11:32,004 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-05 00:11:32,005 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=1>
