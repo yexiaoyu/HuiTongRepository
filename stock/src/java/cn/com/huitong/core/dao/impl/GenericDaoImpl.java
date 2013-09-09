@@ -60,7 +60,7 @@ public class GenericDaoImpl<T extends Serializable, E extends Serializable>  imp
 		return (T)getSession().get(this.entityClass, paramPK);
 	}
 
-	public void save(Object paramObject) {
+	public void save(T paramObject) {
 		getSession().save(paramObject);
 	}
 

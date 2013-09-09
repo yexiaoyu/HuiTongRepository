@@ -7,6 +7,7 @@
 		<action name="backIndex" class="IndexAction" method="backGroundIndex">
 			<result name="success">/pages/background/index.jsp</result>
 		</action>
+		<!-- 用户管理 -->
 		<action name="operateUser" class="AppUserAction" method="operateUser">
 			<result name="addUserEntry">/pages/background/user/addUser.jsp</result>
 			<result name="addUser">/pages/background/user/queryUser.jsp</result>
@@ -16,12 +17,21 @@
 			<result name="updateUser">/pages/background/user/queryUser.jsp</result>
 			<result name="deleteUser">/pages/background/user/queryUserResult.jsp</result>
 		</action>
+		<!-- 验证用户名 -->
 		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
 		</action>
+		<!-- 股票内参信息 -->
 		<action name="operateInformation" class="InformationAction" method="operateInformation">
 			<result name="addInformationEntry">/pages/background/information/addInformation.jsp</result>
-			<result name="addInformation">/pages/background/information/addInformation.jsp</result>
+			<result name="addInformation">/pages/background/information/queryInformation.jsp</result>
+			<result name="queryInformationEntry">/pages/background/information/queryInformation.jsp</result>
+			<result name="queryInformation">/pages/background/information/queryInformationResult.jsp</result>
+			<result name="deleteInformation">/pages/background/information/queryInformationResult.jsp</result>
+			<result name="updateInformationEntry">/pages/background/information/addInformation.jsp</result>
+			<result name="updateInformation">/pages/background/information/queryInformation.jsp</result>
+			<result name="detailInformation">/pages/background/information/detailInformation.jsp</result>
 		</action>
+		<!-- 股票管理 -->
 		<action name="operateStock" class="StockAction" method="operateStock">
 			<result name="addStockEntry">/pages/background/stock/addStock.jsp</result>
 			<result name="addStock">/pages/background/stock/queryStock.jsp</result>

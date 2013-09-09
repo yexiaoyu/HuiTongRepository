@@ -17,7 +17,7 @@ public interface GenericDao<T extends Serializable, PK extends Serializable> {
 
 	public abstract boolean exists(PK paramPK);
 
-	public abstract void save(Object paramObject);
+	public abstract void save(T paramObject);
 
 	public abstract void update(T paramT);
 

@@ -80,7 +80,7 @@ $("#formSubmit").click(function() {
 	    	<tr>
 				<td class="t1">验证码</td>
 				<td class="t2"><input class="yzmInput" name="checkCode" id="checkCode" type="text" />
-					<span id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg" />
+					<span id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
 					</span> <a href="javascript:refeshCode()">点击换图</a></td>
 				<td><div id="checkCodeTip" style="width:300px"></div></td>
 	    	</tr>

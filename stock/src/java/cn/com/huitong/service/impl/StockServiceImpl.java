@@ -15,16 +15,16 @@ public class StockServiceImpl extends GenericDaoImpl<Stock, Long> implements Sto
 		return this.findByHqlAndPage(hql, null, pb);
 	}
 	public List<Stock> findAllStockValid(Stock stock, PagingBean pb){
-		StringBuffer hql = new StringBuffer("FROM Stock s WHERE 1 = 1 ");
+		StringBuffer hql = new StringBuffer("FROM Stock s WHERE s.isValid !='-1' ");
 		Map<String, Object> param = new HashMap<String, Object>();
 		if(stock != null && !"".equals(stock)){
 			if(stock.getStockCode() != null && !"".equals(stock.getStockCode())){
 				hql.append(" AND s.stockCode LIKE :stockCode ");
-				param.put("stockCode", stock.getStockCode());
+				param.put("stockCode", "%"+stock.getStockCode()+"%");
 			}
 			if(stock.getStockName() != null && !"".equals(stock.getStockName())){
 				hql.append(" AND s.stockName LIKE :stockName ");
-				param.put("stockName", stock.getStockName());
+				param.put("stockName", "%"+stock.getStockName()+"%");
 			}
 			if(stock.getIsValid() != null && !"".equals(stock.getIsValid())){
 				hql.append(" AND s.isValid=:isValid ");

@@ -25,16 +25,16 @@ public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements
 		Map<String, Object> param = new HashMap<String, Object>();
 		if(user != null && !"".equals(user)){
 			if(user.getUserName() != null && !"".equals(user.getUserName())){
-				hql.append(" AND user.userName=:userName ");
-				param.put("userName", user.getUserName());
+				hql.append(" AND user.userName LIKE :userName ");
+				param.put("userName", "%"+user.getUserName()+"%");
 			}
 			if(user.getGrade() != null && !"".equals(user.getGrade()) && user.getGrade().getGradeId() != null && !"".equals(user.getGrade().getGradeId())){
 				hql.append(" AND user.grade.gradeId=:gradeId ");
 				param.put("gradeId", user.getGrade().getGradeId());
 			}
 			if(user.getRealName() != null && !"".equals(user.getRealName())){
-				hql.append(" AND user.realName=:realName ");
-				param.put("realName", user.getRealName());
+				hql.append(" AND user.realName LIKE :realName ");
+				param.put("realName", "%"+user.getRealName()+"%");
 			}
 		}
 		log.debug("SQL====" + hql);

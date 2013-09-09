@@ -159,6 +159,7 @@ public class AppUserAction extends Struts2Action{
 		if (captcha != null && captcha.isCorrect(checkCode)) {
 			if(user != null && !"".equals(user)){
 				user.setRegistTime(new Date());
+				user.setGrade(gradeService.get(user.getGrade().getGradeId()));
 				appUserService.save(user);
 			}
 		}else{

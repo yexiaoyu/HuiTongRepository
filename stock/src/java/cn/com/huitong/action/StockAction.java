@@ -53,7 +53,7 @@ public class StockAction extends Struts2Action {
 		Captcha captcha = (Captcha) getSession().getAttribute(Captcha.NAME);
 		if (captcha != null && captcha.isCorrect(checkCode)) {
 			if(stock != null && !"".equals(stock)){
-				stock.setIsValid("1");//添加时默认有效
+				//stock.setIsValid("1");//添加时默认有效
 				stockService.save(stock);
 			}
 		}else{

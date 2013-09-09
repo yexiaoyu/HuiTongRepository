@@ -15,10 +15,10 @@
 			<li id="queryStock"><a href="#" onclick="queryStockEntry();">查询股票</a></li>
 		</ul>
 	</li>
-	<li class="item"><a href="#">内参信息管理</a>
+	<li class="item"><a href="#">内参管理</a>
 		<ul class="optiton" id="opt_3">
-			<li id="addInform"><a href="#">添加内参信息</a></li>
-			<li id="queryInform"><a href="#">查询内参信息</a></li>
+			<li id="addInform"><a href="#" onclick="addInformEntry();">添加内参</a></li>
+			<li id="queryInform"><a href="#" onclick="queryInformEntry();">查询内参</a></li>
 		</ul>
 	</li>
 </ul> 
@@ -45,6 +45,18 @@ function addStockEntry(){
 }
 function queryStockEntry(){
 	$.post(rootPath + "/background/operateStock.do",{nodeName : "queryStockEntry"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function addInformEntry(){
+	$.post(rootPath + "/background/operateInformation.do",{nodeName : "addInformationEntry"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function queryInformEntry(){
+	$.post(rootPath + "/background/operateInformation.do",{nodeName : "queryInformationEntry"},
 		function(data){
 			$("#maincontent").html(data);
 		});

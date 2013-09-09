@@ -27,7 +27,7 @@ $("#formSubmit").click(function() {
 		    	<td class="t1">股票名称</td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="stock.stockName" /></td>
 		    	<td class="t1">是否有效</td>
-		    	<td class="t2"><s:select theme="simple" cssClass="selectInput" name="stock.isValid" list="#{'0':'否','1':'是'}"/></td>
+		    	<td class="t2"><s:select theme="simple" cssClass="selectInput" name="stock.isValid" list="#{'0':'否','1':'是'}" headerKey="" headerValue="请选择"/></td>
 	    	</tr>
 	    	<tr>
 	    	<td>&nbsp;</td>

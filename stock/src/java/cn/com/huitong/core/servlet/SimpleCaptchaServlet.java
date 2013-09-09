@@ -108,7 +108,7 @@ public class SimpleCaptchaServlet extends HttpServlet {
 		builder.gimp(new BlockGimpyRenderer(1));
 
 		Captcha captcha = builder.build();
-
+		System.out.println("验证码为："+captcha.getAnswer());
 		CaptchaServletUtil.writeImage(resp, captcha.getImage());
 		req.getSession().setAttribute("simpleCaptcha", captcha);
 	}
