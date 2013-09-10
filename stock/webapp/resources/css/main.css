@@ -26,7 +26,23 @@ ul {list-style: none;}
 #menu a{display:block;}
 #menu .item ul li.light{background-color: #5C94DC;}
 #menu .item ul li.light a{color:#FFF;}
-.topbar{background: #99CCFF;font-size: 2em;}
+.topbar{background: #99CCFF;font-size: 2em;width: 100%;height: 36px;}
+.button01,.button02{width:120px;height:43px;border:none;cursor:pointer;background:url(skin/skin.gif) no-repeat;text-align:center;line-height:43px;display:block;}
+.button01,.button02{display:inline;float:left;margin-right:10px;font-size:14px;font-weight:bolder;}
+.button01{background-position:-197px -342px;color:#FFF;text-shadow:0px 1px 1px #A14101; }
+.button01:hover{background-position:-317px -342px;color:#FFF;}
+.button02{background-position:-437px -342px;color:#333;text-shadow:0px 1px 1px #FFF;}
+.button02:hover{background-position:-557px -342px;color:#000;}
+
+/*login*/
+.loginBox,.loginForm,.regbox,.listInfo,.retakeForm{float:left;display:inline;overflow:hidden;}
+.loginBox{width:98%;min-height:120px;margin-top:10px;background:#FFF;border:1px solid #DDD;padding-bottom:50px;}
+.loginBox div.tt,.retakeForm div.tt{width:100%;height:33px;line-height:33px;background:url(skin/bg-x.gif) repeat-x 0 -63px;}
+.loginForm{width:49%;min-height:100px;margin:20px 0 20px 20px;border-right:1px solid #E9EDF0;}
+.retakeForm{width:49%;min-height:100px;margin:20px 0 20px 20px;}
+.regbox{width:280px;height:130px;margin:50px 0 0 50px;color:#999;}
+.regbox b{font-size:14px;color:#333;}
+.regbox p{padding:5px;line-height:180%;}
 
 .loginForm{min-height:100px;margin:20px 0 20px 20px;right:10px;overflow:auto;}
 table.tableLoginForm{left:220px;right:10px;overflow:auto;border-collapse:collapse;}
@@ -51,7 +67,7 @@ table.tableLoginForm tr{margin: 1px;}
 
 table.listTable,table.qaTable{width:100%;border-collapse:collapse;border-top:1px solid #D4D4D4;border-left:1px solid #D4D4D4;margin-bottom:10px;display: b}
 table.listTable th,table.listTable td,table.qaTable th,table.qaTable td{padding:5px;border-right:1px solid #D4D4D4;border-bottom:1px solid #D4D4D4;text-align:left;}
-table.listTable th{height:22px;line-height:22px;background:url(skin/bg-x.gif) repeat-x 0 -63px;}
+table.listTable th{height:22px;line-height:22px;background:url(skin/bg-x.gif) repeat-x 0 -63px;text-align: center;}
 table.listTable td{height:25px;}
 table.listTable td a{margin-right:8px;}
 
@@ -72,3 +88,7 @@ div.page span.pageinfo b {color: #666; margin:0px 2px 0px 2px;}
 .qatt{height:12px;padding:10px;margin:10px 0 0 0;background:url(skin/bg-x.gif) repeat-x 0 -63px;font-size:9pt;font-weight:bolder;color:#333;border:1px solid #D4D4D4;overflow:hidden;}
 table.qaTable th{text-align:right;white-space:nowrap;color:#333;font-size:14px;font-weight:normal;background:#EFEFEF;}
 table.qaTable th,table.qaTable td{padding:8px 5px 8px 5px;vertical-align:top;}
+
+/**fore*/
+div.grade{float:left;width: 33%;height:34px; overflow:hidden;line-height:34px;text-align: center;}
+div.notice{width: 90%;height:34px; overflow:hidden;line-height:34px;margin: 5px;}

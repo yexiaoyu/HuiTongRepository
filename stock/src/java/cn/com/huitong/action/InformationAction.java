@@ -60,6 +60,26 @@ public class InformationAction extends Struts2Action{
 		stockList = stockService.findAllStockValid(pb);
 		return result;
 	}
+	/**
+	 * 前台访问内参的入口
+	 * @return
+	 */
+	public String operateInform(){
+		String result = SUCCESS;
+		if(nodeName != null && !"".equals(nodeName)){
+			logger.debug("nodeName==" + nodeName);
+			result = nodeName;
+			if(nodeName.equals("informIndex") || nodeName.equals("queryInformPage")){
+				this._informIndex();
+			}
+		}
+		return result;
+	}
+	
+	private void _informIndex() {
+		logger.debug("_informIndex--------");
+		this._queryInformation();
+	}
 	private void _detailInformation() {
 		logger.debug("_detailInformation--------" + informId);
 		information = informationService.get(informId);

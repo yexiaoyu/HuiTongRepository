@@ -17,7 +17,9 @@
 		  </tr>
 		  <tr>
 		    <th>主题</th>
-		    <td colspan="5">${information.title }</td>
+		    <td colspan="3">${information.title }</td>
+		    <th>录入时间</th>
+		    <td ><fmt:formatDate value="${information.inputTime}" type="both" pattern="yyyy.MM.dd HH:mm:ss"/></td>
 		  </tr>
 		  <tr>
 		    <th>内容</th>

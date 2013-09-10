@@ -3,12 +3,22 @@
 	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
 	"http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
+	<package name="index" extends="struts-default" namespace="/">
+		<action name="index" class="IndexAction" method="foreIndex">
+			<result name="success">/pages/fore/index.jsp</result>
+		</action>
+	</package>
 	<package name="fore" extends="struts-default" namespace="/fore">
 		<action name="index" class="AppUserAction" method="index">
-			<result>/index.jsp</result>
+			<result name="success">/index.jsp</result>
 		</action>
 		<action name="loginIndex" class="AppUserAction" method="loginIndex">
-			<result>/pages/register.jsp</result>
+			<result name="success">/pages/register.jsp</result>
 		</action>
+		<action name="operateInform" class="InformationAction" method="operateInform">
+			<result name="informIndex">/pages/fore/inform/informIndex.jsp</result>
+			<result name="queryInformPage">/pages/fore/inform/informIndex.jsp</result>
+		</action>
+		
 	</package>
 </struts>

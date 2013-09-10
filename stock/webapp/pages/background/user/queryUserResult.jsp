@@ -42,7 +42,7 @@ function updateUser(userId){
 			<td><s:property value="realName"/></td>
 			<td><s:property value="email"/></td>
 			<td><s:property value="phone"/></td>
-			<td><fmt:formatDate value="${registTime}" type="both" pattern="yyyy.MM.dd"/></td>
+			<td><fmt:formatDate value="${inputTime}" type="both" pattern="yyyy.MM.dd HH:mm:ss"/></td>
 			<td><a href="#" onclick="deleteUser('${userId}','${userName}');">删除</a><a href="#" onclick="updateUser('${userId }');">修改</a></td>
 		</tr>
 	</s:iterator>

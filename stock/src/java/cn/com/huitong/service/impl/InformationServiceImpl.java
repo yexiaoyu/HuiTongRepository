@@ -37,6 +37,7 @@ public class InformationServiceImpl extends GenericDaoImpl<Information, Long> im
 				param.put("isValid", information.getIsValid());
 			}
 		}
+		hql.append("ORDER BY s.informId DESC");
 		log.debug("SQL====" + hql);
 		return this.findByHqlAndPage(hql.toString(),param,pb);
 	}
