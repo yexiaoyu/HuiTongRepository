@@ -27,11 +27,11 @@ public class Information implements Serializable {
 	@Column(name="informId")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long informId;
-	@ManyToOne(fetch = FetchType.LAZY,targetEntity=Grade.class)
+	@ManyToOne(fetch = FetchType.EAGER,targetEntity=Grade.class)
 	@JoinColumn(name = "gradeId", nullable = false)
 	/**用户等级**/
 	private Grade grade;
-	@ManyToOne(fetch = FetchType.LAZY, targetEntity=Stock.class)
+	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Stock.class)
 	@JoinColumn(name = "stockId", nullable = false)
 	/**股票**/
 	private Stock stock;

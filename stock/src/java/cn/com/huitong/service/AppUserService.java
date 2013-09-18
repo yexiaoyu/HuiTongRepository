@@ -24,4 +24,6 @@ public interface AppUserService extends GenericDao<AppUser, Long>{
 	 * @return
 	 */
 	public List<String> findAllUserName();
+	
+	public AppUser findAppUserByUserName(String userName);
 }

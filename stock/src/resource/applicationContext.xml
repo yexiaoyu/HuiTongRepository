@@ -14,7 +14,8 @@
        http://www.springframework.org/schema/context/spring-context-3.2.xsd"
        default-lazy-init="true">
 	<!-- 配置dbcp连接的配置文件-->
-	<context:property-placeholder location="classpath:jdbc.properties" /> 
+	<context:property-placeholder location="classpath:jdbc.properties" />
+	<context:annotation-config></context:annotation-config>   
 	<context:component-scan base-package="cn.com.huitong.*"/>
 	<!-- 配置数据源 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
@@ -57,14 +58,19 @@
 		</props>
 		</property>
 		<!-- 写入具体需要持久化的类 -->
-		<property name="annotatedClasses">
-			<list>
+		<!--<property name="annotatedClasses">
+			 <list>
 				<value>cn.com.huitong.model.Grade</value>
 				<value>cn.com.huitong.model.AppUser</value>
 				<value>cn.com.huitong.model.Stock</value>
 				<value>cn.com.huitong.model.Information</value>
-			</list>
-		</property>
+			</list> 
+		</property> -->
+		<property name="packagesToScan" >
+			<list>
+		        <value>cn.com.huitong.model</value>
+		    </list>
+		</property> 
 	</bean>
 	<!-- 事务管理   下面使用AOP配置事务管理  -->
 	<bean id="transactionManager"
@@ -120,7 +126,8 @@
 	</bean>-->
 	<!-- 配置anction 
 	<bean id="loginAction" class="com.huitong.action.LoginAction"
-		scope="prototype" />-->
+		scope="prototype" />
 	<import resource="spring/app-action.xml"/>
 	<import resource="spring/app-service.xml"/>
+	<import resource="spring/app-security.xml"/>-->
 </beans> 

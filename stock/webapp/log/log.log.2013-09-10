@@ -1,0 +1,944 @@
+2013-09-10 00:00:20,502 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:00:20,583 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:00:20,584 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:00:20,585 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:00:20,593 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:00:22,063 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:00:22,063 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:00:22,073 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:04:24,965 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:04:24,965 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:04:24,966 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:04:24,967 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:04:24,977 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:04:37,781 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:04:37,781 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------3>
+2013-09-10 00:04:37,792 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:04:52,239 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:04:52,239 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:04:52,240 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:04:52,241 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:04:52,251 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:05:01,166 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:05:01,167 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:05:01,177 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:05:36,426 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:05:36,426 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:05:36,427 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:05:36,428 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:05:36,434 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:05:37,895 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:05:37,895 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:05:37,903 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:07:21,543 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:07:21,543 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:07:21,544 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:07:21,545 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:07:21,553 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:07:23,097 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:07:23,097 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:07:23,105 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:07:52,768 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:07:52,768 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:07:52,771 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:07:52,773 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:07:52,779 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:10:04,746 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:10:04,746 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------3>
+2013-09-10 00:10:04,753 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:10:53,586 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:10:53,586 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:10:53,594 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:10:53,595 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:10:53,611 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:10:54,743 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:10:54,744 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:10:54,754 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:07,478 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:11:07,478 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:11:07,487 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:11:07,488 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:11:07,502 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:09,352 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:11:09,352 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:11:09,368 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:31,389 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:11:31,389 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:11:31,390 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:11:31,391 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:11:31,403 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:32,875 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:11:32,875 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------3>
+2013-09-10 00:11:32,883 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:40,851 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:11:40,851 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:11:40,852 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:11:40,852 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
+2013-09-10 00:11:40,860 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:42,172 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:11:42,172 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------2>
+2013-09-10 00:11:42,180 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:11:50,687 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addInformationEntry>
+2013-09-10 00:11:50,690 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:12:28,846 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_' on 'class cn.com.huitong.util.DwrAction: Error setting expression '_' with value ['1378743052191', ]>
+Error setting expression '_' with value ['1378743052191', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named '_' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 00:12:28,889 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'clientid' on 'class cn.com.huitong.util.DwrAction: Error setting expression 'clientid' with value ['checkCode', ]>
+Error setting expression 'clientid' with value ['checkCode', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named 'clientid' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 00:12:30,331 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addInformation>
+2013-09-10 00:12:30,332 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_addStock---->
+2013-09-10 00:12:30,542 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:12:30,544 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1  AND s.title LIKE :title  AND s.content LIKE :content  AND s.stock.stockId=:stockId  AND s.grade.gradeId=:gradeId  AND s.isValid=:isValid >
+2013-09-10 00:12:30,591 DEBUG [cn.com.huitong.model.Information] - <TotalItems=1>
+2013-09-10 00:12:30,613 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:14:01,981 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformation>
+2013-09-10 00:14:01,981 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:14:01,982 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1  AND s.title LIKE :title  AND s.content LIKE :content  AND s.stock.stockId=:stockId  AND s.grade.gradeId=:gradeId  AND s.isValid=:isValid >
+2013-09-10 00:14:01,985 DEBUG [cn.com.huitong.model.Information] - <TotalItems=1>
+2013-09-10 00:14:01,992 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:14:04,543 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:14:04,543 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------5>
+2013-09-10 00:14:04,553 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:17:01,749 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-10 00:17:01,749 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 00:17:01,750 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 00:17:01,751 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 00:17:01,761 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:17:04,579 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:17:04,579 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------3>
+2013-09-10 00:17:04,591 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:17:56,588 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:17:56,588 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------3>
+2013-09-10 00:17:56,606 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 00:18:04,148 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 00:18:04,148 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------5>
+2013-09-10 00:18:04,156 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 21:57:14,507 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Dispatcher initialization failed>
+Unable to load configuration. - action - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:7:63
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:70)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:446)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:490)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:275)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:397)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:108)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3800)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4450)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:791)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:771)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:526)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1053)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:722)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:516)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Caused by: Error building results for action index in namespace / - action - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:7:63
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:437)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:552)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:292)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:112)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:250)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	... 31 more
+Caused by: No result type specified for result named 'success', perhaps the parent package does not specify the result type? - result - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:8:12
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.buildResults(XmlConfigurationProvider.java:712)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:435)
+	... 36 more
+2013-09-10 21:59:09,976 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Dispatcher initialization failed>
+Unable to load configuration. - action - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:7:63
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:70)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:446)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:490)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:275)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:397)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:108)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3800)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4450)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:791)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:771)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:526)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1053)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:722)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:516)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Caused by: Error building results for action index in namespace / - action - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:7:63
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:437)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addPackage(XmlConfigurationProvider.java:552)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.loadPackages(XmlConfigurationProvider.java:292)
+	at org.apache.struts2.config.StrutsXmlConfigurationProvider.loadPackages(StrutsXmlConfigurationProvider.java:112)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:250)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	... 31 more
+Caused by: No result type specified for result named 'success', perhaps the parent package does not specify the result type? - result - file:/E:/huitong/HuiTongRepository/stock/webapp/WEB-INF/classes/struts/struts-fore.xml:8:27
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.buildResults(XmlConfigurationProvider.java:712)
+	at com.opensymphony.xwork2.config.providers.XmlConfigurationProvider.addAction(XmlConfigurationProvider.java:435)
+	... 36 more
+2013-09-10 22:18:43,954 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:19:17,261 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:19:33,065 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:19:53,190 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:20:39,385 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:21:16,577 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/background/operateInform.do>
+There is no Action mapped for namespace [/background] and action name [operateInform] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+2013-09-10 22:21:55,391 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:21:55,391 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:22:10,900 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:22:10,900 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:22:11,899 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:22:11,899 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:22:46,703 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:22:46,703 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:25:37,635 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:25:37,635 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:25:52,518 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:25:52,518 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:26:05,561 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:26:05,576 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:28:10,308 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:28:10,308 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:30:50,880 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:30:50,880 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:32:14,997 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:32:14,997 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:34:26,740 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:34:26,740 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:35:15,304 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:35:15,304 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:37:32,421 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:37:32,421 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:39:40,683 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:39:40,684 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:42:36,139 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:42:36,139 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:44:09,564 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:44:09,565 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:44:51,607 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:44:51,607 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:45:15,504 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:45:15,504 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:54:56,892 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:54:56,893 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:54:56,893 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 22:54:56,939 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 22:54:58,182 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 22:55:35,409 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-10 22:55:35,409 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-10 22:55:35,410 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-10 22:55:35,512 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-10 22:56:36,032 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:56:36,032 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:56:36,032 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 22:56:36,036 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 22:56:36,037 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 22:57:01,660 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:57:01,660 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:57:01,660 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 22:57:01,661 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 22:57:01,662 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 22:57:30,800 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:57:30,800 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:57:30,800 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 22:57:30,801 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 22:57:30,803 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 22:58:03,397 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 22:58:03,397 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 22:58:03,397 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 22:58:03,398 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 22:58:03,399 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 23:04:08,298 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:04:08,299 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:04:08,299 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:04:08,345 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 23:04:09,123 DEBUG [cn.com.huitong.model.Information] - <TotalItems=3>
+2013-09-10 23:04:19,990 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addInformationEntry>
+2013-09-10 23:04:20,046 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:04:38,066 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_' on 'class cn.com.huitong.util.DwrAction: Error setting expression '_' with value ['1378822023746', ]>
+Error setting expression '_' with value ['1378822023746', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named '_' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 23:04:38,111 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'clientid' on 'class cn.com.huitong.util.DwrAction: Error setting expression 'clientid' with value ['checkCode', ]>
+Error setting expression 'clientid' with value ['checkCode', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named 'clientid' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 23:04:39,291 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addInformation>
+2013-09-10 23:04:39,291 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_addStock---->
+2013-09-10 23:04:39,661 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:04:39,662 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1  AND s.title LIKE :title  AND s.content LIKE :content  AND s.stock.stockId=:stockId  AND s.grade.gradeId=:gradeId  AND s.isValid=:isValid >
+2013-09-10 23:04:39,745 DEBUG [cn.com.huitong.model.Information] - <TotalItems=1>
+2013-09-10 23:04:39,778 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:04:44,134 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:04:44,134 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:04:44,134 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:04:44,135 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 23:04:44,136 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:05:28,445 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 23:05:28,445 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------6>
+2013-09-10 23:05:28,458 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:07:06,921 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 23:07:06,921 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------6>
+2013-09-10 23:07:06,933 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:07:23,982 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==detailInformation>
+2013-09-10 23:07:23,982 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailInformation--------6>
+2013-09-10 23:07:23,994 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:08:06,623 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:08:06,624 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:08:06,624 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:08:06,625 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 23:08:06,627 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:08:53,772 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==updateInformationEntry>
+2013-09-10 23:08:53,772 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_updateInformationEntry--------6>
+2013-09-10 23:08:53,783 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:09:32,637 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting '_' on 'class cn.com.huitong.util.DwrAction: Error setting expression '_' with value ['1378822023752', ]>
+Error setting expression '_' with value ['1378822023752', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named '_' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 23:09:32,666 ERROR [com.opensymphony.xwork2.interceptor.ParametersInterceptor] - <Developer Notification (set struts.devMode to false to disable this message):
+Unexpected Exception caught setting 'clientid' on 'class cn.com.huitong.util.DwrAction: Error setting expression 'clientid' with value ['checkCode', ]>
+Error setting expression 'clientid' with value ['checkCode', ] - [unknown location]
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.handleRuntimeException(OgnlValueStack.java:197)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:174)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:148)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:318)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:231)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:239)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:191)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:73)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:91)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:252)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:100)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ScopedModelDrivenInterceptor.intercept(ScopedModelDrivenInterceptor.java:141)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:145)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:171)
+	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:98)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:161)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:164)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:193)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:189)
+	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:246)
+	at org.apache.struts2.impl.StrutsActionProxy.execute(StrutsActionProxy.java:54)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:563)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.springframework.orm.hibernate4.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:152)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: No object in the CompoundRoot has a publicly accessible property named 'clientid' (no setter could be found). - [unknown location]
+	at com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor.setProperty(CompoundRootAccessor.java:106)
+	at ognl.OgnlRuntime.setProperty(OgnlRuntime.java:2332)
+	at ognl.ASTProperty.setValueBody(ASTProperty.java:127)
+	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220)
+	at ognl.SimpleNode.setValue(SimpleNode.java:301)
+	at ognl.Ognl.setValue(Ognl.java:737)
+	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:234)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:183)
+	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:170)
+	... 53 more
+2013-09-10 23:09:33,604 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==updateInformation>
+2013-09-10 23:09:33,604 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_updateInformation-------->
+2013-09-10 23:09:33,978 DEBUG [cn.com.huitong.util.BeanUtil] - <BeanUtils.copyProperties(cn.com.huitong.model.Information@5f0d2e, cn.com.huitong.model.Information@1dba089)>
+2013-09-10 23:09:34,249 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:09:34,250 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1  AND s.title LIKE :title  AND s.content LIKE :content  AND s.stock.stockId=:stockId  AND s.grade.gradeId=:gradeId  AND s.isValid=:isValid >
+2013-09-10 23:09:34,252 DEBUG [cn.com.huitong.model.Information] - <TotalItems=1>
+2013-09-10 23:09:34,259 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-10 23:09:42,834 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:09:42,835 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:09:42,835 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:09:42,842 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 23:09:42,851 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:31,581 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:31,581 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:31,581 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:31,583 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 >
+2013-09-10 23:11:31,584 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:33,285 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:33,285 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:33,285 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:33,286 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:33,428 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:33,500 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:33,500 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:33,500 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:33,504 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:33,510 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:33,665 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:33,665 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:33,665 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:33,667 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:33,669 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:33,822 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:33,822 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:33,822 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:33,825 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:33,826 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:34,208 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:34,209 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:34,209 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:34,209 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:34,210 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:34,493 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:34,493 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:34,493 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:34,494 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:34,495 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:34,714 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:34,714 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:34,714 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:34,715 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:34,717 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:34,960 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:34,960 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:34,960 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:34,964 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:34,965 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:35,152 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:35,152 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:35,153 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:35,154 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:35,155 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:11:35,344 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:11:35,344 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:11:35,344 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:11:35,345 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:11:35,347 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-10 23:12:08,879 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-10 23:12:08,879 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-10 23:12:08,879 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-10 23:12:08,880 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-10 23:12:08,884 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>

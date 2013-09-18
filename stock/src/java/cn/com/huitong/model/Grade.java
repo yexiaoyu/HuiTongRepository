@@ -43,5 +43,9 @@ public class Grade implements Serializable {
 	public void setGradeName(String gradeName) {
 		this.gradeName = gradeName;
 	}
+	@Override
+	public String toString() {
+		return gradeCode;
+	}
 
 }

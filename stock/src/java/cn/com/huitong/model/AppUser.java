@@ -1,8 +1,12 @@
 package cn.com.huitong.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -14,6 +18,10 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 /**
  * 用户
  * @author Administrator
@@ -21,14 +29,15 @@ import javax.persistence.TemporalType;
  */
 @Entity
 @Table(name="appuser")
-public class AppUser implements Serializable {
+public class AppUser implements Serializable,UserDetails {
 	private static final long serialVersionUID = 1L;
+	
 	@Id
 	@Column(name="userid")
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	/**ID*/
 	private Long userId;
-	@ManyToOne(fetch = FetchType.LAZY, targetEntity=Grade.class)
+	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Grade.class, cascade = CascadeType.ALL)
 	@JoinColumn(name = "gradeId", nullable = false)
 	/**用户等级*/
 	private Grade grade;
@@ -57,6 +66,8 @@ public class AppUser implements Serializable {
 	@Column(name="isValid")
 	/**是否有效*/
 	private String isValid;
+	@Column(name="role")
+	private String role;
 	public Long getUserId() {
 		return userId;
 	}
@@ -118,4 +129,49 @@ public class AppUser implements Serializable {
 		this.isValid = isValid;
 	}
 	
+	public String getRole() {
+		return role;
+	}
+	public void setRole(String role) {
+		this.role = role;
+	}
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		// TODO Auto-generated method stub
+		List<GrantedAuthority> authoritys = new ArrayList<GrantedAuthority>();
+		GrantedAuthority authority = new SimpleGrantedAuthority(role);
+		authoritys.add(authority);
+		return authoritys;
+	}
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return this.passWord;
+	}
+	public String getUsername() {
+		// TODO Auto-generated method stub
+		return this.userName;
+	}
+	public boolean isAccountNonExpired() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	public boolean isAccountNonLocked() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	public boolean isCredentialsNonExpired() {
+		// TODO Auto-generated method stub
+		return true;
+	}
+	public boolean isEnabled() {
+		// TODO Auto-generated method stub
+		if("1".equals(isValid)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+	@Override
+	public String toString() {
+		return "appuser";
+	}
 }

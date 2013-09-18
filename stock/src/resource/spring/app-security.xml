@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/security
+           http://www.springframework.org/schema/security/spring-security.xsd">
+    <global-method-security pre-post-annotations="enabled" /> 
+     
+	<http pattern="/resources/css/**" security="none"/>
+	<http pattern="/resources/images/**" security="none"/>
+	<http pattern="/resources/js/**" security="none"/>
+	<http pattern="/CaptchaImg*" security="none"/>
+	<http pattern="/pages/fore/login.jsp*" security="none"/>
+	<http>
+		<intercept-url pattern="/**" access="ROLE_USER" />
+		<form-login login-page='/pages/fore/login.jsp' default-target-url='/pages/fore/index.jsp' always-use-default-target='true'/>
+		<logout />
+		<remember-me key="RememberAppUser"/>
+	</http>
+	<authentication-manager alias="myAuthenticationManager">
+		<authentication-provider user-service-ref="appUserService"/>
+			<!-- <user-service>
+				<user name="jimi" password="123" authorities="ROLE_USER, ROLE_ADMIN" />
+				<user name="bob" password="456" authorities="ROLE_USER" />
+			</user-service>
+			</authentication-provider> -->
+	</authentication-manager>
+</beans:beans>

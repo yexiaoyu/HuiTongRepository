@@ -5,13 +5,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
 import cn.com.huitong.core.common.PagingBean;
 import cn.com.huitong.core.dao.impl.GenericDaoImpl;
 import cn.com.huitong.model.AppUser;
 import cn.com.huitong.model.Grade;
 import cn.com.huitong.service.AppUserService;
 
-public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements AppUserService{
+public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements AppUserService,UserDetailsService{
 
 //	public void saveAppUser(AppUser appUser){
 //		this.save(appUser);
@@ -52,5 +56,31 @@ public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements
 		}
 		log.debug(userNames);
 		return userNames;
+	}
+	
+	public AppUser findAppUserByUserName(String userName){
+		String hql = "FROM AppUser WHERE userName=:userName";
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("userName", userName);
+		List<AppUser> userList = this.findByHQL(hql,param);
+		AppUser user = null;
+		if(userList != null && !"".equals(userList) && userList.size()>0){
+			user = userList.get(0);
+		}
+		return user;
+	}
+	//spring security 
+	public UserDetails loadUserByUsername(String arg0) throws UsernameNotFoundException {
+		String hql = "FROM AppUser WHERE userName=:userName";
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("userName", arg0);
+		List<AppUser> userList = this.findByHQL(hql,param);
+		AppUser user = null;
+		if(userList != null && !"".equals(userList) && userList.size()>0){
+			user = userList.get(0);
+		}else{
+			throw new UsernameNotFoundException("用户未找到");
+		}
+		return user;
 	}
 }

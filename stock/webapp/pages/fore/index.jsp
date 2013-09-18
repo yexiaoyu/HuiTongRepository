@@ -5,9 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn"/>
-<link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="${ctx}/resources/js/jquery-2.0.3.js"></script>
-<script type="text/javascript" src="${ctx}/resources/js/leftMenu.js"></script>
 <style type="text/css">
 .top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
 .side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
@@ -23,7 +20,7 @@
 <body>
 <div class="top"><%@ include file="/resources/jsp/header.jsp"%></div>
 <div class="side"><%@ include file="/resources/jsp/leftmenu.jsp"%></div>
-<div class="main" id="maincontent"><%@ include file="/pages/fore/login.jsp"%></div>
+<div class="main" id="maincontent"></div>
 <div class="adside"><span  style="font-size: 3em;">广告</span><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />

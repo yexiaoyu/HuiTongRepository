@@ -7,6 +7,9 @@
 		<action name="index" class="IndexAction" method="foreIndex">
 			<result name="success">/pages/fore/index.jsp</result>
 		</action>
+		<action name="login" class="LoginAction" method="login">
+			<result name="success">/pages/fore/index.jsp</result>
+		</action>
 	</package>
 	<package name="fore" extends="struts-default" namespace="/fore">
 		<action name="index" class="AppUserAction" method="index">
