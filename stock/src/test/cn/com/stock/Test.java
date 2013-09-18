@@ -19,5 +19,6 @@ public class Test extends BaseTestCase {
 		PagingBean pagingBean = new PagingBean(1,15);
 		List<AppUser> userList = appUserService.findAllValidUser(pagingBean);
 		System.out.println(userList);
+		System.out.println("test svn to github");
 	}
 }
