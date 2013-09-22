@@ -12,6 +12,9 @@
 .adside { position:absolute;right:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
 .bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
 </style>
+<link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
+<script type="text/javascript" src="${ctx}/resources/js/leftMenu.js"></script>
 <script type="text/javascript">
 
 </script>

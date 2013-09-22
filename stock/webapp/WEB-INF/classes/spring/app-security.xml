@@ -10,6 +10,7 @@
 	<http pattern="/resources/css/**" security="none"/>
 	<http pattern="/resources/images/**" security="none"/>
 	<http pattern="/resources/js/**" security="none"/>
+	<http pattern="/ueditor/**" security="none"/>
 	<http pattern="/CaptchaImg*" security="none"/>
 	<http pattern="/pages/fore/login.jsp*" security="none"/>
 	<http>

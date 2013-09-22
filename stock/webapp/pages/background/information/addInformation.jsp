@@ -1,11 +1,10 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="/resources/jsp/taglibs.jsp" %>
-<script type="text/javascript" charset="utf-8" src="${ctx }/ueditor/ueditor.config.js"></script>  
-<script type="text/javascript" charset="utf-8" src="${ctx }/ueditor/ueditor.parse.js"></script>  
-<script type="text/javascript" charset="utf-8" src="${ctx }/ueditor/ueditor.all.js"></script>  
-<link rel="stylesheet" type="text/css" href="${ctx }/ueditor/themes/default/css/ueditor.css"/> 
-
 <link type="text/css" rel="stylesheet" href="${ctx }/resources/css/validator.css"></link>
+<link rel="stylesheet" type="text/css" href="${ctx }/ueditor/themes/default/css/ueditor.css"/> 
+<script type="text/javascript" src="${ctx }/ueditor/ueditor.config.js"></script>  
+<script type="text/javascript" src="${ctx }/ueditor/ueditor.parse.js"></script>  
+<script type="text/javascript" src="${ctx }/ueditor/ueditor.all.js"></script>  
 <script type="text/javascript" src="${ctx }/resources/js/formValidator.js"></script>
 <script type="text/javascript" src="${ctx }/resources/js/formValidatorRegex.js"></script> 
 <script type="text/javascript">

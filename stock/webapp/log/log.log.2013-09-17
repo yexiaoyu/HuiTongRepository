@@ -1,0 +1,513 @@
+2013-09-17 00:14:14,608 ERROR [org.springframework.web.context.ContextLoader] - <Context initialization failed>
+org.springframework.beans.factory.xml.XmlBeanDefinitionStoreException: Line 15 in XML document from file [E:\huitong\HuiTongRepository\stock\webapp\WEB-INF\classes\spring\app-security.xml] is invalid; nested exception is org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content was found starting with element 'user-service'. One of '{"http://www.springframework.org/schema/security":authentication-provider, "http://www.springframework.org/schema/security":ldap-authentication-provider}' is expected.
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:396)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:130)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:537)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:451)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3934)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4429)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:791)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:771)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:526)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1053)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:722)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:516)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+Caused by: org.xml.sax.SAXParseException: cvc-complex-type.2.4.a: Invalid content was found starting with element 'user-service'. One of '{"http://www.springframework.org/schema/security":authentication-provider, "http://www.springframework.org/schema/security":ldap-authentication-provider}' is expected.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator$XSIErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.reportSchemaError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.handleStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.xs.XMLSchemaValidator.startElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.springframework.beans.factory.xml.DefaultDocumentLoader.loadDocument(DefaultDocumentLoader.java:75)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:388)
+	... 37 more
+2013-09-17 00:14:14,669 WARN [org.springframework.web.context.support.XmlWebApplicationContext] - <Exception thrown from ApplicationListener handling ContextClosedEvent>
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: Root WebApplicationContext: startup date [Tue Sep 17 00:14:13 GMT+08:00 2013]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:334)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1049)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1010)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:559)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:143)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:3973)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4577)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4474)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:791)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:771)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:526)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1053)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:722)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:516)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+2013-09-17 00:14:14,671 WARN [org.springframework.web.context.support.XmlWebApplicationContext] - <Exception thrown from LifecycleProcessor on context close>
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Tue Sep 17 00:14:13 GMT+08:00 2013]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:360)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1010)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:559)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:143)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:3973)
+	at org.apache.catalina.core.StandardContext.stop(StandardContext.java:4577)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4474)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:791)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:771)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:526)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:630)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:556)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:491)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1206)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:314)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1053)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:722)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1045)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:516)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:710)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:583)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:288)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:413)
+2013-09-17 00:15:51,516 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addUserEntry>
+2013-09-17 00:15:54,498 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 00:15:54,498 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 00:15:54,500 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 00:28:09,631 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 00:28:09,631 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 00:28:09,680 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 00:29:09,623 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 00:29:09,623 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 00:29:09,672 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 00:29:20,220 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 00:29:20,220 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 00:29:20,221 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 00:29:29,837 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-17 00:29:29,838 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 00:29:29,840 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 09:28:28,908 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 09:28:28,933 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 09:28:28,982 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 09:31:16,709 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 09:31:16,710 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 09:31:16,993 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 09:31:18,074 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 09:37:02,923 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addUserEntry>
+2013-09-17 09:37:06,917 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 09:37:06,917 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 09:37:06,918 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 09:38:20,747 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 09:38:20,747 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 09:38:20,802 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 09:38:21,432 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:08:11,869 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:08:11,870 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:08:11,925 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:08:12,591 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:08:17,068 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 10:08:17,068 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 10:08:17,070 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 10:08:17,178 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 10:08:25,365 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStock>
+2013-09-17 10:08:25,365 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 10:08:25,366 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1'  AND s.stockCode LIKE :stockCode >
+2013-09-17 10:08:25,393 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=6>
+2013-09-17 10:09:33,086 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:09:33,087 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:09:33,088 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:09:33,090 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:09:42,868 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUser>
+2013-09-17 10:09:42,868 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:09:42,869 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-17 10:09:42,881 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=5>
+2013-09-17 10:11:02,455 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 10:11:02,455 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 10:11:02,456 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 10:11:02,526 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 10:11:03,272 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 10:17:07,081 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:17:07,081 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:17:07,083 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:17:07,092 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:17:49,953 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:17:49,954 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:17:49,955 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:17:49,956 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:21:34,503 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:21:34,503 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:21:34,505 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:21:34,506 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:23:50,728 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:23:50,728 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:23:50,731 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:23:50,732 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:24:06,950 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:24:06,950 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:24:06,972 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:24:07,001 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:26:31,721 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:26:31,721 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:26:31,722 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:26:31,723 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:26:44,394 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 10:26:44,395 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 10:26:44,396 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 10:26:44,410 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 10:26:46,827 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:26:46,827 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:26:46,828 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:26:46,829 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:27:24,366 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:27:24,366 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:27:24,367 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:27:24,369 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:28:51,693 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:28:51,693 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:28:56,804 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:28:56,813 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:32:57,864 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:32:57,864 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:33:00,470 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:33:00,504 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:33:06,456 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 10:33:06,456 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 10:33:06,457 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 10:33:06,465 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 10:33:09,966 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-17 10:33:09,967 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 10:33:09,968 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 10:33:09,977 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 10:33:10,009 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 10:33:18,715 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:33:18,715 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:33:24,527 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:33:24,538 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:36:04,902 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Dispatcher initialization failed>
+java.lang.RuntimeException: java.lang.InterruptedException
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:90)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.get(ReferenceCache.java:116)
+	at com.opensymphony.xwork2.inject.ContainerImpl$ConstructorInjector.<init>(ContainerImpl.java:356)
+	at com.opensymphony.xwork2.inject.ContainerImpl$5.create(ContainerImpl.java:311)
+	at com.opensymphony.xwork2.inject.ContainerImpl$5.create(ContainerImpl.java:307)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache$CallableCreate.call(ReferenceCache.java:150)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:76)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.get(ReferenceCache.java:116)
+	at com.opensymphony.xwork2.inject.ContainerImpl.getConstructor(ContainerImpl.java:607)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$5.create(ContainerBuilder.java:204)
+	at com.opensymphony.xwork2.inject.Scope$2$1.create(Scope.java:51)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$3.create(ContainerBuilder.java:93)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$7.call(ContainerBuilder.java:487)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$7.call(ContainerBuilder.java:484)
+	at com.opensymphony.xwork2.inject.ContainerImpl.callInContext(ContainerImpl.java:584)
+	at com.opensymphony.xwork2.inject.ContainerBuilder.create(ContainerBuilder.java:484)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.createBootstrapContainer(DefaultConfiguration.java:324)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:221)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:446)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:490)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:275)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:397)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:108)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3800)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4450)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1173)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:77)
+	... 38 more
+2013-09-17 10:36:23,196 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:36:23,197 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:36:23,258 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:36:23,919 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:37:16,734 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:37:16,735 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:37:16,736 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:37:16,737 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:37:20,078 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==addUserEntry>
+2013-09-17 10:37:21,189 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:37:21,189 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:37:21,190 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:37:21,191 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:37:37,081 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:37:37,082 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:37:37,083 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:37:37,084 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:42:59,741 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:42:59,743 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:42:59,800 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:43:00,425 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:44:07,375 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:44:07,375 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:44:07,377 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:44:07,379 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:44:48,154 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:44:48,154 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:44:48,155 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:44:48,157 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:45:03,923 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:45:03,924 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:45:03,931 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:45:03,934 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:45:44,050 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:45:44,051 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:45:44,053 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:45:44,055 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:46:01,286 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:46:01,287 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:46:01,294 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:46:01,296 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 10:55:37,886 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 10:55:37,886 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 10:55:37,888 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 10:55:37,905 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:03:18,126 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 11:03:18,127 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:03:18,178 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:03:18,811 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:04:31,842 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 11:04:31,842 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:04:31,843 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:04:31,845 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:04:53,066 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUser>
+2013-09-17 11:04:53,068 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:04:53,069 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:04:53,070 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:05:18,081 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUser>
+2013-09-17 11:05:18,081 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:05:18,082 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:05:18,084 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:05:48,797 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUser>
+2013-09-17 11:05:48,798 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:05:48,798 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:05:48,802 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:07:37,196 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Dispatcher initialization failed>
+java.lang.RuntimeException: java.lang.InterruptedException
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:90)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.get(ReferenceCache.java:116)
+	at com.opensymphony.xwork2.inject.ContainerImpl$ConstructorInjector.<init>(ContainerImpl.java:356)
+	at com.opensymphony.xwork2.inject.ContainerImpl$5.create(ContainerImpl.java:311)
+	at com.opensymphony.xwork2.inject.ContainerImpl$5.create(ContainerImpl.java:307)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache$CallableCreate.call(ReferenceCache.java:150)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:76)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.get(ReferenceCache.java:116)
+	at com.opensymphony.xwork2.inject.ContainerImpl.getConstructor(ContainerImpl.java:607)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$5.create(ContainerBuilder.java:204)
+	at com.opensymphony.xwork2.inject.Scope$2$1.create(Scope.java:51)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$3.create(ContainerBuilder.java:93)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$7.call(ContainerBuilder.java:487)
+	at com.opensymphony.xwork2.inject.ContainerBuilder$7.call(ContainerBuilder.java:484)
+	at com.opensymphony.xwork2.inject.ContainerImpl.callInContext(ContainerImpl.java:584)
+	at com.opensymphony.xwork2.inject.ContainerBuilder.create(ContainerBuilder.java:484)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.createBootstrapContainer(DefaultConfiguration.java:324)
+	at com.opensymphony.xwork2.config.impl.DefaultConfiguration.reloadContainer(DefaultConfiguration.java:221)
+	at com.opensymphony.xwork2.config.ConfigurationManager.getConfiguration(ConfigurationManager.java:67)
+	at org.apache.struts2.dispatcher.Dispatcher.init_PreloadConfiguration(Dispatcher.java:446)
+	at org.apache.struts2.dispatcher.Dispatcher.init(Dispatcher.java:490)
+	at org.apache.struts2.dispatcher.ng.InitOperations.initDispatcher(InitOperations.java:74)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.init(StrutsPrepareAndExecuteFilter.java:57)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:275)
+	at org.apache.catalina.core.ApplicationFilterConfig.setFilterDef(ApplicationFilterConfig.java:397)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:108)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:3800)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4450)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1173)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1271)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1337)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1601)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1610)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1590)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerGet(Unknown Source)
+	at java.util.concurrent.FutureTask.get(Unknown Source)
+	at com.opensymphony.xwork2.inject.util.ReferenceCache.internalCreate(ReferenceCache.java:77)
+	... 38 more
+2013-09-17 11:11:46,375 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 11:11:46,375 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 11:11:46,430 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 11:11:47,097 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 11:11:52,907 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 11:11:52,907 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 11:11:52,908 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 11:11:52,990 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 14:22:28,437 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 14:22:28,438 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 14:22:28,439 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 14:22:28,456 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 14:33:37,187 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 14:33:37,188 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 14:33:37,762 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 14:33:38,411 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 14:34:02,413 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 14:34:02,414 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 14:34:02,415 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 14:34:02,425 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 14:34:05,474 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-17 14:34:05,474 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 14:34:05,476 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 14:34:05,633 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 14:34:05,661 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 14:34:09,152 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 14:34:09,152 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 14:34:09,153 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 14:34:09,155 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 14:36:56,028 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 14:36:56,029 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 14:37:00,431 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 14:37:00,440 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 14:44:42,215 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 14:44:42,215 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 14:44:49,285 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 14:44:51,270 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 22:02:46,023 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 22:02:46,043 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 22:02:53,008 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 22:02:53,067 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 22:13:11,410 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUserEntry>
+2013-09-17 22:13:11,410 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 22:13:14,515 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1 >
+2013-09-17 22:13:15,177 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=97>
+2013-09-17 22:13:31,695 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryUser>
+2013-09-17 22:13:31,695 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryUser---->
+2013-09-17 22:13:31,696 DEBUG [cn.com.huitong.model.AppUser] - <SQL====FROM AppUser user WHERE user.isValid = 1  AND user.grade.gradeId=:gradeId >
+2013-09-17 22:13:31,721 DEBUG [cn.com.huitong.model.AppUser] - <TotalItems=5>
+2013-09-17 22:13:34,671 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 22:13:34,671 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 22:13:34,672 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 22:13:34,756 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 22:13:38,932 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==queryInformationEntry>
+2013-09-17 22:13:38,932 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:13:38,933 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:13:39,040 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:13:39,071 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 22:13:44,421 DEBUG [cn.com.huitong.core.common.Struts2Action] - <NodeName=queryStockEntry>
+2013-09-17 22:13:44,421 DEBUG [cn.com.huitong.core.common.Struts2Action] - <queryStock---->
+2013-09-17 22:13:44,422 DEBUG [cn.com.huitong.model.Stock] - <SQL====FROM Stock s WHERE s.isValid !='-1' >
+2013-09-17 22:13:44,423 DEBUG [cn.com.huitong.model.Stock] - <TotalItems=9>
+2013-09-17 22:14:24,463 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:14:24,463 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:14:24,463 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:14:24,466 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:14:24,467 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:52:56,077 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:52:56,077 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:52:56,077 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:52:56,469 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:52:57,327 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:54:18,710 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:54:18,710 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:54:18,710 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:54:18,711 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:54:18,713 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:55:02,761 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:55:02,761 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:55:02,761 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:55:02,778 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:55:02,782 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:55:29,986 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:55:29,986 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:55:29,987 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:55:29,992 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:55:29,994 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 22:56:57,782 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-17 22:56:57,782 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-17 22:56:57,782 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-17 22:56:57,783 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-17 22:56:57,787 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-17 23:27:39,286 ERROR [org.apache.struts2.dispatcher.Dispatcher] - <Could not find action or result
+/stock/j_spring_security_check.do>
+There is no Action mapped for namespace [/] and action name [j_spring_security_check] associated with context path [/stock]. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:39)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:553)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:128)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:293)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:849)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:583)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:454)
+	at java.lang.Thread.run(Unknown Source)

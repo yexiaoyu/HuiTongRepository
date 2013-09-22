@@ -36,7 +36,14 @@ function updateStock(stockId){
 		<tr>
 			<td><s:property value="stockCode"/></td>
 			<td><s:property value="stockName"/></td>
-			<td><s:property value="isValid"/></td>
+			<td>
+				<s:if test="%{isValid == 1}">
+				是
+				</s:if>
+				<s:elseif test="%{isValid == 0}">
+				否
+				</s:elseif>
+			</td>
 			<td><a href="#" onclick="deleteStock('${stockId}','${stockName }','${stockCode}');">删除</a><a href="#" onclick="updateStock(${stockId})">修改</a></td>
 		</tr>
 	</s:iterator>

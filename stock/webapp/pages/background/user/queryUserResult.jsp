@@ -30,10 +30,10 @@ function updateUser(userId){
 		<th width="14%">用户名</th>
 		<th width="14%">用户等级</th>
 		<th width="14%">真实姓名</th>
-		<th width="14%">邮箱</th>
-		<th width="14%">手机</th>
+		<th width="14%">邮&nbsp;&nbsp;箱</th>
+		<th width="14%">手&nbsp;&nbsp;机</th>
 		<th width="14%">注册时间</th>
-		<th width="14%">管理</th>
+		<th width="14%">管&nbsp;&nbsp;理</th>
 	</tr>
 	<s:iterator value="userList">
 		<tr>
@@ -42,7 +42,7 @@ function updateUser(userId){
 			<td>${realName }</td>
 			<td>${email }</td>
 			<td>${phone }</td>
-			<td><fmt:formatDate value="${registTime}" type="both" pattern="yyyy.MM.dd HH:mm:ss"/></td>
+			<td><fmt:formatDate value="${registTime}" type="both" pattern="yyyy.MM.dd"/></td>
 			<td><a href="#" onclick="deleteUser('${userId}','${userName}');">删除</a><a href="#" onclick="updateUser('${userId }');">修改</a></td>
 		</tr>
 	</s:iterator>

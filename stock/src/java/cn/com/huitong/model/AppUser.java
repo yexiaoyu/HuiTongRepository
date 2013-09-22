@@ -138,8 +138,10 @@ public class AppUser implements Serializable,UserDetails {
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
 		List<GrantedAuthority> authoritys = new ArrayList<GrantedAuthority>();
-		GrantedAuthority authority = new SimpleGrantedAuthority(role);
-		authoritys.add(authority);
+		GrantedAuthority authorityUser = new SimpleGrantedAuthority("ROLE_USER");
+		GrantedAuthority authorityAdmin = new SimpleGrantedAuthority("ROLE_ADMIN");
+		authoritys.add(authorityAdmin);
+		authoritys.add(authorityUser);
 		return authoritys;
 	}
 	public String getPassword() {
