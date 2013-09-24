@@ -32,7 +32,7 @@ public class LoginAction  extends Struts2Action{
 	
 	public String login(){
 		user = appUserService.findAppUserByUserName(username);
-		
+		logger.debug("LoginAction...login()......");
 		UsernamePasswordAuthenticationToken authRequest = new UsernamePasswordAuthenticationToken(username, password);
 		SecurityContext securityContext = SecurityContextHolder.getContext();
 		securityContext.setAuthentication(authenticationManager.authenticate(authRequest));

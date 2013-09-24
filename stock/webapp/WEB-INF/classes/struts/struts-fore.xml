@@ -7,7 +7,7 @@
 		<action name="index" class="IndexAction" method="foreIndex">
 			<result name="success">/pages/fore/index.jsp</result>
 		</action>
-		<action name="login" class="LoginAction" method="login">
+		<action name="loginFore" class="LoginAction" method="login">
 			<result name="success">/pages/fore/index.jsp</result>
 		</action>
 	</package>

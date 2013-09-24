@@ -1,14 +1,12 @@
-<%@ page contentType="text/html;charset=GBK" isErrorPage="true" %>
+<%@ page contentType="text/html; charset=utf-8"isErrorPage="true" %>
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.io.*"%>
 <%@page import="java.util.*"%>
 <%@page import="ins.framework.exception.*"%>
 <%@page import="org.jbpm.graph.def.DelegationException"%>
-<%@include file="/common/meta_js.jsp" %>
-<%@include file="/common/meta.jsp" %>
 <%
-String title = ""; //ĞÅÏ¢
-String content = ""; //ÏêÏ¸ĞÅÏ¢
+String title = ""; //ä¿¡æ¯
+String content = ""; //è¯¦ç»†ä¿¡æ¯
 StringWriter stringWriter = new StringWriter();
 
 if(exception==null){
@@ -31,7 +29,7 @@ if(exception!=null){
 	title = throwable.getMessage();
 	if(throwable instanceof PermissionException) {
 	    throwable=(PermissionException)throwable;
-	    title="ÄúÃ»ÓĞ´Ë¹¦ÄÜµÄ²Ù×÷È¨ÏŞ£¬ÇëÓë¹ÜÀíÔ±ÁªÏµ£¡";
+	    title="æ‚¨æ²¡æœ‰æ­¤åŠŸèƒ½çš„æ“ä½œæƒé™ï¼Œè¯·ä¸ç®¡ç†å‘˜è”ç³»ï¼";
 	}
 	throwable.printStackTrace(new PrintWriter(stringWriter));
 }
@@ -40,7 +38,7 @@ if(exception!=null){
 <head>
 
 <title>Error Page</title>
-<%@ include file="/common/taglibs.jsp"%> 
+<%@ include file="taglibs.jsp"%> 
 
 <style>
 	td{font-size:9pt;}
@@ -49,7 +47,7 @@ if(exception!=null){
 .button_ty_over{background: #fff url(${ctx}/pages/image/btbg_orange.gif) repeat-x left left -2px;}
 td.formtitle{	border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #a2d08f;	border-top-style: none;	background-color: #FFFFFF;	font-weight: bold;	color: #328400;	border-right-style: none;	border-left-style: none;	background-image: url(../pages/image/imgtop-green.gif);	background-repeat: no-repeat;	text-indent: 40px;	height:20px;	background-position: 10px center;	text-align:left;	padding-top: 3px;	margin-top: 10px;}
 </style>
-<script language=javascript>
+<script language="text/javascript">
 
 function shContent()
 {
@@ -103,17 +101,16 @@ function refreshMethod(){
 </head>
 <body onload="loadBody()">
 
-  <table class=common align=center>
+  <table class="common" align="center">
     <tr>
-      <td class=formtitle colspan="2">ÏµÍ³ÌáÊ¾:
-      ÇëÁªÏµ***,ÁªÏµ·½Ê½£º****</td>
+      <td class="formtitle" colspan="2">ç³»ç»Ÿæç¤º:
+      è¯·è”ç³»***,è”ç³»æ–¹å¼ï¼š****</td>
     </tr>
-    <%--add by zhangtongxu 20111215 Ôö¼Ó´íÎóÌáÊ¾ÁªÏµÈËĞÅÏ¢--%>
-     <tr>
+    <%--add by zhangtongxu 20111215 å¢åŠ é”™è¯¯æç¤ºè”ç³»äººä¿¡æ¯--%>
     <tr>
-      <td align=center>
+      <td align="center">
         <img src='${pageContext.request.contextPath}/pages/image/failure.gif'
-          style='cursor:hand' alt='ÏêÏ¸ĞÅÏ¢' onclick="shContent()">
+          style='cursor:hand' alt='è¯¦ç»†ä¿¡æ¯' onclick="shContent()">
       </td>
       <td class="common">
         <%=title%>
@@ -121,8 +118,8 @@ function refreshMethod(){
     </tr>
     <tr id="trCloseButton" >
       <td colspan="2" align="center">
-		<input type="button" value=" ¹Ø±Õ " onclick="closeMethod();" class="button_ty">
-		<input type="button" value=" ·µ»Ø " onclick="refreshMethod();" class="button_ty">
+		<input type="button" value=" å…³é—­ " onclick="closeMethod();" class="button_ty">
+		<input type="button" value=" è¿”å› " onclick="refreshMethod();" class="button_ty">
       </td>
     </tr>
 
