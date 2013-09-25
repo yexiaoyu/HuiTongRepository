@@ -21,6 +21,12 @@
 			<li id="queryInform"><a href="#" onclick="queryInformEntry();">查询内参</a></li>
 		</ul>
 	</li>
+	<li class="item"><a href="#">财经管理</a>
+		<ul class="optiton" id="opt_3">
+			<li id="addEconomic"><a href="#" onclick="addEconomicEntry();">添加财经</a></li>
+			<li id="queryEconomic"><a href="#" onclick="queryEconomicEntry();">查询财经</a></li>
+		</ul>
+	</li>
 </ul> 
 </div>
 </div>
@@ -57,6 +63,18 @@ function addInformEntry(){
 }
 function queryInformEntry(){
 	$.post(rootPath + "/background/operateInformation.do",{nodeName : "queryInformationEntry"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function addEconomicEntry(){
+	$.post(rootPath + "/background/operateEconomic.do",{nodeName : "addEconomicEntry"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function queryEconomicEntry(){
+	$.post(rootPath + "/background/operateEconomic.do",{nodeName : "queryEconomicEntry"},
 		function(data){
 			$("#maincontent").html(data);
 		});

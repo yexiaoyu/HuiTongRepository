@@ -1,0 +1,20 @@
+2013-09-23 22:20:31,410 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-23 22:20:31,490 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-23 22:20:31,490 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-23 22:20:32,066 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-23 22:20:33,043 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-23 22:57:49,229 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-23 22:57:49,229 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-23 22:57:49,229 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-23 22:57:49,773 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-23 22:57:50,459 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-23 22:58:15,270 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-23 22:58:15,270 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-23 22:58:15,270 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-23 22:58:15,271 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-23 22:58:15,276 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>
+2013-09-23 23:19:02,898 DEBUG [cn.com.huitong.core.common.Struts2Action] - <nodeName==informIndex>
+2013-09-23 23:19:02,899 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_informIndex-------->
+2013-09-23 23:19:02,899 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-09-23 23:19:03,189 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-09-23 23:19:03,971 DEBUG [cn.com.huitong.model.Information] - <TotalItems=4>

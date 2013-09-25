@@ -1,4 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="/resources/jsp/taglibs.jsp" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -33,25 +32,12 @@ function checkForm(){
 		function(data){
 			var dataObj=eval("("+data+")");
 			if(dataObj.pass == 1){
-				//result = true;
-				//alert("验证输入正确！");
 				loginForm.submit();
 			}else{
 				alert("验证输入不正确！");
 				return false;
 			}
 		});
-	
-	/*alert(result);
-	if(result == true){
-		var url = $("#loginForm").attr("action");
-		var data = $("#loginForm").serialize();
-		$.post(url, data, function(data) {
-			//$("#nl").html(data);
-			alert("登录成功");
-		});
-	}*/
-	//return result;
 }
 </script>
 <title>股票内参系统</title>
@@ -91,7 +77,8 @@ function checkForm(){
 		</tr>
 		<tr>
 			<td class="t1">&nbsp;</td>
-			<td class="t2"><input class="button01" type="button" value="登录" onclick="checkForm();" /></td>
+			<td class="t2"><input class="button01" type="button" value="登录" onclick="checkForm();" /></td> 
+			<!-- <td class="t2"><input class="button01" type="submit" value="登录"  /></td>-->
 			<td class="t3">&nbsp;</td>
 		</tr>
 		<tr>
@@ -107,7 +94,7 @@ function checkForm(){
 	<div class="regbox">
 	<p><b>还不是注册用户？</b><br />
 	立即注册，立即享受即时了解股票信息。</p>
-	<p><a class="button02" href="#">注册新用户</a></p>
+	<p><a class="button02" href="${ctx }/register.jsp">注册新用户</a></p>
 	</div>
 	</td>
 	</tr>

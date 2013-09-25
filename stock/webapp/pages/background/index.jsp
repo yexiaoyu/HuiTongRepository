@@ -14,6 +14,7 @@
 <link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
 <script type="text/javascript" src="${ctx}/resources/js/leftMenu.js"></script>
+<script type="text/javascript" src="${ctx}/resources/js/DatePicker/WdatePicker.js"></script>
 <script type="text/javascript">
 
 </script>

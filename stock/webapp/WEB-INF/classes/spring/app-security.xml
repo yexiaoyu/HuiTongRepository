@@ -14,14 +14,14 @@
 	<http pattern="/ueditor/**" security="none"/>
 	<http pattern="/CaptchaImg*" security="none"/>
 	<http pattern="/login.jsp*" security="none"/>
+	<http pattern="/register.jsp*" security="none"/>
 	<http pattern="/pages/background/login.jsp*" security="none"/>
     <http entry-point-ref="loginUrlEntryPoint" ><!-- use-expressions="true" hasRole('ROLE_USER') -->
-        <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>
-        <intercept-url pattern="/**" access="ROLE_USER"/>
-        <intercept-url pattern="/*.do**" access="ROLE_USER"/>
         <intercept-url pattern="/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/util/checkCodeValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>
+        <intercept-url pattern="/**" access="ROLE_USER"/>
         
         <!-- 登录过滤器 -->
         <custom-filter before="FORM_LOGIN_FILTER" ref="loginFilter"/>

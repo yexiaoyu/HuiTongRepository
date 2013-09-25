@@ -4,8 +4,8 @@
 <div class="childside">
 <ul id="menu">
 	<li class="item"><a href="#" onclick="informIndex();">内参资讯</a></li>
-	<li class="item"><a href="#">财政日历</a></li>
-	<li class="item"><a href="#">财经要闻</a></li>
+	<li class="item"><a href="#" onclick="economicIndex();">财政日历</a></li>
+	<li class="item"><a href="#" onclick="economicKeyIndex();">财经要闻</a></li>
 	<li class="item"><a href="#">个股预测</a></li>
 	<li class="item"><a href="#">机构底牌</a></li>
 </ul>
@@ -14,6 +14,18 @@
 <script type="text/javascript">
 function informIndex(){
 	$.post(rootPath + "/fore/operateInform.do",{nodeName : "informIndex"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function economicIndex(){
+	$.post(rootPath + "/fore/operateEconomic.do",{nodeName : "economicIndex"},
+		function(data){
+			$("#maincontent").html(data);
+		});
+}
+function economicKeyIndex(){
+	$.post(rootPath + "/fore/operateEconomic.do",{nodeName : "economicIndex" , 'economic.isEvent' : '2'},
 		function(data){
 			$("#maincontent").html(data);
 		});

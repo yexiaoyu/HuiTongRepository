@@ -36,6 +36,10 @@ public class InformationAction extends Struts2Action{
 	private StockService stockService;
 	private List<Stock> stockList;
 	
+	/**
+	 * 后台访问入口
+	 * @return
+	 */
 	public String operateInformation(){
 		String result = SUCCESS;
 		if(nodeName != null && !"".equals(nodeName)){

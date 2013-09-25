@@ -54,7 +54,7 @@ function checkForm(){
 	//return result;
 }
 </script>
-<title>股票后台内参系统</title>
+<title>股票内参系统</title>
 </head>
 <body>
 <div class="top"><%@ include file="/resources/jsp/header.jsp"%></div>
@@ -107,7 +107,7 @@ function checkForm(){
 	<div class="regbox">
 	<p><b>还不是注册用户？</b><br />
 	立即注册，立即享受即时了解股票信息。</p>
-	<p><a class="button02" href="#">注册新用户</a></p>
+	<p><a class="button02" href="${ctx }/register.jsp">注册新用户</a></p>
 	</div>
 	</td>
 	</tr>

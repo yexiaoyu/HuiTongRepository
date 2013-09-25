@@ -41,5 +41,14 @@
 			<result name="updateStockEntry">/pages/background/stock/addStock.jsp</result>
 			<result name="updateStock">/pages/background/stock/queryStock.jsp</result>
 		</action>
+		<action name="operateEconomic" class="EconomicAction" method="operateEconomic">
+			<result name="addEconomicEntry">/pages/background/economic/addEconomic.jsp</result>
+			<result name="addEconomic">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="queryEconomicEntry">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="queryEconomic">/pages/background/economic/queryEconomicResult.jsp</result>
+			<result name="deleteEconomic">/pages/background/economic/queryEconomicResult.jsp</result>
+			<result name="updateEconomicEntry">/pages/background/economic/addEconomic.jsp</result>
+			<result name="updateEconomic">/pages/background/economic/queryEconomic.jsp</result>
+		</action>
 	</package>
 </struts>

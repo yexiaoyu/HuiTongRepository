@@ -44,7 +44,7 @@ public class AppUserAction extends Struts2Action{
 	
 	
 	@SuppressWarnings("unchecked")
-	public String login(){
+	public String register(){
 //		System.out.println(user.getUserName() );
 //		System.out.println(user.getPassWord() );
 //		System.out.println("appUserService==="+appUserService);
@@ -88,9 +88,21 @@ public class AppUserAction extends Struts2Action{
 //		}
 //		System.out.println("users"+obj);
 		
-		System.out.println(user);
-		appUserService.save(user);
+//		System.out.println(user);
+//		appUserService.save(user);
 //		appUserService.saveAppUser(user);
+		// 取得验证码
+		logger.debug("appuserAction.login........");
+		Captcha captcha = (Captcha) getSession().getAttribute(Captcha.NAME);
+		if (captcha != null && captcha.isCorrect(checkCode)) {
+			if(user != null && !"".equals(user)){
+				user.setRegistTime(new Date());
+				user.setGrade(gradeService.get(user.getGrade().getGradeId()));
+				appUserService.save(user);
+			}
+		}else{
+			logger.debug("验证码不正确！");
+		}
 		return SUCCESS;
 	}
 
