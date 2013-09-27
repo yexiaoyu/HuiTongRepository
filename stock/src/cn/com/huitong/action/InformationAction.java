@@ -45,17 +45,17 @@ public class InformationAction extends Struts2Action{
 		if(nodeName != null && !"".equals(nodeName)){
 			logger.debug("nodeName==" + nodeName);
 			result = nodeName;
-			if(nodeName.equals("addInformation")){
+			if(nodeName.equals("add")){
 				this._addStock();
-			}else if(nodeName.equals("queryInformation") || nodeName.equals("queryInformationEntry")){
+			}else if(nodeName.equals("query") || nodeName.equals("queryEntry")){
 				this._queryInformation();
-			}else if(nodeName.equals("deleteInformation")){
+			}else if(nodeName.equals("delete")){
 				this._deleteInformation();
-			}else if(nodeName.equals("updateInformationEntry")){
+			}else if(nodeName.equals("updateEntry")){
 				this._updateInformationEntry();
-			}else if(nodeName.equals("updateInformation")){
+			}else if(nodeName.equals("update")){
 				this._updateInformation();
-			}else if(nodeName.equals("detailInformation")){
+			}else if(nodeName.equals("detail")){
 				this._detailInformation();
 			}
 		}

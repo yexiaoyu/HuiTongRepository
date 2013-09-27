@@ -6,40 +6,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn"/>
 <link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
-<style type="text/css">
-.top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
-.side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
-.main { position:absolute; left:220px; top:70px; bottom:70px; right:220px; overflow:auto;}
-.adside { position:absolute;right:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
-.bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
-</style>
-<title>div仿框架布局 - 加上滚动条，一个div仿3框架的基础概型已经完成</title>
+<script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
+<title>股票内参系统</title>
 </head>
-<body>
-<div class="top"><%@ include file="/resources/jsp/header.jsp"%></div>
-<div class="side"><%@ include file="/resources/jsp/leftmenu.jsp"%></div>
-<div class="main">
-<br /><br /><br />加上滚动条，一个div仿框架的基础概型已经完成
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-</div>
-<div class="adside"><span  style="font-size: 3em;">广告</span><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></div>
-<div class="bottom"><%@ include file="/resources/jsp/footer.jsp"%></div>
-</body>
+<frameset rows="60px,*,60px" frameborder="no" border="0">
+ 	<frame src="${ctx }/resources/jsp/header.jsp" name="header" frameborder="1"/>
+    <frameset cols="200px,*,200px" border="1" frameborder="no">
+		<frame name="bodyleft" src="${ctx }/resources/jsp/leftmenu.jsp" noresize="yes" frameborder="1" scrolling="no" border="1px"/> 
+		<frame name="bodycontent" src="${ctx }/resources/jsp/loginbody.jsp"/>  
+		<frame name="bodyright" src="" frameborder="1"/>
+    </frameset>
+	<frame src="${ctx }/resources/jsp/footer.jsp" name="footer" frameborder="1" scrolling="no"/>
+</frameset>
+<noframes>
+<body>您的浏览器无法处理框架！</body>
+</noframes>
 </html>
+
 
 

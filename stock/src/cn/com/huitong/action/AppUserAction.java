@@ -118,15 +118,15 @@ public class AppUserAction extends Struts2Action{
 		if(nodeName != null && !"".equals(nodeName)){
 			logger.debug("nodeName==" + nodeName);
 			result = nodeName;
-			if(nodeName.equals("addUser")){
+			if(nodeName.equals("add")){
 				this.addUser();
-			}else if(nodeName.equals("updateUserEntry")){
+			}else if(nodeName.equals("updateEntry")){
 				this.updateUserEntry();
-			}else if(nodeName.equals("updateUser")){
+			}else if(nodeName.equals("update")){
 				this.updateUser();
-			}else if(nodeName.equals("queryUser") || nodeName.equals("queryUserEntry")){
+			}else if(nodeName.equals("query") || nodeName.equals("queryEntry")){
 				this.queryUser();
-			}else if(nodeName.equals("deleteUser")){
+			}else if(nodeName.equals("delete")){
 				this.deleteUser();
 			}else{
 			}

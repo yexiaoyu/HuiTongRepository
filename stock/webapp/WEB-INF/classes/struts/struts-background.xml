@@ -9,46 +9,46 @@
 		</action>
 		<!-- 用户管理 -->
 		<action name="operateUser" class="AppUserAction" method="operateUser">
-			<result name="addUserEntry">/pages/background/user/addUser.jsp</result>
-			<result name="addUser">/pages/background/user/queryUser.jsp</result>
-			<result name="queryUserEntry">/pages/background/user/queryUser.jsp</result>
-			<result name="queryUser">/pages/background/user/queryUserResult.jsp</result>
-			<result name="updateUserEntry">/pages/background/user/addUser.jsp</result>
-			<result name="updateUser">/pages/background/user/queryUser.jsp</result>
-			<result name="deleteUser">/pages/background/user/queryUserResult.jsp</result>
+			<result name="addEntry">/pages/background/user/addUser.jsp</result>
+			<result name="add">/pages/background/user/queryUser.jsp</result>
+			<result name="queryEntry">/pages/background/user/queryUser.jsp</result>
+			<result name="query">/pages/background/user/queryUserResult.jsp</result>
+			<result name="updateEntry">/pages/background/user/addUser.jsp</result>
+			<result name="update">/pages/background/user/queryUser.jsp</result>
+			<result name="delete">/pages/background/user/queryUserResult.jsp</result>
 		</action>
 		<!-- 验证用户名 -->
 		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
 		</action>
 		<!-- 股票内参信息 -->
 		<action name="operateInformation" class="InformationAction" method="operateInformation">
-			<result name="addInformationEntry">/pages/background/information/addInformation.jsp</result>
-			<result name="addInformation">/pages/background/information/queryInformation.jsp</result>
-			<result name="queryInformationEntry">/pages/background/information/queryInformation.jsp</result>
-			<result name="queryInformation">/pages/background/information/queryInformationResult.jsp</result>
-			<result name="deleteInformation">/pages/background/information/queryInformationResult.jsp</result>
-			<result name="updateInformationEntry">/pages/background/information/addInformation.jsp</result>
-			<result name="updateInformation">/pages/background/information/queryInformation.jsp</result>
-			<result name="detailInformation">/pages/background/information/detailInformation.jsp</result>
+			<result name="addEntry">/pages/background/information/addInformation.jsp</result>
+			<result name="add">/pages/background/information/queryInformation.jsp</result>
+			<result name="queryEntry">/pages/background/information/queryInformation.jsp</result>
+			<result name="query">/pages/background/information/queryInformationResult.jsp</result>
+			<result name="delete">/pages/background/information/queryInformationResult.jsp</result>
+			<result name="updateEntry">/pages/background/information/addInformation.jsp</result>
+			<result name="update">/pages/background/information/queryInformation.jsp</result>
+			<result name="detail">/pages/background/information/detailInformation.jsp</result>
 		</action>
 		<!-- 股票管理 -->
 		<action name="operateStock" class="StockAction" method="operateStock">
-			<result name="addStockEntry">/pages/background/stock/addStock.jsp</result>
-			<result name="addStock">/pages/background/stock/queryStock.jsp</result>
-			<result name="queryStockEntry">/pages/background/stock/queryStock.jsp</result>
-			<result name="queryStock">/pages/background/stock/queryStockResult.jsp</result>
-			<result name="deleteStock">/pages/background/stock/queryStockResult.jsp</result>
-			<result name="updateStockEntry">/pages/background/stock/addStock.jsp</result>
-			<result name="updateStock">/pages/background/stock/queryStock.jsp</result>
+			<result name="addEntry">/pages/background/stock/addStock.jsp</result>
+			<result name="add">/pages/background/stock/queryStock.jsp</result>
+			<result name="queryEntry">/pages/background/stock/queryStock.jsp</result>
+			<result name="query">/pages/background/stock/queryStockResult.jsp</result>
+			<result name="delete">/pages/background/stock/queryStockResult.jsp</result>
+			<result name="updateEntry">/pages/background/stock/addStock.jsp</result>
+			<result name="update">/pages/background/stock/queryStock.jsp</result>
 		</action>
 		<action name="operateEconomic" class="EconomicAction" method="operateEconomic">
-			<result name="addEconomicEntry">/pages/background/economic/addEconomic.jsp</result>
-			<result name="addEconomic">/pages/background/economic/queryEconomic.jsp</result>
-			<result name="queryEconomicEntry">/pages/background/economic/queryEconomic.jsp</result>
-			<result name="queryEconomic">/pages/background/economic/queryEconomicResult.jsp</result>
-			<result name="deleteEconomic">/pages/background/economic/queryEconomicResult.jsp</result>
-			<result name="updateEconomicEntry">/pages/background/economic/addEconomic.jsp</result>
-			<result name="updateEconomic">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="addEntry">/pages/background/economic/addEconomic.jsp</result>
+			<result name="add">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="queryEntry">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="query">/pages/background/economic/queryEconomicResult.jsp</result>
+			<result name="delete">/pages/background/economic/queryEconomicResult.jsp</result>
+			<result name="updateEntry">/pages/background/economic/addEconomic.jsp</result>
+			<result name="update">/pages/background/economic/queryEconomic.jsp</result>
 		</action>
 	</package>
 </struts>

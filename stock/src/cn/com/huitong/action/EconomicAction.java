@@ -40,16 +40,16 @@ public class EconomicAction extends Struts2Action{
 			result = nodeName;
 			if(nodeName.equals("addEconomic")){
 				this._addStock();
-			}else if(nodeName.equals("queryEconomic") || nodeName.equals("queryEconomicEntry") 
+			}else if(nodeName.equals("query") || nodeName.equals("queryEntry") 
 					|| nodeName.equals("queryEconomicPage") || nodeName.equals("economicIndex")){
 				this._queryEconomic();
-			}else if(nodeName.equals("deleteEconomic")){
+			}else if(nodeName.equals("delete")){
 				this._deleteEconomic();
-			}else if(nodeName.equals("updateEconomicEntry")){
+			}else if(nodeName.equals("updateEntry")){
 				this._updateEconomicEntry();
-			}else if(nodeName.equals("updateEconomic")){
+			}else if(nodeName.equals("update")){
 				this._updateEconomic();
-			}else if(nodeName.equals("detailEconomic")){
+			}else if(nodeName.equals("detail")){
 				this._detailEconomic();
 			}
 		}

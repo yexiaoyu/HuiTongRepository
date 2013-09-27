@@ -32,15 +32,15 @@ public class StockAction extends Struts2Action {
 		if(nodeName != null && !"".equals(nodeName)){
 			logger.debug("NodeName="+nodeName);
 			result = nodeName;
-			if(nodeName.equals("addStock")){
+			if(nodeName.equals("add")){
 				this._addStock();
-			}else if(nodeName.equals("queryStock") || nodeName.equals("queryStockEntry")){
+			}else if(nodeName.equals("query") || nodeName.equals("queryEntry")){
 				this._queryStock();
-			}else if(nodeName.equals("deleteStock")){
+			}else if(nodeName.equals("delete")){
 				this._deleteStock();
-			}else if(nodeName.equals("updateStockEntry")){
+			}else if(nodeName.equals("updateEntry")){
 				this._updateStockEntry();
-			}else if(nodeName.equals("updateStock")){
+			}else if(nodeName.equals("update")){
 				this._updateStock();
 			}
 		}

@@ -5,37 +5,20 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Language" content="zh-cn"/>
-<style type="text/css">
-.top { position:absolute; left:10px; top:10px; right:10px; height:50px; overflow:auto; background-color: #146fb9;}
-.side { position:absolute; left:10px; top:70px; bottom:70px; width:200px; overflow:auto;}
-.main { position:absolute; left:220px; top:70px; bottom:70px; right:10px;overflow:auto;}
-.bottom { position:absolute; left:10px; bottom:10px; right:10px; height:50px; overflow:auto;}
-</style>
 <link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
-<script type="text/javascript" src="${ctx}/resources/js/leftMenu.js"></script>
-<script type="text/javascript" src="${ctx}/resources/js/DatePicker/WdatePicker.js"></script>
-<script type="text/javascript">
-
-</script>
-<title>股票内参后台系统</title>
+<title>股票内参系统</title>
 </head>
-<body>
-<div class="top"><%@ include file="/resources/jsp/backheader.jsp"%></div>
-<div class="side"><%@ include file="/resources/jsp/backleftmenu.jsp"%></div>
-<div class="main" id="maincontent">
-<br /><br /><br />加上滚动条，一个div仿框架的基础概型已经完成
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-</div>
-<div class="bottom"><%@ include file="/resources/jsp/footer.jsp"%></div>
-</body>
+<frameset rows="60px,*,60px" frameborder="no" border="0">
+ 	<frame src="${ctx }/resources/jsp/backheader.jsp" name="header" frameborder="1"/>
+    <frameset cols="200px,*,200px" border="1" frameborder="no">
+		<frame name="bodyleft" src="${ctx }/resources/jsp/backleftmenu.jsp" noresize="yes" frameborder="1" scrolling="no" border="1px"/> 
+		<frame name="bodycontent" src="${ctx }/resources/jsp/loginbody.jsp"/>  
+		<frame name="bodyright" src="" frameborder="1"/>
+    </frameset>
+	<frame src="${ctx }/resources/jsp/footer.jsp" name="footer" frameborder="1" scrolling="no"/>
+</frameset>
+<noframes>
+<body>您的浏览器无法处理框架！</body>
+</noframes>
 </html>
-
-

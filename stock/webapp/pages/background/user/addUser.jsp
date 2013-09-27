@@ -88,26 +88,26 @@ $("#formSubmit").click(function() {
 <div class="loginForm">
 <div class="topbar">添加用户</div>
 	<form action="operateUser.do" method="post" id="addUserForm" namespace="/background">
-		<s:if test="%{nodeName == 'updateUserEntry' }">
-			<s:hidden name="nodeName" value="updateUser"/>
+		<s:if test="%{nodeName == 'updateEntry' }">
+			<s:hidden name="nodeName" value="update"/>
 			<s:hidden name="user.userId"/>
 		</s:if>
-		<s:elseif test="%{nodeName == 'addUserEntry' }">
-			<s:hidden name="nodeName" value="addUser"/>
+		<s:elseif test="%{nodeName == 'addEntry' }">
+			<s:hidden name="nodeName" value="add"/>
 			<s:hidden name="user.isValid" value="1"/>
 		</s:elseif>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tableLoginForm">
 	    	<tr>
 		    	<td class="t1">用户名</td>
-		    	<s:if test="%{nodeName == 'updateUserEntry' }">
+		    	<s:if test="%{nodeName == 'updateEntry' }">
 			    	<td class="t2"><s:hidden name="user.userName"/><s:property value="user.userName"/></td>
 		    	</s:if>
-		    	<s:elseif test="%{nodeName == 'addUserEntry' }">
+		    	<s:elseif test="%{nodeName == 'addEntry' }">
 		    		<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.userName" id="userName"/></td>
 		    	</s:elseif>
 		    	<td ><div id="userNameTip" style="width:300px"></div></td>
 	    	</tr>
-	    	<s:if test="%{nodeName == 'addUserEntry' }">
+	    	<s:if test="%{nodeName == 'addEntry' }">
 	    	<tr>
 		    	<td class="t1">密码</td>
 		    	<td class="t2"><s:password theme="simple" cssClass="textInput" name="user.passWord" id="passWord"/></td>
