@@ -9,10 +9,7 @@
 function queryPageList(){
 	var curpage = $("#curpage").val();
 	var pagesize = $("#pagesize").val();
-	$.post(rootPath + "/fore/operateInform.do", { curpage: curpage, pagesize:pagesize ,nodeName : "queryInformPage"},
-		function(data){
-	    	$("#informContent").html(data);
-	   	});
+	window.location.href=rootPath + "/fore/operateInform.do?curpage="+curpage+"&pagesize="+pagesize+"&nodeName=informPage"; 
 }
 </script>
 </head>

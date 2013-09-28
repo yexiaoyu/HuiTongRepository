@@ -38,10 +38,10 @@ public class EconomicAction extends Struts2Action{
 		if(nodeName != null && !"".equals(nodeName)){
 			logger.debug("nodeName==" + nodeName);
 			result = nodeName;
-			if(nodeName.equals("addEconomic")){
-				this._addStock();
+			if(nodeName.equals("add")){
+				this._addEconomic();
 			}else if(nodeName.equals("query") || nodeName.equals("queryEntry") 
-					|| nodeName.equals("queryEconomicPage") || nodeName.equals("economicIndex")){
+					|| nodeName.equals("economicPage") || nodeName.equals("economicNewsPage")){
 				this._queryEconomic();
 			}else if(nodeName.equals("delete")){
 				this._deleteEconomic();
@@ -82,7 +82,7 @@ public class EconomicAction extends Struts2Action{
 		logger.debug("_detailEconomic--------" + economicId);
 		economic = economicService.get(economicId);
 	}
-	private void _addStock() {
+	private void _addEconomic() {
 		logger.debug("_addStock----");
 		// 取得验证码
 		Captcha captcha = (Captcha) getSession().getAttribute(Captcha.NAME);
@@ -90,7 +90,7 @@ public class EconomicAction extends Struts2Action{
 			if(economic != null && !"".equals(economic)){
 //				economic.setInputTime(new Date());
 //				Economic.setGrade(gradeService.get(Economic.getGrade().getGradeId()));
-				economic.setStock(stockService.get(economic.getStock().getStockId()));
+				//economic.setStock(stockService.get(economic.getStock().getStockId()));
 				economicService.save(economic);
 			}
 		}else{
@@ -107,7 +107,7 @@ public class EconomicAction extends Struts2Action{
 				try {
 					BeanUtil.copyNotNullProperties(oldInform, economic);
 //					oldInform.setGrade(gradeService.get(oldInform.getGrade().getGradeId()));
-					oldInform.setStock(stockService.get(oldInform.getStock().getStockId()));
+					//oldInform.setStock(stockService.get(oldInform.getStock().getStockId()));
 					economicService.save(oldInform);
 				} catch (IllegalAccessException e) {
 					e.printStackTrace();

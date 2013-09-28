@@ -22,11 +22,11 @@ function refeshCode() {
 <div id="menubr"></div>
 <div id="menu2">
 <ul id="menulist">
-	<li class="item"><a href="${ctx }/fore/operateInform.do?nodeName=informIndex" target="bodycontent">内参资讯</a></li>
-	<li class="item"><a href="${ctx }/fore/operateEconomic.do?nodeName=economicIndex" target="bodycontent">财政日历</a></li>
-	<li class="item"><a href="${ctx }/fore/operateEconomic.do?nodeName=economicIndex&economic.isEvent=2" target="bodycontent">财经要闻</a></li>
-	<li class="item"><a href="#">个股预测</a></li>
-	<li class="item"><a href="#">机构底牌</a></li>
+	<li class="item"><a href="${ctx }/fore/operateInform.do?nodeName=informPage" target="bodycontent">内参资讯</a></li>
+	<li class="item"><a href="${ctx }/fore/operateEconomic.do?nodeName=economicPage" target="bodycontent">财政日历</a></li>
+	<li class="item"><a href="${ctx }/fore/operateEconomic.do?nodeName=economicNewsPage&economic.isEvent=2" target="bodycontent">财经要闻</a></li>
+	<%--<li class="item"><a href="#">个股预测</a></li>
+	<li class="item"><a href="#">机构底牌</a></li> --%>
 </ul>
 </div>
 </div>

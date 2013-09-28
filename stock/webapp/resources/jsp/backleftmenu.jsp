@@ -67,7 +67,7 @@ function gs(d,a){
 			<dd><a href="${ctx }/background/operateUser.do?nodeName=queryEntry" target="bodycontent">查询用户</a></dd>
 		</dl>
 	</li>
-	<li class="item"><!--<a href="#">股票管理</a>
+	<%--<li class="item"><!--<a href="#">股票管理</a>
 		<ul class="optiton" id="opt_2">
 			<li id="addStock"><a href="#" onclick="addStockEntry();">添加股票</a></li>
 			<li id="queryStock"><a href="#" onclick="queryStockEntry();">查询股票</a></li>
@@ -77,7 +77,7 @@ function gs(d,a){
 			<dd><a href="${ctx }/background/operateStock.do?nodeName=addEntry" target="bodycontent">添加股票</a></dd>
 			<dd><a href="${ctx }/background/operateStock.do?nodeName=queryEntry" target="bodycontent">查询股票</a></dd>
 		</dl>
-	</li>
+	</li> --%>
 	<li class="item"><!--<a href="#">内参管理</a>
 		<ul class="optiton" id="opt_3">
 			<li id="addInform"><a href="#" onclick="addInformEntry();">添加内参</a></li>

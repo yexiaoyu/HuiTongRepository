@@ -37,7 +37,7 @@ public class AppUser implements Serializable,UserDetails {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	/**ID*/
 	private Long userId;
-	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Grade.class, cascade = CascadeType.ALL)
+	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Grade.class, cascade = CascadeType.REFRESH)
 	@JoinColumn(name = "gradeId", nullable = false)
 	/**用户等级*/
 	private Grade grade;

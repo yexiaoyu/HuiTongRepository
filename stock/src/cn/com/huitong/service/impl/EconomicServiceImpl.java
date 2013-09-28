@@ -23,11 +23,11 @@ public class EconomicServiceImpl extends GenericDaoImpl<EconomicCalenda, Long> i
 				hql.append(" AND s.time >= :time ");
 				param.put("time", economic.getTime());
 			}
-			if(economic.getStock() != null && !"".equals(economic.getStock()) 
-					&& economic.getStock().getStockId() != null && !"".equals(economic.getStock().getStockId())){
-				hql.append(" AND s.stock.stockId=:stockId ");
-				param.put("stockId", economic.getStock().getStockId());
-			}
+//			if(economic.getStock() != null && !"".equals(economic.getStock()) 
+//					&& economic.getStock().getStockId() != null && !"".equals(economic.getStock().getStockId())){
+//				hql.append(" AND s.stock.stockId=:stockId ");
+//				param.put("stockId", economic.getStock().getStockId());
+//			}
 			if(economic.getIsValid() != null && !"".equals(economic.getIsValid())){
 				hql.append(" AND s.isValid=:isValid ");
 				param.put("isValid", economic.getIsValid());

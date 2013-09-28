@@ -47,7 +47,7 @@ public class InformationAction extends Struts2Action{
 			result = nodeName;
 			if(nodeName.equals("add")){
 				this._addStock();
-			}else if(nodeName.equals("query") || nodeName.equals("queryEntry")){
+			}else if(nodeName.equals("query") || nodeName.equals("queryEntry") || nodeName.equals("informPage")){
 				this._queryInformation();
 			}else if(nodeName.equals("delete")){
 				this._deleteInformation();
@@ -64,26 +64,6 @@ public class InformationAction extends Struts2Action{
 		stockList = stockService.findAllStockValid(pb);
 		return result;
 	}
-	/**
-	 * 前台访问内参的入口
-	 * @return
-	 */
-	public String operateInform(){
-		String result = SUCCESS;
-		if(nodeName != null && !"".equals(nodeName)){
-			logger.debug("nodeName==" + nodeName);
-			result = nodeName;
-			if(nodeName.equals("informIndex") || nodeName.equals("queryInformPage")){
-				this._informIndex();
-			}
-		}
-		return result;
-	}
-	
-	private void _informIndex() {
-		logger.debug("_informIndex--------");
-		this._queryInformation();
-	}
 	private void _detailInformation() {
 		logger.debug("_detailInformation--------" + informId);
 		information = informationService.get(informId);
@@ -96,7 +76,7 @@ public class InformationAction extends Struts2Action{
 			if(information != null && !"".equals(information)){
 				information.setInputTime(new Date());
 				information.setGrade(gradeService.get(information.getGrade().getGradeId()));
-				information.setStock(stockService.get(information.getStock().getStockId()));
+				//information.setStock(stockService.get(information.getStock().getStockId()));
 				informationService.save(information);
 			}
 		}else{
@@ -113,7 +93,7 @@ public class InformationAction extends Struts2Action{
 				try {
 					BeanUtil.copyNotNullProperties(oldInform, information);
 					oldInform.setGrade(gradeService.get(oldInform.getGrade().getGradeId()));
-					oldInform.setStock(stockService.get(oldInform.getStock().getStockId()));
+					//oldInform.setStock(stockService.get(oldInform.getStock().getStockId()));
 					informationService.save(oldInform);
 				} catch (IllegalAccessException e) {
 					e.printStackTrace();

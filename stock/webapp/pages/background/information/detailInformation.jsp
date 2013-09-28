@@ -6,7 +6,7 @@
 <div class="loginForm">
 	<div class="listInfo">
 	  <div class="qatt">内参详细信息</div>
-	  <table class="qaTable">
+	  <table class="listTable">
 		  <tr>
 		    <th width="17%">用户级别</th>
 		    <td width="17%">${information.grade.gradeName }</td>

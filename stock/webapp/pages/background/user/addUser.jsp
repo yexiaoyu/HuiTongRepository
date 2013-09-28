@@ -1,5 +1,11 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="/resources/jsp/taglibs.jsp" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn"/>
+<link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
 <link type="text/css" rel="stylesheet" href="${ctx }/resources/css/validator.css"></link>
 <script type="text/javascript" src="${ctx }/resources/js/formValidator.js"></script>
 <script type="text/javascript" src="${ctx }/resources/js/formValidatorRegex.js"></script> 
@@ -70,21 +76,23 @@ $(document).ready(function (){
 			onwait : "正在校验验证码，请稍候..."
 		}); 
 });
-$("#formSubmit").click(function() {
+//验证码刷新
+function refeshCode() {
+	$("#checkCode").val("");//刷新验证码的时候，把原来的清空
+	var str = '<img align="absmiddle" border="0" height="22" width="66" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
+	document.getElementById("codeImage").innerHTML = str;
+}
+function checkForm() {
 	//验证通过提交数据
 	if($.formValidator.pageIsValid('1')){
-		var url = $("#addUserForm").attr("action");
-		var data = $("#addUserForm").serialize();
-		$.post(url, data, function(data) {
-			$("#maincontent").html(data);
-		});
+		addUserForm.submit();
+	}else{
+		return false;
 	}
-	//菜单显示切换
-	$('#menu li').find(".light").removeClass("light");
-	$('#queryUser').addClass("light");
-	return false;
-});
+}
 </script>
+</head>
+<body>
 <div class="loginForm">
 <div class="topbar">添加用户</div>
 	<form action="operateUser.do" method="post" id="addUserForm" namespace="/background">
@@ -96,9 +104,9 @@ $("#formSubmit").click(function() {
 			<s:hidden name="nodeName" value="add"/>
 			<s:hidden name="user.isValid" value="1"/>
 		</s:elseif>
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tableLoginForm">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
 	    	<tr>
-		    	<td class="t1">用户名</td>
+		    	<td class="t1"><span>用户名</span></td>
 		    	<s:if test="%{nodeName == 'updateEntry' }">
 			    	<td class="t2"><s:hidden name="user.userName"/><s:property value="user.userName"/></td>
 		    	</s:if>
@@ -109,19 +117,19 @@ $("#formSubmit").click(function() {
 	    	</tr>
 	    	<s:if test="%{nodeName == 'addEntry' }">
 	    	<tr>
-		    	<td class="t1">密码</td>
+		    	<td class="t1"><span>密码</span></td>
 		    	<td class="t2"><s:password theme="simple" cssClass="textInput" name="user.passWord" id="passWord"/></td>
 		    	<td ><div id="passWordTip" style="width:300px"></div></td>
 	    	</tr>
 	    	<tr>
-		    	<td class="t1">确认密码</td>
+		    	<td class="t1"><span>确认密码</span></td>
 		    	<td class="t2"><s:password theme="simple" cssClass="textInput" name="passWord2" id="passWord2"/></td>
 		    	<td ><div id="passWord2Tip" style="width:300px"></div></td>
 	    	</tr>
 	    	</s:if>
 	    	<tr>
-				<td class="t1">用户级别</td>
-				<td class="t2">
+				<td class="t1" width="30%"><span>用户级别</span></td>
+				<td class="t2" width="30%">
 					<s:select theme="simple" cssClass="selectInput" name="user.grade.gradeId" 
 						listValue="gradeName" listKey="gradeId" id="gradeId"
 					 	list="gradeList" headerKey="" headerValue="请选择"></s:select>
@@ -129,37 +137,41 @@ $("#formSubmit").click(function() {
 		    	<td ><div id="gradeIdTip" style="width:300px"></div></td>
 			</tr>
 			<tr>
-		    	<td class="t1">真实姓名</td>
+		    	<td class="t1"><span>真实姓名</span></td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.realName" id="realName"/></td>
 		    	<td ><div id="realNameTip" style="width:300px"></div></td>
 	    	</tr>
 			<tr>
-		    	<td class="t1">Email邮箱</td>
+		    	<td class="t1"><span>Email邮箱</span></td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.email" id="email"/></td>
 		    	<td ><div id="emailTip" style="width:300px"></div></td>
 	    	</tr>
 			<tr>
-		    	<td class="t1">手机号码</td>
+		    	<td class="t1"><span>手机号码</span></td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="user.phone" id="phone"/></td>
 		    	<td ><div id="phoneTip" style="width:300px"></div></td>
 	    	</tr>
-	    	<s:if test="%{nodeName == 'updateUserEntry' }">
+	    	<s:if test="%{nodeName == 'updateEntry' }">
 		    	<tr>
-			    	<td class="t1">是否有效</td>
+			    	<td class="t1"><span>是否有效</span></td>
 			    	<td class="t2"><s:select theme="simple" cssClass="selectInput" name="user.isValid" list="#{'0':'否','1':'是'}" id="isValid" headerKey="" headerValue="请选择"/></td>
 			    	<td ><div id="isValidTip" style="width:300px"></div></td>
 		    	</tr>
 	    	</s:if>
 	    	<tr>
-				<td class="t1">验证码</td>
-				<td class="t2"><input class="yzmInput" name="checkCode" id="checkCode" type="text" />
-					<span id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
-					</span> <a href="javascript:refeshCode()">点击换图</a></td>
+				<td class="t1"><span>验证码</span></td>
+				<td class="t2"><div id="yzmdiv"><input class="yzmInput" name="checkCode" id="checkCode" type="text" value=""/></div>
+				<div id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
+					</div><span><a href="javascript:refeshCode()">点击换图</a></span></td>
 				<td><div id="checkCodeTip" style="width:300px"></div></td>
 			</tr>
 	    	<tr>
-	    	<td>&nbsp;</td>
-	    	<td><input class="button01" id="formSubmit" type="button" value="提交"/></td></tr>
+	    		<td>&nbsp;</td>
+	    		<td><input class="resiternew" id="formSubmit" type="button" value="提交" onclick="checkForm();"/>
+	    		<input class="resiternew" id="reset" type="reset" value="重置"/></td>
+	    	</tr>
     	</table>
 	</form>
 </div>
+</body>
+</html>

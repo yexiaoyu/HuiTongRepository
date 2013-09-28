@@ -22,11 +22,11 @@ public class InformationServiceImpl extends GenericDaoImpl<Information, Long> im
 				hql.append(" AND s.content LIKE :content ");
 				param.put("content", "%"+information.getContent()+"%");
 			}
-			if(information.getStock() != null && !"".equals(information.getStock()) 
-					&& information.getStock().getStockId() != null && !"".equals(information.getStock().getStockId())){
-				hql.append(" AND s.stock.stockId=:stockId ");
-				param.put("stockId", information.getStock().getStockId());
-			}
+//			if(information.getStock() != null && !"".equals(information.getStock()) 
+//					&& information.getStock().getStockId() != null && !"".equals(information.getStock().getStockId())){
+//				hql.append(" AND s.stock.stockId=:stockId ");
+//				param.put("stockId", information.getStock().getStockId());
+//			}
 			if(information.getGrade() != null && !"".equals(information.getGrade()) 
 					&& information.getGrade().getGradeId() != null && !"".equals(information.getGrade().getGradeId())){
 				hql.append(" AND s.grade.gradeId=:gradeId ");

@@ -31,10 +31,9 @@ public class Information implements Serializable {
 	@JoinColumn(name = "gradeId", nullable = false)
 	/**用户等级**/
 	private Grade grade;
-	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Stock.class)
-	@JoinColumn(name = "stockId", nullable = false)
-	/**股票**/
-	private Stock stock;
+	@Column(name="stockName")
+	private String stockName;
+	
 	@Column(name="title")
 	/**主题**/
 	private String title;
@@ -59,11 +58,12 @@ public class Information implements Serializable {
 	public void setGrade(Grade grade) {
 		this.grade = grade;
 	}
-	public Stock getStock() {
-		return stock;
+	
+	public String getStockName() {
+		return stockName;
 	}
-	public void setStock(Stock stock) {
-		this.stock = stock;
+	public void setStockName(String stockName) {
+		this.stockName = stockName;
 	}
 	public String getTitle() {
 		return title;

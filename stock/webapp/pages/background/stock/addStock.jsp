@@ -1,5 +1,11 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="/resources/jsp/taglibs.jsp" %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-cn"/>
+<link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
 <link type="text/css" rel="stylesheet" href="${ctx }/resources/css/validator.css"></link>
 <script type="text/javascript" src="${ctx }/resources/js/formValidator.js"></script>
 <script type="text/javascript" src="${ctx }/resources/js/formValidatorRegex.js"></script> 
@@ -32,62 +38,66 @@ $(document).ready(function (){
 			onwait : "正在校验验证码，请稍候..."
 		}); 
 });
-$("#formSubmit").click(function() {
+//验证码刷新
+function refeshCode() {
+	$("#checkCode").val("");//刷新验证码的时候，把原来的清空
+	var str = '<img align="absmiddle" border="0" height="22" width="66" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
+	document.getElementById("codeImage").innerHTML = str;
+}
+function checkForm() {
 	//验证通过提交数据
 	if($.formValidator.pageIsValid('1')){
-		$("#formSubmit").attr({"disabled":"disabled"});
-		var url = $("#stockForm").attr("action");
-		var data = $("#stockForm").serialize();
-		$.post(url, data, function(data) {
-			$("#maincontent").html(data);
-		});
+		stockForm.submit();
+	}else{
+		return false;
 	}
-	//菜单显示切换
-	$('#menu li').find(".light").removeClass("light");
-	$('#queryStock').addClass("light");
-	return false;
-});
+}
 </script>
+</head>
+<body>
 <div class="loginForm">
 <div class="topbar">添加股票</div>
 	<form action="operateStock.do" method="post" id="stockForm" namespace="/background">
-		<s:if test="%{nodeName == 'updateStockEntry' }">
-			<s:hidden name="nodeName" value="updateStock"/>
+		<s:if test="%{nodeName == 'updateEntry' }">
+			<s:hidden name="nodeName" value="update"/>
 			<s:hidden name="stock.stockId"/>
 		</s:if>
-		<s:elseif test="%{nodeName == 'addStockEntry' }">
-			<s:hidden name="nodeName" value="addStock"/>
+		<s:elseif test="%{nodeName == 'addEntry' }">
+			<s:hidden name="nodeName" value="add"/>
 			<s:hidden name="stock.isValid" value="1"/>
 		</s:elseif>
-		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tableLoginForm">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
 	    	<tr>
-		    	<td class="t1">股票代码</td>
+		    	<td class="t1"><span>股票代码</span></td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="stock.stockCode" id="stockCode"/></td>
 		    	<td ><div id="stockCodeTip" style="width:300px"></div></td>
 	    	</tr>
 	    	<tr>
-		    	<td class="t1">股票名称</td>
+		    	<td class="t1"><span>股票名称</span></td>
 		    	<td class="t2"><s:textfield theme="simple" cssClass="textInput" name="stock.stockName" id="stockName"/></td>
 		    	<td ><div id="stockNameTip" style="width:300px"></div></td>
 	    	</tr>
-	    	<s:if test="%{nodeName == 'updateStockEntry' }">
+	    	<s:if test="%{nodeName == 'updateEntry' }">
 		    	<tr>
-			    	<td class="t1">是否有效</td>
+			    	<td class="t1"><span>是否有效</span></td>
 			    	<td class="t2"><s:select theme="simple" cssClass="selectInput" name="stock.isValid" list="#{'0':'否','1':'是'}" id="isValid" headerKey="" headerValue="请选择"/></td>
 			    	<td ><div id="isValidTip" style="width:300px"></div></td>
 		    	</tr>
 	    	</s:if>
 	    	<tr>
-				<td class="t1">验证码</td>
-				<td class="t2"><input class="yzmInput" name="checkCode" id="checkCode" type="text" />
-					<span id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
-					</span> <a href="javascript:refeshCode()">点击换图</a></td>
+				<td class="t1"><span>验证码</span></td>
+				<td class="t2"><div id="yzmdiv"><input class="yzmInput" name="checkCode" id="checkCode" type="text" value=""/></div>
+				<div id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
+					</div><span><a href="javascript:refeshCode()">点击换图</a></span></td>
 				<td><div id="checkCodeTip" style="width:300px"></div></td>
-	    	</tr>
+			</tr>
 	    	<tr>
-	    	<td>&nbsp;</td>
-	    	<td><input class="button01" id="formSubmit" type="button" value="提交"/></td>
+	    		<td>&nbsp;</td>
+	    		<td><input class="resiternew" id="formSubmit" type="button" value="提交" onclick="checkForm();"/>
+	    		<input class="resiternew" id="reset" type="reset" value="重置"/></td>
 	    	</tr>
     	</table>
 	</form>
 </div>
+</body>
+</html>

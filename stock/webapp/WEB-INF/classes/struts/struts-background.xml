@@ -12,10 +12,10 @@
 			<result name="addEntry">/pages/background/user/addUser.jsp</result>
 			<result name="add">/pages/background/user/queryUser.jsp</result>
 			<result name="queryEntry">/pages/background/user/queryUser.jsp</result>
-			<result name="query">/pages/background/user/queryUserResult.jsp</result>
+			<result name="query">/pages/background/user/queryUser.jsp</result>
 			<result name="updateEntry">/pages/background/user/addUser.jsp</result>
 			<result name="update">/pages/background/user/queryUser.jsp</result>
-			<result name="delete">/pages/background/user/queryUserResult.jsp</result>
+			<result name="delete">/pages/background/user/queryUser.jsp</result>
 		</action>
 		<!-- 验证用户名 -->
 		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
@@ -25,8 +25,8 @@
 			<result name="addEntry">/pages/background/information/addInformation.jsp</result>
 			<result name="add">/pages/background/information/queryInformation.jsp</result>
 			<result name="queryEntry">/pages/background/information/queryInformation.jsp</result>
-			<result name="query">/pages/background/information/queryInformationResult.jsp</result>
-			<result name="delete">/pages/background/information/queryInformationResult.jsp</result>
+			<result name="query">/pages/background/information/queryInformation.jsp</result>
+			<result name="delete">/pages/background/information/queryInformation.jsp</result>
 			<result name="updateEntry">/pages/background/information/addInformation.jsp</result>
 			<result name="update">/pages/background/information/queryInformation.jsp</result>
 			<result name="detail">/pages/background/information/detailInformation.jsp</result>
@@ -36,8 +36,8 @@
 			<result name="addEntry">/pages/background/stock/addStock.jsp</result>
 			<result name="add">/pages/background/stock/queryStock.jsp</result>
 			<result name="queryEntry">/pages/background/stock/queryStock.jsp</result>
-			<result name="query">/pages/background/stock/queryStockResult.jsp</result>
-			<result name="delete">/pages/background/stock/queryStockResult.jsp</result>
+			<result name="query">/pages/background/stock/queryStock.jsp</result>
+			<result name="delete">/pages/background/stock/queryStock.jsp</result>
 			<result name="updateEntry">/pages/background/stock/addStock.jsp</result>
 			<result name="update">/pages/background/stock/queryStock.jsp</result>
 		</action>
@@ -45,8 +45,8 @@
 			<result name="addEntry">/pages/background/economic/addEconomic.jsp</result>
 			<result name="add">/pages/background/economic/queryEconomic.jsp</result>
 			<result name="queryEntry">/pages/background/economic/queryEconomic.jsp</result>
-			<result name="query">/pages/background/economic/queryEconomicResult.jsp</result>
-			<result name="delete">/pages/background/economic/queryEconomicResult.jsp</result>
+			<result name="query">/pages/background/economic/queryEconomic.jsp</result>
+			<result name="delete">/pages/background/economic/queryEconomic.jsp</result>
 			<result name="updateEntry">/pages/background/economic/addEconomic.jsp</result>
 			<result name="update">/pages/background/economic/queryEconomic.jsp</result>
 		</action>

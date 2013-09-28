@@ -20,7 +20,8 @@ public class EconomicCalenda implements java.io.Serializable {
 	/**
 	 * 关联个股
 	 */
-	private Stock stock;
+	//private Stock stock;
+	private String stockName;
 	/**
 	 * 1. 财经会议, 2.财经事件
 	 */
@@ -68,13 +69,12 @@ public class EconomicCalenda implements java.io.Serializable {
 	public void setEconomicID(Long economicID) {
 		this.economicID = economicID;
 	}
-	@ManyToOne(fetch = FetchType.EAGER, targetEntity=Stock.class)
-	@JoinColumn(name = "stockId", nullable = false)
-	public Stock getStock() {
-		return stock;
+	@Column(name="stockName")
+	public String getStockName() {
+		return stockName;
 	}
-	public void setStock(Stock stock) {
-		this.stock = stock;
+	public void setStockName(String stockName) {
+		this.stockName = stockName;
 	}
 	@Column(name="time")
 	public Date getTime() {

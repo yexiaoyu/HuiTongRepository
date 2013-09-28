@@ -1,16 +1,19 @@
 <%@ page contentType="text/html; charset=utf-8"%>
 <%@ include file="/resources/jsp/taglibs.jsp" %>
+<html>
+<head>
+<link href="${ctx }/resources/css/main.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="${ctx }/resources/js/jquery-2.0.3.js"></script>
 <script type="text/javascript">
 //分页
 function queryPageList(){
 	var curpage = $("#curpage").val();
 	var pagesize = $("#pagesize").val();
-	$.post(rootPath + "/fore/operateEconomic.do", { curpage: curpage, pagesize:pagesize ,nodeName : "queryEconomicPage"},
-		function(data){
-	    	$("#maincontent").html(data);
-	   	});
+	window.location.href=rootPath + "/fore/operateEconomic.do?curpage="+curpage+"&pagesize="+pagesize+"&nodeName=economicPage"; 
 }
 </script>
+</head>
+<body>
 <div class="topbar">
 	<div class="grade"><a href="#">财经日历</a></div>
 </div>
@@ -59,3 +62,5 @@ function queryPageList(){
 	</div>
 </div>
 </div>
+</body>
+</html>
