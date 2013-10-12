@@ -19,6 +19,8 @@ public class LoginUrlEntryPoint implements AuthenticationEntryPoint {
         if(url.indexOf("background") != -1){  
             //未登录而访问后台受控资源时，跳转到后台登录页面  
             targetUrl = "/pages/background/login.jsp";  
+        }else if(url.indexOf("mobile") != -1){
+        	targetUrl = "/mobile/login.jsp";
         }else{  
             //未登录而访问前台受控资源时，跳转到前台登录页面  
             targetUrl = "/login.jsp";  

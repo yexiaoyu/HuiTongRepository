@@ -12,24 +12,28 @@
 	<http pattern="/resources/images/**" security="none"/>
 	<http pattern="/resources/js/**" security="none"/>
 	<http pattern="/resources/jsp/**" security="none"/>
+	<http pattern="/mobile/jscss/**" security="none"/>
 	<http pattern="/ueditor/**" security="none"/>
 	<http pattern="/CaptchaImg*" security="none"/>
 	<http pattern="/login.jsp*" security="none"/>
 	<http pattern="/register.jsp*" security="none"/>
-	<http pattern="/pages/background/login.jsp*" security="none"/>
     <http entry-point-ref="loginUrlEntryPoint" ><!-- use-expressions="true" hasRole('ROLE_USER') -->
         <intercept-url pattern="/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/util/checkCodeValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>
         <intercept-url pattern="/**" access="ROLE_USER"/>
         
         <!-- 登录过滤器 -->
         <custom-filter before="FORM_LOGIN_FILTER" ref="loginFilter"/>
+        <custom-filter after="FORM_LOGIN_FILTER" ref="mobileFilter"/>
         <custom-filter position="FORM_LOGIN_FILTER" ref="adminLoginFilter"/>
 
         <!-- 注销过滤器 -->
         <custom-filter before="LOGOUT_FILTER" ref="logoutFilter"/>
+        <custom-filter after="LOGOUT_FILTER" ref="mobileLogoutFilter"/>
         <custom-filter position="LOGOUT_FILTER" ref="adminLogoutFilter"/>
         
     </http>
@@ -52,6 +56,27 @@
              <beans:property name="alwaysUseDefaultTargetUrl" value="true"/>
              <beans:property name="defaultTargetUrl" value="/index.do"/>
        </beans:bean>
+       
+       <!-- 验证手机用户 -->  
+      <beans:bean id="mobileFilter"
+            class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
+           <beans:property name="authenticationManager" ref="authenticationManager"/>
+           <beans:property name="authenticationFailureHandler" ref="mobileFailureHandler"/>
+           <beans:property name="authenticationSuccessHandler" ref="mobileSuccessHandler"/>
+           <beans:property name="filterProcessesUrl" value="/mobile/login"/><!-- 这个是重命名j_spring_security_check -->
+      </beans:bean>
+
+      <beans:bean id="mobileFailureHandler"
+             class="org.springframework.security.web.authentication.SimpleUrlAuthenticationFailureHandler">
+            <beans:property name="defaultFailureUrl" value="/mobile/login.jsp?error=true" />
+       </beans:bean>
+
+       <beans:bean id="mobileSuccessHandler"
+              class="org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler">
+             <beans:property name="alwaysUseDefaultTargetUrl" value="true"/>
+             <beans:property name="defaultTargetUrl" value="/mobile/index.do"/>
+       </beans:bean>
+       
        <!-- 验证后台用户 -->  
        <beans:bean id="adminLoginFilter"
                class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
@@ -81,6 +106,16 @@
 	        </beans:constructor-arg>
 	        <beans:property name="filterProcessesUrl" value="/logout" />
 	    </beans:bean>
+	 <!-- 注销过滤器，完成手机用户注销时的定向功能 -->
+    <beans:bean id="mobileLogoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
+        <beans:constructor-arg value="/mobile/login.jsp" />
+        <beans:constructor-arg>
+            <beans:list>
+                <beans:bean class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler" />
+            </beans:list>
+        </beans:constructor-arg>
+        <beans:property name="filterProcessesUrl" value="/mobile/logout" />
+    </beans:bean>
 	 <!-- 注销过滤器，完成后台用户注销时的定向功能 -->
 	 <beans:bean id="adminLogoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
         <beans:constructor-arg value="/background/login.jsp" />

@@ -21,6 +21,7 @@
 	<constant name="struts.objectFactory.spring.autoWire" value="name" />
 	<include file="struts/struts-fore.xml"></include> 
 	<include file="struts/struts-background.xml"></include>
+	<include file="struts/struts-mobile.xml"></include>
 	
 	
 	<package name="util" extends="struts-default" namespace="/util">
