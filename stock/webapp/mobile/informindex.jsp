@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>首页</title>
+<title>内参首页</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="jscss/jquery-mobile/jquery.mobile-1.3.1.css" rel="stylesheet" type="text/css"/>
@@ -18,15 +18,15 @@
         </div>
         <div data-role="content">
             <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
-                <li data-role="list-divider">
-                    <a href="${ctx }/mobile/informIndex.do">内参资讯</a>
-                </li>
-                <li data-role="list-divider">
-                    <a href="buttons.html">财经日历</a>
-                </li>
-                <li data-role="list-divider">
-                    <a href="buttons.html">财经要闻</a>
-                </li>
+            	<s:iterator value="%{informList }" status="status">
+	                <%--<li data-role="list-divider">
+	                    <a href="buttons.html"><s:property value="title"/></a>
+	                </li> --%>
+	                <div data-role="collapsible" data-theme="b" data-content-theme="e" data-collapsed="true">
+						<h3><s:property value="title"/></h3>
+						<p><s:property value="content"/></p>
+					</div>
+            	</s:iterator>
             </ul>
         </div>
         <div data-role="footer" data-theme="b" data-position="fixed">

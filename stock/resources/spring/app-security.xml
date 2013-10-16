@@ -22,7 +22,6 @@
         <intercept-url pattern="/util/checkCodeValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>
         <intercept-url pattern="/**" access="ROLE_USER"/>
         
