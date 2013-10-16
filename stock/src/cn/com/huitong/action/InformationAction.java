@@ -122,6 +122,15 @@ public class InformationAction extends Struts2Action{
 		PagingBean pb = this.getInitPagingBean();
 		informList = informationService.findAllInformationValid(information, pb);
 	}
+	/**
+	 * 手机端查询内参
+	 * @return
+	 */
+	public String informIndex(){
+		this._queryInformation();
+		return SUCCESS;
+	}
+	
 	public String getNodeName() {
 		return nodeName;
 	}
