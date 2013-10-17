@@ -32,7 +32,7 @@ function queryPageList(){
 <s:iterator value="%{informList }" status="status">
 	<tr>
 		<td><s:property value='#status.index + 1'/></td>
-		<td><s:property value="stock.stockCode"/><s:property value="stock.stockName"/></td>
+		<td><s:property value="stockName"/></td>
 		<td><a href="#"><s:property value="title"/></a></td>
 		<td><fmt:formatDate value="${inputTime}" type="both" pattern="yyyy.MM.dd HH:mm:ss"/></td>
 		<td><a href="#">【关注】</a></td>

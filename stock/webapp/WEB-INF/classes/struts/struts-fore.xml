@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+	<package name="index" extends="struts-default" namespace="/">
+		<action name="index" class="IndexAction" method="foreIndex">
+			<result name="success">/pages/fore/index.jsp</result>
+		</action>
+		<action name="loginFore" class="LoginAction" method="login">
+			<result name="success">/pages/fore/index.jsp</result>
+		</action>
+		<action name="register" class="AppUserAction" method="register">
+			<result name="success">/pages/fore/index.jsp</result>
+		</action>
+	</package>
+	<package name="fore" extends="struts-default" namespace="/fore">
+		<action name="index" class="AppUserAction" method="index">
+			<result name="success">/index.jsp</result>
+		</action>
+		<action name="loginIndex" class="AppUserAction" method="loginIndex">
+			<result name="success">/pages/register.jsp</result>
+		</action>
+		<action name="operateInform" class="InformationAction" method="operateInformation">
+			<result name="informPage">/pages/fore/inform/informIndex.jsp</result>
+		</action>
+		<action name="operateEconomic" class="EconomicAction" method="operateEconomic">
+			<result name="economicPage">/pages/fore/economic/economicIndex.jsp</result>
+			<result name="economicNewsPage">/pages/fore/economic/economicNewsIndex.jsp</result>
+		</action>
+		
+	</package>
+</struts>

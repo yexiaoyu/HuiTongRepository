@@ -136,6 +136,18 @@ public class EconomicAction extends Struts2Action{
 		PagingBean pb = this.getInitPagingBean();
 		economicList = economicService.findAllEconomicValid(economic, pb);
 	}
+	/***
+	 * 手机端的实现
+	 * @return
+	 */
+	public String economicIndex(){
+		this._queryEconomic();
+		return SUCCESS;
+	}
+	public String economicDetail(){
+		this._detailEconomic();
+		return SUCCESS;
+	}
 	
 	public String getNodeName() {
 		return nodeName;

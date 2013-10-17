@@ -36,7 +36,7 @@ function queryPageList(){
 		<td><s:property value='#status.index + 1'/></td>
 		<td><fmt:formatDate value="${time}" type="both" pattern="yyyy.MM.dd HH:mm:ss"/></td>
 		<td><a href="#"><s:property value="topic"/></a></td>
-		<td><s:property value="stock.stockCode"/><s:property value="stock.stockName"/></td>
+		<td><s:property value="stockName"/></td>
 		<td>
 			<s:if test="%{meetingType == 1}">经济会议</s:if>
 			<s:elseif test="%{meetingType == 2}">政治会议</s:elseif>
