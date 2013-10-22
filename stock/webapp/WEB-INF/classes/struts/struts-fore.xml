@@ -11,7 +11,9 @@
 			<result name="success">/pages/fore/index.jsp</result>
 		</action>
 		<action name="register" class="AppUserAction" method="register">
-			<result name="success">/pages/fore/index.jsp</result>
+			<result name="success">login.jsp</result>
+		</action>
+		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
 		</action>
 	</package>
 	<package name="fore" extends="struts-default" namespace="/fore">

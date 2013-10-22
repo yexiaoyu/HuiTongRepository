@@ -22,6 +22,8 @@ import javax.persistence.TemporalType;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
+import sun.util.logging.resources.logging;
 /**
  * 用户
  * @author Administrator
@@ -138,10 +140,17 @@ public class AppUser implements Serializable,UserDetails {
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
 		List<GrantedAuthority> authoritys = new ArrayList<GrantedAuthority>();
-		GrantedAuthority authorityUser = new SimpleGrantedAuthority("ROLE_USER");
-		GrantedAuthority authorityAdmin = new SimpleGrantedAuthority("ROLE_ADMIN");
-		authoritys.add(authorityAdmin);
-		authoritys.add(authorityUser);
+//		GrantedAuthority authorityUser = new SimpleGrantedAuthority("ROLE_USER");
+//		GrantedAuthority authorityAdmin = new SimpleGrantedAuthority("ROLE_ADMIN");
+		if(getRole() != null && !"".equals(getRole())){
+			String[] roles = getRole().split(",");
+			for(String r : roles){
+				//System.out.println("user:" + getUsername() + "有权限：" + r);;
+				GrantedAuthority authority = new SimpleGrantedAuthority(r);
+				authoritys.add(authority);
+			}
+		}
+//		authoritys.add(authorityUser);
 		return authoritys;
 	}
 	public String getPassword() {

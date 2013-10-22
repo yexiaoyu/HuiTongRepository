@@ -8,7 +8,7 @@
 //验证码刷新
 function refeshCode() {
 	$("#checkCode").val("");//刷新验证码的时候，把原来的清空
-	var str = '<img align="absmiddle" border="0" height="22" width="66" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
+	var str = '<img align="absmiddle" border="0" height="25" width="60" src="' + rootPath + '/CaptchaImg?rand=' + Math.random() + '"/>';
 	document.getElementById("codeImage").innerHTML = str;
 }
 function checkForm(){
@@ -43,7 +43,7 @@ function checkForm(){
 		<tr>
 			<td class="t1" width="25%"><span>验证码</span></td>
 			<td width="20%"><input class="yzmInput" name="checkCode" id="checkCode" type="text" value=""/></td>
-			<td class="t2"><div id="codeImage"><img align="absmiddle" border="0" height="30px" width="70px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
+			<td class="t2"><div id="codeImage"><img align="absmiddle" border="0" height="25px" width="60px" src="${ctx }/CaptchaImg?rand='<%=Math.random() %>'" />
 				</div><span><a href="javascript:refeshCode()">点击换图</a></span></td>
 		</tr>
 		<tr>
@@ -69,7 +69,7 @@ function checkForm(){
 		<div class="regbox">
 	<b>还不是注册用户？</b><br />
 	<br>
-	<p><a class="resiternew" href="${ctx }/register.jsp">注册新用户</a></p>
+	<p><a class="resiternew" href="${ctx }/register.jsp" target="_parent">注册新用户</a></p>
 	</div>
 	</div>
 </body>

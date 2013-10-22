@@ -42,55 +42,9 @@ public class AppUserAction extends Struts2Action{
 	private String checkCode;
 	//foreground  end
 	
-	
+	//前台注册
 	@SuppressWarnings("unchecked")
 	public String register(){
-//		System.out.println(user.getUserName() );
-//		System.out.println(user.getPassWord() );
-//		System.out.println("appUserService==="+appUserService);
-//		List<AppUser> users = appUserService.getAll(AppUser.class);
-//		AppUser user = appUserService.get(4L);
-//		System.out.println("user4=" + user);
-		
-//		String hql = "FROM AppUser WHERE userId in :userId";
-//		Map<String, Object> parm = new HashMap<String, Object>();
-//		List<Long> ids = new ArrayList<Long>();
-//		ids.add(1L);
-//		ids.add(2L);
-//		ids.add(3L);
-//		parm.put("userId", ids);
-//		List<AppUser> users = appUserService.findByHQL(hql,parm);
-//		System.out.println("users"+users);
-		
-		/*String sql = "SELECT userid,username,password FROM AppUser WHERE userId>4";
-		Object obj = appUserService.findBySQL(sql);
-		//如果查询列有多条时，则应该是List<Object[]>
-		//如果查询列只有一个时，则就是一个Object
-		List<Object[]> objl = (List<Object[]>)obj;
-		for(Object[] l : objl){			
-			System.out.println("0="+l[0]);
-			System.out.println("1="+l[1]);
-			System.out.println("2="+l[2]);
-		}
-		System.out.println("users"+obj);*/
-		
-//		String sql = "SELECT userid,username,password FROM AppUser WHERE userId>:userId";
-//		Map<String, Object> parm = new HashMap<String, Object>();
-//		parm.put("userId", 4);
-//		Object obj = appUserService.findBySQL(sql,parm);
-//		//如果查询列有多条时，则应该是List<Object[]>
-//		//如果查询列只有一个时，则就是一个Object
-//		List<Object[]> objl = (List<Object[]>)obj;
-//		for(Object[] l : objl){			
-//			System.out.println("0="+l[0]);
-//			System.out.println("1="+l[1]);
-//			System.out.println("2="+l[2]);
-//		}
-//		System.out.println("users"+obj);
-		
-//		System.out.println(user);
-//		appUserService.save(user);
-//		appUserService.saveAppUser(user);
 		// 取得验证码
 		logger.debug("appuserAction.login........");
 		Captcha captcha = (Captcha) getSession().getAttribute(Captcha.NAME);
@@ -98,6 +52,7 @@ public class AppUserAction extends Struts2Action{
 			if(user != null && !"".equals(user)){
 				user.setRegistTime(new Date());
 				user.setGrade(gradeService.get(user.getGrade().getGradeId()));
+				user.setRole("ROLE_USER");
 				appUserService.save(user);
 			}
 		}else{
@@ -172,6 +127,7 @@ public class AppUserAction extends Struts2Action{
 			if(user != null && !"".equals(user)){
 				user.setRegistTime(new Date());
 				user.setGrade(gradeService.get(user.getGrade().getGradeId()));
+				user.setRole("ROLE_USER");
 				appUserService.save(user);
 			}
 		}else{

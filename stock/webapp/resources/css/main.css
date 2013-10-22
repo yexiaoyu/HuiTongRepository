@@ -13,8 +13,9 @@ ul {list-style: none;}
 .footer{color:#9EA8AE;text-align:center;height: 100%;margin-top: 8px;}
 
 .loginbody{width: 100%;height: 100%;}
-.loginbody .leftbox{width: 50%;float: left;margin-top: 135px;}
-.loginbody .rightbox{width: 50%;float: left;margin-top: 135px;text-align: center;}
+.loginbody .leftbox{width: 50%;float: left;margin-top: 50px;}
+.loginbody .centerbox{width: 98%;margin-top: 50px;}
+.loginbody .rightbox{width: 50%;float: left;margin-top: 100px;text-align: center;}
 
 
 .listTable,.formTable{width:98%;border-collapse:collapse;margin:10px auto;font-size:12px;}
@@ -24,8 +25,8 @@ ul {list-style: none;}
 .formTable .t1{text-align: right;font-weight:bolder}
 .formTable .t1 span{ margin-right:20px;}
 .formTable .t2 span{ font-size: 12px;padding:2px;line-height: 25px;}
-.formTable .textInput{width:300px;height:25px;padding:2px;border:1px solid #CCCCCC;}
-.formTable .yzmInput{width:150px;height:25px;padding:2px;border:1px solid #CCCCCC;}
+.formTable .textInput{width:220px;height:25px;padding:2px;border:1px solid #CCCCCC;}
+.formTable .yzmInput{width:80px;height:25px;padding:2px;border:1px solid #CCCCCC;}
 .formTable #yzmdiv{width:150px;height:25px;float: left;}
 #codeImage{width:75px;height:25px;padding:2px;float: left;}
 .formTable .textInput:hover,.formTable .selectInput:hover,.formTable .yzmInput:hover {border:1px solid #FFCC99;}
@@ -33,7 +34,7 @@ ul {list-style: none;}
 .loginButton{background:url("../images/login.gif") no-repeat scroll 0 -120px rgba(0, 0, 0, 0);border: medium none;cursor:pointer;display:inline-block;height: 30px;vertical-align: middle;width: 86px;}
 .registerButton{background: url("../images/login.gif") no-repeat scroll 0 -210px rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;}
 .resetButton{background: url("../images/reset.png") no-repeat scroll rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;}
-.resiternew{background: url("../images/background-button.png") no-repeat scroll rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;text-align: center;line-height: 30px;font-size: 14px;color: #FFFFFF;}
+.resiternew{background: url("../images/background-button.png") no-repeat scroll rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;text-align: center;line-height: 30px;font-size: 15px;color: #FFFFFF;font-weight:bolder;}
 #menu{width:100%;height: 700px;margin:2px auto;background-color:#CCFF99;}
 #menu1{width:98%; height:60px;line-height:60px;text-align:center;font-size:18px;background-color:#99CC66;font-weight:bolder;}
 #menubr{width:98%; height:2px;background-color:#CCFFFF;}

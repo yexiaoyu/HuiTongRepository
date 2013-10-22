@@ -1,0 +1,21 @@
+2013-10-17 00:00:26,764 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryEconomic-------->
+2013-10-17 00:00:26,847 DEBUG [cn.com.huitong.model.EconomicCalenda] - <SQL====FROM EconomicCalenda s WHERE 1 = 1 ORDER BY s.economicID DESC>
+2013-10-17 00:00:26,849 DEBUG [cn.com.huitong.model.EconomicCalenda] - <TotalItems=2>
+2013-10-17 00:00:34,758 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:04:06,627 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:04:30,823 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:05:51,915 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:06:20,711 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryEconomic-------->
+2013-10-17 00:06:20,713 DEBUG [cn.com.huitong.model.EconomicCalenda] - <SQL====FROM EconomicCalenda s WHERE 1 = 1 ORDER BY s.economicID DESC>
+2013-10-17 00:06:20,715 DEBUG [cn.com.huitong.model.EconomicCalenda] - <TotalItems=2>
+2013-10-17 00:06:23,681 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:08:22,916 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryEconomic-------->
+2013-10-17 00:08:22,917 DEBUG [cn.com.huitong.model.EconomicCalenda] - <SQL====FROM EconomicCalenda s WHERE 1 = 1  AND s.isEvent=:isEvent ORDER BY s.economicID DESC>
+2013-10-17 00:08:22,960 DEBUG [cn.com.huitong.model.EconomicCalenda] - <TotalItems=1>
+2013-10-17 00:08:24,308 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_detailEconomic--------2>
+2013-10-17 00:08:27,118 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryEconomic-------->
+2013-10-17 00:08:27,120 DEBUG [cn.com.huitong.model.EconomicCalenda] - <SQL====FROM EconomicCalenda s WHERE 1 = 1  AND s.isEvent=:isEvent ORDER BY s.economicID DESC>
+2013-10-17 00:08:27,122 DEBUG [cn.com.huitong.model.EconomicCalenda] - <TotalItems=1>
+2013-10-17 09:50:11,514 DEBUG [cn.com.huitong.core.common.Struts2Action] - <_queryInformation-------->
+2013-10-17 09:50:11,541 DEBUG [cn.com.huitong.model.Information] - <SQL====FROM Information s WHERE 1 = 1 ORDER BY s.informId DESC>
+2013-10-17 09:50:11,672 DEBUG [cn.com.huitong.model.Information] - <TotalItems=2>
