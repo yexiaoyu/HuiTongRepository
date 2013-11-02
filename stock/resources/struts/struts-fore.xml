@@ -17,12 +17,12 @@
 		</action>
 	</package>
 	<package name="fore" extends="struts-default" namespace="/fore">
-		<action name="index" class="AppUserAction" method="index">
+		<!-- <action name="index" class="AppUserAction" method="index">
 			<result name="success">/index.jsp</result>
 		</action>
 		<action name="loginIndex" class="AppUserAction" method="loginIndex">
 			<result name="success">/pages/register.jsp</result>
-		</action>
+		</action> -->
 		<action name="operateInform" class="InformationAction" method="operateInformation">
 			<result name="informPage">/pages/fore/inform/informIndex.jsp</result>
 		</action>

@@ -8,16 +8,16 @@
     <global-method-security pre-post-annotations="enabled" /> 
      
     <beans:bean id="loginUrlEntryPoint" class="cn.com.huitong.security.LoginUrlEntryPoint"></beans:bean>
-    <http pattern="/resources/css/**" security="none"/>
-	<http pattern="/resources/images/**" security="none"/>
-	<http pattern="/resources/js/**" security="none"/>
-	<http pattern="/resources/jsp/**" security="none"/>
-	<http pattern="/mobile/jscss/**" security="none"/>
-	<http pattern="/ueditor/**" security="none"/>
-	<http pattern="/CaptchaImg*" security="none"/>
-	<http pattern="/login.jsp*" security="none"/>
-	<http pattern="/register.jsp*" security="none"/>
     <http entry-point-ref="loginUrlEntryPoint" ><!-- use-expressions="true" hasRole('ROLE_USER') -->
+	    <intercept-url pattern="/resources/css/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/resources/images/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/resources/js/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/resources/jsp/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/mobile/jscss/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/ueditor/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/CaptchaImg*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/login.jsp*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+		<intercept-url pattern="/register.jsp*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/util/checkCodeValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/checkUserNameValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>

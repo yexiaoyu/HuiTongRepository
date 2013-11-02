@@ -13,7 +13,7 @@
  	<frame src="${ctx }/resources/jsp/header.jsp" name="header" frameborder="1"/>
     <frameset cols="200px,*,200px" border="1" frameborder="no">
 		<frame name="bodyleft" src="${ctx }/resources/jsp/leftmenu.jsp" noresize="yes" frameborder="1" scrolling="no" border="1px"/> 
-		<frame name="bodycontent" src="${ctx }/resources/jsp/loginbody.jsp"/>  
+		<frame name="bodycontent" src="${ctx }/fore/operateInform.do?nodeName=informPage"/>  
 		<frame name="bodyright" src="" frameborder="1"/>
     </frameset>
 	<frame src="${ctx }/resources/jsp/footer.jsp" name="footer" frameborder="1" scrolling="no"/>
