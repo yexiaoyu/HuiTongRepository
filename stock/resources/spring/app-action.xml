@@ -20,4 +20,5 @@
 	<bean id="DwrAction" class="cn.com.huitong.util.DwrAction" scope="prototype"></bean>
 	<bean id="LoginAction" class="cn.com.huitong.action.LoginAction" scope="prototype"></bean>
 	<bean id="EconomicAction" class="cn.com.huitong.action.EconomicAction" scope="prototype"></bean>
+	<bean id="AndroidAction" class="cn.com.huitong.action.AndroidAction" scope="prototype"></bean>
 </beans>

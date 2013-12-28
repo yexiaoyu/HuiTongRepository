@@ -17,4 +17,11 @@
 			<result name="success">/mobile/economicdetail.jsp</result>
 		</action>
 	</package> 
+	<package name="android" extends="json-default" namespace="/android">
+		<action name="index" class="AndroidAction" method="index">               
+            <result type="json">
+                <param name="root">responseJson</param>  
+            </result>  
+        </action>
+	</package> 
 </struts>

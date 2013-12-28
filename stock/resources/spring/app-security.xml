@@ -24,6 +24,7 @@
         <intercept-url pattern="/register.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/android/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>
         <intercept-url pattern="/**" access="ROLE_USER"/>
         
