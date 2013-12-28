@@ -22,6 +22,5 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
     <font color="red">成功了</font>
-    </form>
   </body>
 </html>

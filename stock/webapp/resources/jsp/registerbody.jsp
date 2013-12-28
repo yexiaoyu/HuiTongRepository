@@ -86,7 +86,6 @@ $(document).ready(function (){
 		}); 
 });
 </script>
-</script>
 </head>
 <body class="loginbody">
 	<div class="centerbox">

@@ -47,7 +47,7 @@ function checkForm(){
 				</div><span><a href="javascript:refeshCode()">点击换图</a></span></td>
 		</tr>
 		<tr>
-			<td class="t1">&nbsp;</span></td>
+			<td class="t1">&nbsp;</td>
 			<td class="t2"><input id="_remember_me" name="_spring_security_remember_me" type="checkbox" value="on" /><span>下次自动登录</span></td>
 			<td class="t2"><span><a href="#">忘记密码？</a></span></td>
 		</tr>

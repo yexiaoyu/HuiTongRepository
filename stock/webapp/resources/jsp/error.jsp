@@ -2,38 +2,6 @@
 <%@page import="java.util.Enumeration"%>
 <%@page import="java.io.*"%>
 <%@page import="java.util.*"%>
-<%@page import="ins.framework.exception.*"%>
-<%@page import="org.jbpm.graph.def.DelegationException"%>
-<%
-String title = ""; //信息
-String content = ""; //详细信息
-StringWriter stringWriter = new StringWriter();
-
-if(exception==null){
-	exception = (Throwable)request.getAttribute("javax.servlet.error.exception");
-}
-
-if(exception!=null){
-	Throwable throwable = null;
-	if(exception instanceof ServletException){
-		throwable = ((ServletException)exception).getRootCause();
-	}else {
-		throwable = exception;
-	}
-	if(throwable instanceof BusinessException){
-	//System.out.println("+++++++++++++++++++++++++++++++++++++++");  
-		throwable = (BusinessException)throwable;
-	}else if(throwable instanceof DelegationException){ 
-		throwable = throwable.getCause();
-	} 
-	title = throwable.getMessage();
-	if(throwable instanceof PermissionException) {
-	    throwable=(PermissionException)throwable;
-	    title="您没有此功能的操作权限，请与管理员联系！";
-	}
-	throwable.printStackTrace(new PrintWriter(stringWriter));
-}
-%>
 <html>
 <head>
 
@@ -106,16 +74,6 @@ function refreshMethod(){
       <td class="formtitle" colspan="2">系统提示:
       请联系***,联系方式：****</td>
     </tr>
-    <%--add by zhangtongxu 20111215 增加错误提示联系人信息--%>
-    <tr>
-      <td align="center">
-        <img src='${pageContext.request.contextPath}/pages/image/failure.gif'
-          style='cursor:hand' alt='详细信息' onclick="shContent()">
-      </td>
-      <td class="common">
-        <%=title%>
-      </td>
-    </tr>
     <tr id="trCloseButton" >
       <td colspan="2" align="center">
 		<input type="button" value=" 关闭 " onclick="closeMethod();" class="button_ty">
@@ -126,7 +84,6 @@ function refreshMethod(){
   </table>
 
 <div id="content" style="display:none">
-	<pre><%=stringWriter%></pre>
 	<table border="1">
 		<tr>
 			<th>request.getAttributeName</th>
