@@ -100,6 +100,13 @@ function gs(d,a){
 			<dd><a href="${ctx }/background/operateEconomic.do?nodeName=queryEntry" target="bodycontent">查询财经</a></dd>
 		</dl>
 	</li>
+	<li class="item">
+		<dl>
+			<dt><span class="menum">新闻管理</span></dt>
+			<dd><a href="${ctx }/background/operateNews.do?nodeName=addEntry" target="bodycontent">添加新闻</a></dd>
+			<dd><a href="${ctx }/background/operateNews.do?nodeName=queryEntry" target="bodycontent">查询新闻</a></dd>
+		</dl>
+	</li>
 </ul> 
 </div>
 </div>

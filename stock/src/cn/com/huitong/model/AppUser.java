@@ -145,7 +145,7 @@ public class AppUser implements Serializable,UserDetails {
 		if(getRole() != null && !"".equals(getRole())){
 			String[] roles = getRole().split(",");
 			for(String r : roles){
-				//System.out.println("user:" + getUsername() + "有权限：" + r);;
+				System.out.println("user:" + getUsername() + "有权限：" + r);;
 				GrantedAuthority authority = new SimpleGrantedAuthority(r);
 				authoritys.add(authority);
 			}

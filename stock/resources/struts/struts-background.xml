@@ -50,5 +50,14 @@
 			<result name="updateEntry">/pages/background/economic/addEconomic.jsp</result>
 			<result name="update">/pages/background/economic/queryEconomic.jsp</result>
 		</action>
+		<action name="operateNews" class="NewsAction" method="operateNews">
+			<result name="addEntry">/pages/background/news/addNews.jsp</result>
+			<result name="add">/pages/background/news/queryNews.jsp</result>
+			<result name="queryEntry">/pages/background/news/queryNews.jsp</result>
+			<result name="query">/pages/background/news/queryNews.jsp</result>
+			<result name="delete">/pages/background/news/queryNews.jsp</result>
+			<result name="updateEntry">/pages/background/news/addNews.jsp</result>
+			<result name="update">/pages/background/news/queryNews.jsp</result>
+		</action>
 	</package>
 </struts>

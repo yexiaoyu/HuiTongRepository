@@ -23,6 +23,7 @@
         <intercept-url pattern="/checkUserNameValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/register.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/pages/background/login.jsp" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/mobile/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/android/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/**" access="ROLE_ADMIN"/>

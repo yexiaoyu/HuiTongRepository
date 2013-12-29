@@ -1,5 +1,8 @@
 package cn.com.huitong.util;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.security.core.Authentication;
@@ -27,4 +30,5 @@ public class ContextUtil {
 		}
 		return null;
 	}
+	
 }

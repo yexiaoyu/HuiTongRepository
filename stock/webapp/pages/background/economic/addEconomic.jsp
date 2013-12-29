@@ -87,7 +87,7 @@ function checkForm() {
 	<form action="operateEconomic.do" method="post" id="addEconomicForm" namespace="/background">
 		<s:if test="%{nodeName == 'updateEntry' }">
 			<s:hidden name="nodeName" value="update"/>
-			<s:hidden name="Economic.informId"/>
+			<s:hidden name="economic.informId"/>
 		</s:if>
 		<s:elseif test="%{nodeName == 'addEntry' }">
 			<s:hidden name="nodeName" value="add"/>

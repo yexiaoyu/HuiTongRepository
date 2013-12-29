@@ -17,11 +17,13 @@
 			<result name="success">/mobile/economicdetail.jsp</result>
 		</action>
 	</package> 
-	<package name="android" extends="json-default" namespace="/android">
-		<action name="index" class="AndroidAction" method="index">               
-            <result type="json">
+	<package name="android" extends="struts-default" namespace="/android">
+		<!-- <action name="index" class="AndroidAction" method="index">               
+            <result type="json">       json-default
                 <param name="root">responseJson</param>  
             </result>  
+        </action> -->
+        <action name="index" class="AndroidAction" method="index">               
         </action>
 	</package> 
 </struts>

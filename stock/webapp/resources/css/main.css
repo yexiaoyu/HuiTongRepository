@@ -30,7 +30,8 @@ ul {list-style: none;}
 .formTable #yzmdiv{width:150px;height:25px;float: left;}
 #codeImage{width:75px;height:25px;padding:2px;float: left;}
 .formTable .textInput:hover,.formTable .selectInput:hover,.formTable .yzmInput:hover {border:1px solid #FFCC99;}
-.formTable .selectInput{width:300px;height:25px;padding:2px;line-height:38px;border:1px solid #CCCCCC;}
+.formTable .selectInput{width:220px;height:25px;padding:2px;line-height:38px;border:1px solid #CCCCCC;}
+.formTable textarea{width:220px;height:80px;padding:2px;}
 .loginButton{background:url("../images/login.gif") no-repeat scroll 0 -120px rgba(0, 0, 0, 0);border: medium none;cursor:pointer;display:inline-block;height: 30px;vertical-align: middle;width: 86px;}
 .registerButton{background: url("../images/login.gif") no-repeat scroll 0 -210px rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;}
 .resetButton{background: url("../images/reset.png") no-repeat scroll rgba(0, 0, 0, 0);border: medium none;cursor: pointer;display: inline-block;height: 30px;vertical-align: middle;width: 86px;}
