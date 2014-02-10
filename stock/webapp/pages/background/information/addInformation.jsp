@@ -19,7 +19,7 @@ $(document).ready(function (){
 	var editor = new UE.ui.Editor( {initialFrameWidth:600}  );
 	editor.render("content");
 	editor.ready(function(){
-	    editor.setContent("在此输入内容");
+	    editor.setContent($('#content').val());
 	});
 
 	$.formValidator.initConfig({ formid: "addInformForm", onerror:function(msg){alert(msg);},onsuccess:function(){return true;} });
@@ -116,7 +116,8 @@ function checkForm() {
 	    	</tr>
 	    	<tr>
 		    	<td class="t1"><span>内容</span></td>
-		    	<td colspan="3"><textarea  class="content" name="information.content" id="content"></textarea></td>
+		    	<td colspan="3"><textarea  class="content" name="information.content" id="content">${information.content}</textarea></td>
+		    	<s:hidden id="contentHidden" value="%{information.content}"/>
 	    	</tr>
 	    	<tr>
 				<td class="t1"><span>验证码</span></td>

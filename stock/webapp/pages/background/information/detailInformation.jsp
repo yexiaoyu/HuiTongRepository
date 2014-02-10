@@ -11,7 +11,7 @@
 		    <th width="17%">用户级别</th>
 		    <td width="17%">${information.grade.gradeName }</td>
 		    <th width="17%">针对股票</th>
-		    <td width="17%">${information.stock.stockCode }${information.stock.stockName }</td>
+		    <td width="17%">${information.stockName }</td>
 		    <th width="17%">是否有效</th>
 		    <td width="17%">${information.isValid }</td>
 		  </tr>

@@ -52,7 +52,7 @@ function updateNews(id){
 		</tr>
 		<s:iterator value="newsList">
 			<tr>
-				<td><s:property value="type"/></td>
+				<td><s:property value="typeName"/></td>
 				<td><s:property value="title"/></td>
 				<td>
 					<s:if test="%{isValid == 1}">是</s:if>

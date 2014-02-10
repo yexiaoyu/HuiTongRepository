@@ -20,16 +20,16 @@ $(document).ready(function (){
 	var editor = new UE.ui.Editor( {initialFrameWidth:600}  );
 	editor.render("content");
 	editor.ready(function(){
-	    editor.setContent("");
+	    editor.setContent($('#content').val());
 	});
 
 	$.formValidator.initConfig({ formid: "addInformForm", onerror:function(msg){alert(msg);},onsuccess:function(){return true;} });
-	$("#title").formValidator({ onshow: "请输入主题", onfocus: "请输入主题", oncorrect: "输入正确" })
+	/*$("#title").formValidator({ onshow: "请输入主题", onfocus: "请输入主题", oncorrect: "输入正确" })
 		.inputValidator({min:1,onerror: "请输入主题"});
-	/*$("#type").formValidator({ onshow: "请选择类型", onfocus: "请选择类型", oncorrect: "输入正确" })
-		.inputValidator({min:1,onerror: "请选择类型"});*/
+	$("#type").formValidator({ onshow: "请选择类型", onfocus: "请选择类型", oncorrect: "输入正确" })
+		.inputValidator({min:1,onerror: "请选择类型"});
 	$("#content").formValidator({ onshow: "请输入内容", onfocus: "请输入内容", oncorrect: "输入正确" })
-		.inputValidator({min:1,onerror: "请输入内容"});
+		.inputValidator({min:1,onerror: "请输入内容"});*/
 	$("#checkCode").formValidator({ onshow: "请输入验证码！", onfocus: "请输入验证码！", oncorrect: "输入正确" })
 		.inputValidator({min:1,onerror: "请输入验证码！"}).ajaxValidator({
 		    type : "get",
@@ -90,7 +90,7 @@ function changeUpType(obj){
 			<s:hidden name="news.isValid" value="1"/>
 		</s:elseif>
 		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="formTable">
-			<tr>
+			<!-- <tr>
 				<td class="t1"><span>父类型</span></td>
 				<td class="t2">
 				<s:select theme="simple" cssClass="selectInput" onchange="changeUpType(this);" list="#{'1':'热点资讯','2':'财经要闻','3':'内参资讯'}" id="upType" value="1" headerKey="" headerValue="请选择"/>
@@ -108,6 +108,13 @@ function changeUpType(obj){
 				<td class="t2" id="3" style="display: none">
 				<s:select theme="simple" cssClass="selectInput" name="news.type" list="#{'10':'最新资讯','11':'普通资讯','12':'VIP资讯'}" id="s3" headerKey="" headerValue="请选择" disabled="true"/>
 				</td>
+			</tr> -->
+			<tr>
+				<td class="t1"><span>新闻类型</span></td>
+				<td class="t2">
+				<s:select theme="simple" cssClass="selectInput" name="news.type" list="typeMap" id="typeMap" listKey="key" listValue="value"  headerKey="" headerValue="请选择"/>
+				</td>
+		    	<td ><div id="typeMapTip" style="width:300px"></div></td>
 			</tr>
 			<s:if test="%{nodeName == 'updateEntry' }">
 				<tr>
@@ -128,7 +135,7 @@ function changeUpType(obj){
 	    	</tr>
 	    	--%><tr>
 		    	<td class="t1">内容</td>
-		    	<td colspan="2"><textarea  name="news.content" id="content"></textarea></td>
+		    	<td colspan="2"><textarea  name="news.content" id="content">${news.content }</textarea></td>
 		    	<td ><div id="contentTip" style="width:300px"></div></td>
 	    	</tr>
 	    	<tr>

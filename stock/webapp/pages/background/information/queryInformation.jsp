@@ -37,9 +37,10 @@ function updateInformation(informId){
 				</td>
 		    	<td class="t1"><span>股票名称</span></td>
 		    	<td class="t2">
-		    		<s:select theme="simple" cssClass="selectInput" name="information.stock.stockId" 
+		    		<%--<s:select theme="simple" cssClass="selectInput" name="information.stock.stockId" 
 						listValue="stockName" listKey="stockId" id="stockCode"
-					 	list="stockList" headerKey="" headerValue="请选择"></s:select>
+					 	list="stockList" headerKey="" headerValue="请选择"></s:select>--%>
+					 <s:textfield theme="simple" cssClass="textInput" name="information.stockName" />
 				</td>
 		    	<td class="t1"><span>是否有效</span></td>
 		    	<td class="t2"><s:select theme="simple" cssClass="selectInput" name="information.isValid" 
@@ -70,7 +71,7 @@ function updateInformation(informId){
 			<s:iterator value="informList">
 				<tr>
 					<td><s:property value="grade.gradeName"/></td>
-					<td><s:property value="stock.stockCode"/><s:property value="stock.stockName"/></td>
+					<td><s:property value="stockName"/></td>
 					<td><a href="${ctx }/background/operateInformation.do?informId=${informId}&nodeName=detail" target="_bank"><s:property value="title"/></a></td>
 					<td>
 						<s:if test="%{isValid == 1}">
