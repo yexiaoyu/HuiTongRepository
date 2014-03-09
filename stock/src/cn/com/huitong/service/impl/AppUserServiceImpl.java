@@ -83,4 +83,28 @@ public class AppUserServiceImpl extends GenericDaoImpl<AppUser, Long> implements
 		}
 		return user;
 	}
+	public AppUser login(String username, String password){
+		String hql = "FROM AppUser WHERE userName=:userName AND passWord=:passWord";
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("userName", username);
+		param.put("passWord", password);
+		List<AppUser> userList = this.findByHQL(hql,param);
+		AppUser user = null;
+		if(userList != null && !"".equals(userList) && userList.size()>0){
+			user = userList.get(0);
+		}
+		return user;
+	}
+	public AppUser login(Long userid, String password){
+		String hql = "FROM AppUser WHERE userId=:userId AND passWord=:passWord";
+		Map<String, Object> param = new HashMap<String, Object>();
+		param.put("userId", userid);
+		param.put("passWord", password);
+		List<AppUser> userList = this.findByHQL(hql,param);
+		AppUser user = null;
+		if(userList != null && !"".equals(userList) && userList.size()>0){
+			user = userList.get(0);
+		}
+		return user;
+	}
 }

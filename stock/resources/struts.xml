@@ -27,5 +27,7 @@
 	<package name="util" extends="struts-default" namespace="/util">
 		<action name="checkCodeValid" class="DwrAction" method="checkCodeValid">
 		</action>
+		<action name="checkUserNameValid" class="AppUserAction" method="checkUserNameValid">
+		</action>
 	</package>
 </struts>

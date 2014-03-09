@@ -42,7 +42,7 @@
 		<property name="dataSource" ref="dataSource"></property>
 		<property name="hibernateProperties">
 		<props>
-			<prop key="hibernate.dialalect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+			<prop key="hibernate.dialalect">${hibernate.dialect}</prop>
 			<prop key="hibernate.show_sql">true</prop>
 			<prop key="hibernate.format_sql">true</prop>
 			<prop key="hibernate.jdbc.fetch_size">50</prop>

@@ -23,7 +23,11 @@
                 <param name="root">responseJson</param>  
             </result>  
         </action> -->
-        <action name="index" class="AndroidAction" method="index">               
-        </action>
+        <action name="index" class="AndroidAction" method="index"></action>
+        <action name="getLatestVersion" class="AndroidAction" method="getLatestVersion"></action>
+        <action name="androidLogin" class="AndroidAction" method="androidLogin"></action>
+        <action name="androidRegist" class="AndroidAction" method="androidRegist"></action>
+        <action name="androidReset" class="AndroidAction" method="androidReset"></action>
+        <action name="androidAjaxLogin" class="AndroidAction" method="androidAjaxLogin"></action>
 	</package> 
 </struts>

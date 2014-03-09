@@ -19,4 +19,5 @@
 	<bean id="informationService" class="cn.com.huitong.service.impl.InformationServiceImpl" scope="prototype"></bean>
 	<bean id="economicService" class="cn.com.huitong.service.impl.EconomicServiceImpl" scope="prototype"></bean>
 	<bean id="newsService" class="cn.com.huitong.service.impl.NewsServiceImpl" scope="prototype"></bean>
+	<bean id="versionService" class="cn.com.huitong.service.impl.VersionServiceImpl" scope="prototype"></bean>
 </beans>

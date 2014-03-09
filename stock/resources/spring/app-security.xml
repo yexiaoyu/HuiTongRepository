@@ -19,7 +19,7 @@
 		<intercept-url pattern="/login.jsp*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
 		<intercept-url pattern="/register.jsp*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
-        <intercept-url pattern="/util/checkCodeValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
+        <intercept-url pattern="/util/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/checkUserNameValid.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/register.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
         <intercept-url pattern="/background/login.**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>

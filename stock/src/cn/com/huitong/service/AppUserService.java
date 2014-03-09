@@ -26,4 +26,6 @@ public interface AppUserService extends GenericDao<AppUser, Long>{
 	public List<String> findAllUserName();
 	
 	public AppUser findAppUserByUserName(String userName);
+	public AppUser login(String username, String password);
+	public AppUser login(Long userid, String password);
 }
